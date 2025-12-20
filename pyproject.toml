@@ -1,0 +1,30 @@
+[project]
+name = "hallucination-detector"
+version = "0.1.0"
+description = "Detecting hallucinations via SAE spectral signatures"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "transformer-lens>=1.16.0",
+    "sae-lens>=3.0.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "jupyter>=1.0.0",
+    "ipywidgets>=8.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["hallucination_detector"]
+package-dir = {"" = "src"}
+
