@@ -60,7 +60,7 @@ for feat_id in unique_features:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/neural-polygraph.git
+git clone https://github.com/ariaxhan/neural-polygraph.git
 cd neural-polygraph
 
 # Create virtual environment
@@ -127,25 +127,10 @@ neural-polygraph/
 
 This repository accompanies a Medium article series on hallucination detection:
 
-1. **Part 1: The Prism Metaphor** - Introduction to SAEs and interpretability
-2. **Part 2: Spectral Signatures** - Methodology for feature comparison
-3. **Part 3: Hallucination Biomarkers** - Experimental findings and analysis
+1. **Part 1: Why Prompt Engineering Can't Fix Hallucinations (But Neurosurgery Can)** - Introduction to SAEs and how they can be used to detect hallucinations
+2. More to come 
 
 *(Links to be added upon publication)*
-
-## Citation
-
-If you use this code or methodology in your research, please cite:
-
-```bibtex
-@misc{han2024hallucination,
-  author = {Han, Aria},
-  title = {Detecting Hallucinations via SAE Spectral Signatures},
-  year = {2024},
-  publisher = {GitHub},
-  url = {https://github.com/yourusername/neural-polygraph}
-}
-```
 
 ## Acknowledgments
 
@@ -166,7 +151,3 @@ Contributions welcome! Please feel free to:
 - Add visualizations
 
 Open an issue or PR to get started.
-
----
-
-**Questions?** Open an issue or reach out on Twitter/X: [@yourhandle](https://twitter.com/yourhandle)
