@@ -67,10 +67,7 @@ cd neural-polygraph
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Install package in editable mode
+# Install package in editable mode (includes all dependencies)
 pip install -e .
 
 # Run the experiment

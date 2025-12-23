@@ -7,8 +7,7 @@
 cd /Users/ariahan/Documents/ai-research/neural-polygraph
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
-pip install -e .
+pip install -e .  # Installs all dependencies from pyproject.toml
 
 # Verify setup
 python test_setup.py

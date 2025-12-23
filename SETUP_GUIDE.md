@@ -11,8 +11,7 @@ neural-polygraph/
 ├── README.md                          # Main repository documentation
 ├── LICENSE                            # MIT License
 ├── .gitignore                         # Git ignore rules
-├── requirements.txt                   # Python dependencies
-├── pyproject.toml                     # Package configuration
+├── pyproject.toml                     # Package configuration and dependencies
 ├── SETUP_GUIDE.md                     # This file
 │
 ├── tutorials/                         # Educational notebooks
@@ -52,17 +51,21 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ### 3. Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+# Install package in editable mode (includes all dependencies)
 pip install -e .
+
+# Or install with dev dependencies for development
+pip install -e ".[dev]"
 ```
 
-This will install:
+This will install all dependencies from `pyproject.toml`:
 - `torch` - PyTorch for tensor operations
 - `transformer-lens` - For model activation access
 - `sae-lens` - For SAE loading and encoding
 - `numpy` - Numerical operations
-- `matplotlib` - Visualization
-- `jupyter` - Notebook interface
+- `matplotlib`, `seaborn`, `plotly` - Visualization
+- `scikit-learn`, `umap-learn` - Machine learning tools
+- `jupyter`, `ipywidgets`, `notebook`, `jupyterlab` - Notebook interface
 
 ### 4. Test the Installation
 

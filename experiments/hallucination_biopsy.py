@@ -116,10 +116,10 @@ def main():
     
     # Create results directory if it doesn't exist
     results_dir = Path(__file__).parent / "results"
-    results_dir.mkdir(exist_ok=True)
+    results_dir.mkdir(parents=True, exist_ok=True)
     
     output_file = results_dir / f"biopsy_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-    with open(output_file, 'w') as f:
+    with open(str(output_file), 'w') as f:
         json.dump(results, f, indent=2)
     
     print(f"Results saved to: {output_file}")

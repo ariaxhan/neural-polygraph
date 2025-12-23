@@ -1,4 +1,9 @@
-"""Hallucination Detector: SAE-based spectral signature analysis"""
+"""
+Hallucination Detector Package
+
+A package for detecting hallucinations in language models using
+Sparse Autoencoder (SAE) spectral signatures.
+"""
 
 from .sae_utils import (
     initialize_model_and_sae,
@@ -7,8 +12,6 @@ from .sae_utils import (
     get_loudest_unique_features,
     run_differential_diagnosis,
 )
-
-__version__ = "0.1.0"
 
 __all__ = [
     "initialize_model_and_sae",
