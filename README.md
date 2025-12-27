@@ -1,150 +1,143 @@
-# Hallucination Detector: SAE Spectral Signatures
+# Neural Polygraph
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-**Detecting hallucinations in language models using Sparse Autoencoder (SAE) feature analysis.**
-
-This repository demonstrates a novel approach to identifying hallucinations by analyzing the "spectral signatures" of model activations. By comparing feature patterns between factual and hallucinated text, we can identify unique biomarkers that indicate when a model is generating false information.
+Detecting hallucinations in language models using Sparse Autoencoder (SAE) spectral signatures and geometric analysis.
 
 ## Quick Start
 
-```python
-from hallucination_detector import (
-    initialize_model_and_sae,
-    get_loudest_unique_features,
-    decode_feature
-)
-
-# Load model and SAE
-model, sae, device = initialize_model_and_sae()
-
-# Compare fact vs hallucination
-fact = "The Eiffel Tower is in Paris"
-hallucination = "The Eiffel Tower is in Rome"
-
-# Find unique features
-unique_features = get_loudest_unique_features(fact, hallucination, model, sae)
-
-# Decode what they mean
-for feat_id in unique_features:
-    decoded = decode_feature(feat_id, model, sae)
-    print(f"Feature #{feat_id} → {decoded['words']}")
-```
-
-## Repository Guide
-
-### 🎓 **New to SAEs?** Start here:
-1. Read `tutorials/01_sae_basics.ipynb` - Learn what SAEs are and how they work
-2. Read `tutorials/02_feature_extraction.ipynb` - Learn to compare features between texts
-3. Run `experiments/hallucination_biopsy.py` - See the full methodology in action
-
-### 🔬 **Want to see the research?**
-- Run `experiments/hallucination_biopsy.py` for the core experiment
-- Check `experiments/results/` for saved outputs
-- Read the Medium article series (links below)
-
-### 🛠️ **Want to use the code?**
-- Install the package: `pip install -e .`
-- Import functions from `hallucination_detector`
-- See Quick Start above for usage examples
-
-## Installation
-
-### Requirements
-- Python 3.10+
-- ~5GB disk space for model downloads
-- Apple Silicon (MPS), CUDA GPU, or CPU
-
-### Setup
-
 ```bash
-# Clone the repository
-git clone https://github.com/ariaxhan/neural-polygraph.git
-cd neural-polygraph
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install package in editable mode (includes all dependencies)
+# 1. Install
 pip install -e .
 
-# Run the experiment
-python experiments/hallucination_biopsy.py
+# 2. Verify (quick check)
+python verify_setup.py
+
+# 3. Run experiment
+python run_experiment.py 01_spectroscopy
+
+# 4. Visualize
+python experiments/visualize_spectroscopy.py
 ```
 
-## Key Findings
+**Note:** Use `python test_setup.py` for a comprehensive verification of all dependencies.
 
-Our analysis of Gemma-2-2b using GemmaScope SAEs reveals:
-
-- **Unique Signatures:** Hallucinations activate 40-100+ features not present in factual text
-- **Energy Differences:** Hallucinations show distinct energy patterns (±50-500 units)
-- **Interpretable Biomarkers:** Top features decode to semantically relevant concepts
-  - Geography errors → location-specific features
-  - Temporal errors → time/era-specific features
-  - Biological errors → anatomy/capability features
-
-Example from our experiments:
-```
-Fact: "The Eiffel Tower is in Paris"
-Hallucination: "The Eiffel Tower is in Rome"
-
-Top unique feature: #10496 → "York", "YORK", "York"
-(Activates for wrong geographic locations)
-```
-
-## Methodology
-
-1. **Load Instruments:** Gemma-2-2b model + GemmaScope SAE (layer 5, 16k features)
-2. **Extract Features:** Run text through model, apply SAE to get sparse activations
-3. **Compare Signatures:** Identify features unique to hallucination
-4. **Decode Biomarkers:** Project features onto vocabulary to interpret meaning
-5. **Analyze Patterns:** Look for consistent hallucination signatures
-
-See `tutorials/` for detailed walkthroughs.
-
-## Project Structure
+## Structure
 
 ```
 neural-polygraph/
-├── README.md                          # This file
-├── tutorials/                         # Educational notebooks
-│   ├── 01_sae_basics.ipynb           # Introduction to SAEs
-│   └── 02_feature_extraction.ipynb   # Feature comparison techniques
-├── experiments/                       # Research experiments
-│   ├── hallucination_biopsy.py       # Main experiment script
-│   └── results/                      # Saved experiment outputs
-└── src/hallucination_detector/       # Reusable package
-    ├── __init__.py
-    └── sae_utils.py                  # Core functions
+├── src/hallucination_detector/    # Core package
+│   ├── sae_utils.py                # SAE feature extraction
+│   ├── geometry.py                 # Geometric analysis
+│   ├── data_loader.py              # HB-1000 benchmark loader
+│   └── storage.py                  # Experiment storage
+│
+├── experiments/                    # Experiment protocols
+│   ├── 01_spectroscopy.py          # Experiment A
+│   ├── visualize_spectroscopy.py   # Visualization
+│   └── data/                       # HB-1000 benchmark (~1000 samples)
+│
+├── run_experiment.py               # Universal runner
+├── test_setup.py                   # Setup verification
+└── TESTING-PLANS.MD                # Research plan
 ```
 
-## Article Series
+## Usage
 
-This repository accompanies a Medium article series on hallucination detection:
+### Run Experiments
 
-1. **Part 1: Why Prompt Engineering Can't Fix Hallucinations (But Neurosurgery Can)** - Introduction to SAEs and how they can be used to detect hallucinations
-2. More to come 
+```bash
+# List available experiments
+python run_experiment.py --list
 
-*(Links to be added upon publication)*
+# Run Experiment A: Spectroscopy
+python run_experiment.py 01_spectroscopy
 
-## Acknowledgments
+# View results
+python run_experiment.py --view 01_spectroscopy
+```
 
-- **SAE Lens:** For the excellent SAE library and GemmaScope models
-- **TransformerLens:** For easy access to model activations
-- **Neuronpedia:** For feature exploration and visualization
+### Programmatic Usage
+
+```python
+from hallucination_detector import (
+    HB_Benchmark,
+    ExperimentStorage,
+    compute_inertia_tensor,
+)
+
+# Load benchmark
+benchmark = HB_Benchmark("experiments/data")
+benchmark.load_datasets()
+benchmark.load_model_and_sae(layer=5, width="16k")
+
+# Get activations
+activations = benchmark.get_activations("The Eiffel Tower is in Paris")
+print(f"L0 Norm: {activations.l0_norm}")
+print(f"Reconstruction Error: {activations.reconstruction_error:.4f}")
+
+# Save results
+from pathlib import Path
+storage = ExperimentStorage(Path("experiments/my_experiment"))
+storage.write_manifest({"experiment": "my_experiment"})
+storage.write_metrics({"metric": [...]})
+```
+
+## Experiments
+
+### Experiment A: Spectroscopy ✅
+
+**Goal:** Demonstrate distinct spectral signatures of hallucinations
+
+**Metrics:** L0 Norm, Reconstruction Error, Gini Coefficient
+
+**Run:** `python run_experiment.py 01_spectroscopy`
+
+### Experiment B: Geometry 🚧
+
+**Goal:** Measure the "shape" of thoughts using inertia tensors
+
+**Status:** Coming soon
+
+### Experiment C: Ghost Features 🚧
+
+**Goal:** Identify features unique to hallucinations
+
+**Status:** Coming soon
+
+## Data: HB-1000 Benchmark
+
+| Dataset | Samples | Description |
+|---------|---------|-------------|
+| Entity Swaps | 230 | Geographic/entity errors |
+| Temporal Shifts | 270 | Temporal errors |
+| Logical Inversions | 250 | Logical flips |
+| Adversarial Traps | 250 | High-probability misconceptions |
+
+**Total:** ~1,000 fact/hallucination pairs in `experiments/data/`
+
+## Dependencies
+
+Core: `torch`, `transformer-lens`, `sae-lens`, `numpy`, `polars`
+
+Viz: `matplotlib`, `seaborn`, `plotly`
+
+Analysis: `scikit-learn`, `umap-learn`
+
+See `pyproject.toml` for complete list.
+
+## Troubleshooting
+
+**Import errors:** `pip install -e .`
+
+**Memory issues:** Use CPU mode or smaller batches
+
+**Model download:** Models download from Hugging Face (~2GB)
+
+**Test setup:** `python test_setup.py` verifies everything
+
+## Research Plan
+
+See `TESTING-PLANS.MD` for detailed experimental protocols and hypotheses.
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions welcome! Please feel free to:
-- Try new hallucination types
-- Test different models/SAEs
-- Improve the methodology
-- Add visualizations
-
-Open an issue or PR to get started.
+MIT License
