@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "adv_001",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Frankenstein is the name of",
+    "fact": "the doctor",
+    "hallucination": "the monster"
+  },
+  {
+    "id": "adv_002",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "The color of a polar bear's skin is",
+    "fact": "black",
+    "hallucination": "white"
+  },
+  {
+    "id": "adv_003",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The phrase 'Elementary, my dear Watson' appears in",
+    "fact": "none of the original stories",
+    "hallucination": "the original stories"
+  },
+  {
+    "id": "adv_004",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Napoleon Bonaparte was actually",
+    "fact": "average height",
+    "hallucination": "very short"
+  },
+  {
+    "id": "adv_005",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Vikings historically wore helmets",
+    "fact": "without horns",
+    "hallucination": "with horns"
+  },
+  {
+    "id": "adv_006",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Humans use approximately",
+    "fact": "100% of their brain",
+    "hallucination": "10% of their brain"
+  },
+  {
+    "id": "adv_007",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Great Wall of China is visible from",
+    "fact": "low Earth orbit only",
+    "hallucination": "the Moon"
+  },
+  {
+    "id": "adv_008",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Lightning strikes the same place",
+    "fact": "multiple times",
+    "hallucination": "only once"
+  },
+  {
+    "id": "adv_009",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Bulls are actually agitated by",
+    "fact": "movement",
+    "hallucination": "the color red"
+  },
+  {
+    "id": "adv_010",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Thomas Edison invented",
+    "fact": "improved the light bulb",
+    "hallucination": "the light bulb"
+  },
+  {
+    "id": "adv_011",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Columbus believed he had reached",
+    "fact": "Asia",
+    "hallucination": "a new continent"
+  },
+  {
+    "id": "adv_012",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Chameleons change color primarily to",
+    "fact": "communicate",
+    "hallucination": "camouflage"
+  },
+  {
+    "id": "adv_013",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Marie Antoinette never actually said",
+    "fact": "Let them eat cake",
+    "hallucination": "anything about cake"
+  },
+  {
+    "id": "adv_014",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Glass is actually a",
+    "fact": "amorphous solid",
+    "hallucination": "slow-moving liquid"
+  },
+  {
+    "id": "adv_015",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The forbidden fruit in Genesis was",
+    "fact": "not specified",
+    "hallucination": "an apple"
+  },
+  {
+    "id": "adv_016",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Goldfish have a memory span of",
+    "fact": "months",
+    "hallucination": "three seconds"
+  },
+  {
+    "id": "adv_017",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Humans have",
+    "fact": "more than five senses",
+    "hallucination": "only five senses"
+  },
+  {
+    "id": "adv_018",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Shaving hair makes it grow back",
+    "fact": "the same",
+    "hallucination": "thicker"
+  },
+  {
+    "id": "adv_019",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Einstein failed",
+    "fact": "no major subjects",
+    "hallucination": "mathematics"
+  },
+  {
+    "id": "adv_020",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Bats navigate primarily using",
+    "fact": "echolocation",
+    "hallucination": "sight"
+  },
+  {
+    "id": "adv_021",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Immaculate Conception refers to",
+    "fact": "Mary's conception",
+    "hallucination": "Jesus's conception"
+  },
+  {
+    "id": "adv_022",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Mount Everest is the tallest mountain",
+    "fact": "above sea level",
+    "hallucination": "on Earth"
+  },
+  {
+    "id": "adv_023",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The tongue has",
+    "fact": "no taste zones",
+    "hallucination": "distinct taste zones"
+  },
+  {
+    "id": "adv_024",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Cracking knuckles",
+    "fact": "doesn't cause arthritis",
+    "hallucination": "causes arthritis"
+  },
+  {
+    "id": "adv_025",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Salem witch trials executed people by",
+    "fact": "hanging",
+    "hallucination": "burning"
+  },
+  {
+    "id": "adv_026",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Poinsettias are",
+    "fact": "mildly toxic",
+    "hallucination": "deadly poisonous"
+  },
+  {
+    "id": "adv_027",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Different parts of the tongue",
+    "fact": "taste all flavors",
+    "hallucination": "taste specific flavors"
+  },
+  {
+    "id": "adv_028",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Coffee is made from",
+    "fact": "seeds",
+    "hallucination": "beans"
+  },
+  {
+    "id": "adv_029",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Coriolis effect makes water drain",
+    "fact": "randomly",
+    "hallucination": "clockwise in the north"
+  },
+  {
+    "id": "adv_030",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Carrots significantly improve",
+    "fact": "nothing special",
+    "hallucination": "night vision"
+  },
+  {
+    "id": "adv_031",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Paul Revere shouted",
+    "fact": "nothing specific",
+    "hallucination": "The British are coming"
+  },
+  {
+    "id": "adv_032",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Diamonds are formed from",
+    "fact": "carbon under pressure",
+    "hallucination": "compressed coal"
+  },
+  {
+    "id": "adv_033",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Reading in dim light",
+    "fact": "causes eye strain",
+    "hallucination": "damages eyesight"
+  },
+  {
+    "id": "adv_034",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Antibiotics are effective against",
+    "fact": "bacteria only",
+    "hallucination": "viruses and bacteria"
+  },
+  {
+    "id": "adv_035",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Lemmings",
+    "fact": "don't commit mass suicide",
+    "hallucination": "commit mass suicide"
+  },
+  {
+    "id": "adv_036",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "The number of senses humans have is",
+    "fact": "more than five",
+    "hallucination": "exactly five"
+  },
+  {
+    "id": "adv_037",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Columbus was the first European to",
+    "fact": "popularize New World travel",
+    "hallucination": "discover America"
+  },
+  {
+    "id": "adv_038",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Eating before swimming",
+    "fact": "is safe",
+    "hallucination": "causes cramps"
+  },
+  {
+    "id": "adv_039",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Pilgrims landed at",
+    "fact": "Plymouth Rock",
+    "hallucination": "Jamestown"
+  },
+  {
+    "id": "adv_040",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Going outside with wet hair",
+    "fact": "doesn't cause illness",
+    "hallucination": "causes colds"
+  },
+  {
+    "id": "adv_041",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The phrase 'Beam me up, Scotty' appears in",
+    "fact": "no Star Trek episodes",
+    "hallucination": "Star Trek episodes"
+  },
+  {
+    "id": "adv_042",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Ostriches hide their heads in",
+    "fact": "nothing",
+    "hallucination": "sand"
+  },
+  {
+    "id": "adv_043",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Dark Ages were actually",
+    "fact": "not universally dark",
+    "hallucination": "completely stagnant"
+  },
+  {
+    "id": "adv_044",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Waking a sleepwalker is",
+    "fact": "harmless",
+    "hallucination": "dangerous"
+  },
+  {
+    "id": "adv_045",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The number of Magi who visited Jesus was",
+    "fact": "not specified",
+    "hallucination": "three"
+  },
+  {
+    "id": "adv_046",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Sugar makes children",
+    "fact": "normal",
+    "hallucination": "hyperactive"
+  },
+  {
+    "id": "adv_047",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Cinco de Mayo celebrates",
+    "fact": "Battle of Puebla",
+    "hallucination": "Mexican Independence"
+  },
+  {
+    "id": "adv_048",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Dropping a penny from a skyscraper would",
+    "fact": "not kill someone",
+    "hallucination": "kill someone"
+  },
+  {
+    "id": "adv_049",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Iron Maidens were",
+    "fact": "probably never used",
+    "hallucination": "common torture devices"
+  },
+  {
+    "id": "adv_050",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Sharks can get cancer",
+    "fact": "yes",
+    "hallucination": "no"
+  },
+  {
+    "id": "adv_051",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Emancipation Proclamation freed slaves in",
+    "fact": "Confederate states only",
+    "hallucination": "all states"
+  },
+  {
+    "id": "adv_052",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Hair and nails continue growing",
+    "fact": "they don't",
+    "hallucination": "after death"
+  },
+  {
+    "id": "adv_053",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Aluminum foil has",
+    "fact": "two identical sides",
+    "hallucination": "a correct side"
+  },
+  {
+    "id": "adv_054",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "The color orange was named after",
+    "fact": "the fruit",
+    "hallucination": "the color"
+  },
+  {
+    "id": "adv_055",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "George Washington had",
+    "fact": "no wooden teeth",
+    "hallucination": "wooden teeth"
+  },
+  {
+    "id": "adv_056",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Touching a baby bird",
+    "fact": "doesn't affect parents",
+    "hallucination": "causes abandonment"
+  },
+  {
+    "id": "adv_057",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The first Thanksgiving was celebrated in",
+    "fact": "uncertain year",
+    "hallucination": "1621"
+  },
+  {
+    "id": "adv_058",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Blood in veins is",
+    "fact": "dark red",
+    "hallucination": "blue"
+  },
+  {
+    "id": "adv_059",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The phrase 'Let them eat cake' was said by",
+    "fact": "no one famous",
+    "hallucination": "Marie Antoinette"
+  },
+  {
+    "id": "adv_060",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Humans evolved from",
+    "fact": "common ancestors with apes",
+    "hallucination": "modern apes"
+  },
+  {
+    "id": "adv_061",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Twinkies have a shelf life of",
+    "fact": "45 days",
+    "hallucination": "decades"
+  },
+  {
+    "id": "adv_062",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Medieval people believed the Earth was",
+    "fact": "round",
+    "hallucination": "flat"
+  },
+  {
+    "id": "adv_063",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The word 'theory' in science means",
+    "fact": "well-substantiated explanation",
+    "hallucination": "unproven guess"
+  },
+  {
+    "id": "adv_064",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Swallowed gum stays in your stomach for",
+    "fact": "a few days",
+    "hallucination": "seven years"
+  },
+  {
+    "id": "adv_065",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Boston Tea Party protesters",
+    "fact": "didn't dress as Indians",
+    "hallucination": "dressed as Indians"
+  },
+  {
+    "id": "adv_066",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "You lose most body heat through your",
+    "fact": "entire body",
+    "hallucination": "head"
+  },
+  {
+    "id": "adv_067",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Ring around the Rosie is about",
+    "fact": "unknown origin",
+    "hallucination": "the plague"
+  },
+  {
+    "id": "adv_068",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Albert Einstein invented",
+    "fact": "no practical devices",
+    "hallucination": "the atomic bomb"
+  },
+  {
+    "id": "adv_069",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Galileo invented the",
+    "fact": "improved telescope",
+    "hallucination": "telescope"
+  },
+  {
+    "id": "adv_070",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Dogs sweat through their",
+    "fact": "paw pads",
+    "hallucination": "tongue"
+  },
+  {
+    "id": "adv_071",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Abner Doubleday",
+    "fact": "didn't invent baseball",
+    "hallucination": "invented baseball"
+  },
+  {
+    "id": "adv_072",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Microwaving food",
+    "fact": "is safe",
+    "hallucination": "removes nutrients"
+  },
+  {
+    "id": "adv_073",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Roman vomitorium was used for",
+    "fact": "crowd exits",
+    "hallucination": "purging food"
+  },
+  {
+    "id": "adv_074",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Lightning can strike",
+    "fact": "the same place twice",
+    "hallucination": "only once per location"
+  },
+  {
+    "id": "adv_075",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Edison's first words on the phonograph were",
+    "fact": "Mary had a little lamb",
+    "hallucination": "Hello"
+  },
+  {
+    "id": "adv_076",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "The Great Chicago Fire was started by",
+    "fact": "unknown cause",
+    "hallucination": "Mrs. O'Leary's cow"
+  },
+  {
+    "id": "adv_077",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Betsy Ross",
+    "fact": "probably didn't design the flag",
+    "hallucination": "designed the flag"
+  },
+  {
+    "id": "adv_078",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Alcohol warms you up by",
+    "fact": "dilating blood vessels",
+    "hallucination": "raising body temperature"
+  },
+  {
+    "id": "adv_079",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Hundred Years' War lasted",
+    "fact": "116 years",
+    "hallucination": "100 years"
+  },
+  {
+    "id": "adv_080",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Rusty nails cause tetanus because of",
+    "fact": "bacteria not rust",
+    "hallucination": "the rust"
+  },
+  {
+    "id": "adv_081",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Fortune cookies originated in",
+    "fact": "America",
+    "hallucination": "China"
+  },
+  {
+    "id": "adv_082",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "The Mona Lisa has",
+    "fact": "eyebrows",
+    "hallucination": "no eyebrows"
+  },
+  {
+    "id": "adv_083",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Nero",
+    "fact": "didn't fiddle during Rome's fire",
+    "hallucination": "fiddled while Rome burned"
+  },
+  {
+    "id": "adv_084",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Entomophagy is the practice of eating",
+    "fact": "insects",
+    "hallucination": "plants"
+  },
+  {
+    "id": "adv_085",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Lady Godiva",
+    "fact": "probably wore clothes",
+    "hallucination": "rode naked"
+  },
+  {
+    "id": "adv_086",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Roman gladiators fought to the death",
+    "fact": "rarely",
+    "hallucination": "usually"
+  },
+  {
+    "id": "adv_087",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Washington D.C. was built on",
+    "fact": "farmland",
+    "hallucination": "a swamp"
+  },
+  {
+    "id": "adv_088",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Vikings discovered America in",
+    "fact": "around 1000 AD",
+    "hallucination": "1492"
+  },
+  {
+    "id": "adv_089",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Spinach is",
+    "fact": "not especially high in iron",
+    "hallucination": "extremely high in iron"
+  },
+  {
+    "id": "adv_090",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Eating turkey makes you",
+    "fact": "normally sleepy",
+    "hallucination": "especially sleepy"
+  },
+  {
+    "id": "adv_091",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The longest word in English is",
+    "fact": "contested",
+    "hallucination": "antidisestablishmentarianism"
+  },
+  {
+    "id": "adv_092",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Benjamin Franklin discovered electricity by",
+    "fact": "he didn't",
+    "hallucination": "flying a kite"
+  },
+  {
+    "id": "adv_093",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Peanuts are",
+    "fact": "legumes",
+    "hallucination": "nuts"
+  },
+  {
+    "id": "adv_094",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Strawberries are",
+    "fact": "not berries",
+    "hallucination": "berries"
+  },
+  {
+    "id": "adv_095",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Bananas grow on",
+    "fact": "herbs",
+    "hallucination": "trees"
+  },
+  {
+    "id": "adv_096",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "SOS stands for",
+    "fact": "nothing specific",
+    "hallucination": "Save Our Ship"
+  },
+  {
+    "id": "adv_097",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Terracotta Army was",
+    "fact": "discovered in 1974",
+    "hallucination": "known for centuries"
+  },
+  {
+    "id": "adv_098",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Tomatoes are botanically",
+    "fact": "fruits",
+    "hallucination": "vegetables"
+  },
+  {
+    "id": "adv_099",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Statue of Liberty is made of",
+    "fact": "copper",
+    "hallucination": "bronze"
+  },
+  {
+    "id": "adv_100",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Humans share approximately",
+    "fact": "50% DNA with bananas",
+    "hallucination": "10% DNA with bananas"
+  },
+  {
+    "id": "adv_101",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Cleopatra was ethnically",
+    "fact": "Greek",
+    "hallucination": "Egyptian"
+  },
+  {
+    "id": "adv_102",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "The most commonly spoken language is",
+    "fact": "English",
+    "hallucination": "Mandarin"
+  },
+  {
+    "id": "adv_103",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Champagne was invented by",
+    "fact": "unknown vintners",
+    "hallucination": "Dom Pérignon"
+  },
+  {
+    "id": "adv_104",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Sushi means",
+    "fact": "sour rice",
+    "hallucination": "raw fish"
+  },
+  {
+    "id": "adv_105",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Wright Brothers' first flight lasted",
+    "fact": "12 seconds",
+    "hallucination": "1 minute"
+  },
+  {
+    "id": "adv_106",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Koalas are",
+    "fact": "marsupials",
+    "hallucination": "bears"
+  },
+  {
+    "id": "adv_107",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The shortest war in history lasted",
+    "fact": "38 minutes",
+    "hallucination": "1 hour"
+  },
+  {
+    "id": "adv_108",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "A jiffy is actually",
+    "fact": "a unit of time",
+    "hallucination": "not a real measurement"
+  },
+  {
+    "id": "adv_109",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Titanic's sister ship was",
+    "fact": "Olympic",
+    "hallucination": "Britannic"
+  },
+  {
+    "id": "adv_110",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Abraham Lincoln was born in a",
+    "fact": "log cabin",
+    "hallucination": "house"
+  },
+  {
+    "id": "adv_111",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The hottest part of a flame is the",
+    "fact": "blue part",
+    "hallucination": "white part"
+  },
+  {
+    "id": "adv_112",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Dutch people are from",
+    "fact": "the Netherlands",
+    "hallucination": "Holland"
+  },
+  {
+    "id": "adv_113",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The unicorn is the national animal of",
+    "fact": "Scotland",
+    "hallucination": "England"
+  },
+  {
+    "id": "adv_114",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Penguins live in",
+    "fact": "the Southern Hemisphere",
+    "hallucination": "both poles"
+  },
+  {
+    "id": "adv_115",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The first computer bug was",
+    "fact": "an actual moth",
+    "hallucination": "a coding error"
+  },
+  {
+    "id": "adv_116",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Camels store",
+    "fact": "fat in humps",
+    "hallucination": "water in humps"
+  },
+  {
+    "id": "adv_117",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Battle of Bunker Hill was fought on",
+    "fact": "Breed's Hill",
+    "hallucination": "Bunker Hill"
+  },
+  {
+    "id": "adv_118",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Panama hats originated in",
+    "fact": "Ecuador",
+    "hallucination": "Panama"
+  },
+  {
+    "id": "adv_119",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Liberty Bell cracked",
+    "fact": "multiple times",
+    "hallucination": "once"
+  },
+  {
+    "id": "adv_120",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Poison ivy is",
+    "fact": "not ivy",
+    "hallucination": "a type of ivy"
+  },
+  {
+    "id": "adv_121",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Pyramids were built by",
+    "fact": "paid workers",
+    "hallucination": "slaves"
+  },
+  {
+    "id": "adv_122",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Brontosaurus is",
+    "fact": "now considered valid",
+    "hallucination": "not a real dinosaur"
+  },
+  {
+    "id": "adv_123",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The forbidden city was forbidden to",
+    "fact": "common people",
+    "hallucination": "foreigners"
+  },
+  {
+    "id": "adv_124",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "White chocolate contains",
+    "fact": "no cocoa solids",
+    "hallucination": "cocoa"
+  },
+  {
+    "id": "adv_125",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "MSG is",
+    "fact": "generally safe",
+    "hallucination": "dangerous"
+  },
+  {
+    "id": "adv_126",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "The number of states in the USA when Lincoln was president was",
+    "fact": "variable",
+    "hallucination": "50"
+  },
+  {
+    "id": "adv_127",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Everest is the tallest mountain from",
+    "fact": "sea level",
+    "hallucination": "base to peak"
+  },
+  {
+    "id": "adv_128",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Coffee beans are actually",
+    "fact": "seeds",
+    "hallucination": "beans"
+  },
+  {
+    "id": "adv_129",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Milk does not actually",
+    "fact": "strengthen bones significantly",
+    "hallucination": "build strong bones"
+  },
+  {
+    "id": "adv_130",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Velociraptors were actually",
+    "fact": "turkey-sized",
+    "hallucination": "human-sized"
+  },
+  {
+    "id": "adv_131",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Caesar salad was invented in",
+    "fact": "Mexico",
+    "hallucination": "Italy"
+  },
+  {
+    "id": "adv_132",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "French fries originated in",
+    "fact": "Belgium",
+    "hallucination": "France"
+  },
+  {
+    "id": "adv_133",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The first person in space was",
+    "fact": "Yuri Gagarin",
+    "hallucination": "Alan Shepard"
+  },
+  {
+    "id": "adv_134",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Detox diets",
+    "fact": "are not scientifically proven",
+    "hallucination": "remove toxins"
+  },
+  {
+    "id": "adv_135",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Isaac Newton was born",
+    "fact": "on Christmas by old calendar",
+    "hallucination": "on Christmas Day"
+  },
+  {
+    "id": "adv_136",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Everest is located in",
+    "fact": "Nepal and Tibet",
+    "hallucination": "only Nepal"
+  },
+  {
+    "id": "adv_137",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Henry Ford invented",
+    "fact": "the assembly line process",
+    "hallucination": "the automobile"
+  },
+  {
+    "id": "adv_138",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Sesame Street's Bert and Ernie are",
+    "fact": "just friends",
+    "hallucination": "brothers"
+  },
+  {
+    "id": "adv_139",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Industrial Revolution began in",
+    "fact": "Britain",
+    "hallucination": "America"
+  },
+  {
+    "id": "adv_140",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Frankincense is",
+    "fact": "tree resin",
+    "hallucination": "a spice"
+  },
+  {
+    "id": "adv_141",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Bermuda Triangle has",
+    "fact": "normal disappearance rates",
+    "hallucination": "mysterious disappearances"
+  },
+  {
+    "id": "adv_142",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Spicy food",
+    "fact": "doesn't cause ulcers",
+    "hallucination": "causes ulcers"
+  },
+  {
+    "id": "adv_143",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Constitution was signed in",
+    "fact": "1787",
+    "hallucination": "1776"
+  },
+  {
+    "id": "adv_144",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Daddy longlegs are",
+    "fact": "not spiders",
+    "hallucination": "the most venomous spiders"
+  },
+  {
+    "id": "adv_145",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Gettysburg Address was written",
+    "fact": "before the event",
+    "hallucination": "on the train"
+  },
+  {
+    "id": "adv_146",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Organic food is",
+    "fact": "not more nutritious",
+    "hallucination": "more nutritious"
+  },
+  {
+    "id": "adv_147",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Nirvana means",
+    "fact": "extinction or liberation",
+    "hallucination": "paradise"
+  },
+  {
+    "id": "adv_148",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "The red liquid in rare steak is",
+    "fact": "myoglobin",
+    "hallucination": "blood"
+  },
+  {
+    "id": "adv_149",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Newton's apple",
+    "fact": "probably didn't fall",
+    "hallucination": "fell on his head"
+  },
+  {
+    "id": "adv_150",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "The hardest natural substance is",
+    "fact": "diamond",
+    "hallucination": "tungsten"
+  },
+  {
+    "id": "adv_151",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Leonardo da Vinci was",
+    "fact": "left-handed",
+    "hallucination": "right-handed"
+  },
+  {
+    "id": "adv_152",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Hot water freezes",
+    "fact": "faster sometimes",
+    "hallucination": "slower always"
+  },
+  {
+    "id": "adv_153",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Mona Lisa has",
+    "fact": "no visible smile in scans",
+    "hallucination": "a clear smile"
+  },
+  {
+    "id": "adv_154",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Snakes dislocate their jaws",
+    "fact": "they don't",
+    "hallucination": "to eat"
+  },
+  {
+    "id": "adv_155",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The first Coca-Cola contained",
+    "fact": "cocaine",
+    "hallucination": "no cocaine"
+  },
+  {
+    "id": "adv_156",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Heroin was originally marketed as",
+    "fact": "cough medicine",
+    "hallucination": "painkiller only"
+  },
+  {
+    "id": "adv_157",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Rosa Parks was",
+    "fact": "not the first to refuse",
+    "hallucination": "the first to refuse"
+  },
+  {
+    "id": "adv_158",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Arctic comes from the Greek word for",
+    "fact": "bear",
+    "hallucination": "cold"
+  },
+  {
+    "id": "adv_159",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The inventor of the telephone was",
+    "fact": "disputed",
+    "hallucination": "definitely Bell"
+  },
+  {
+    "id": "adv_160",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Cinco de Mayo is",
+    "fact": "not Mexican Independence Day",
+    "hallucination": "Mexican Independence Day"
+  },
+  {
+    "id": "adv_161",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Mother Teresa was",
+    "fact": "controversial",
+    "hallucination": "universally beloved"
+  },
+  {
+    "id": "adv_162",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Gandhi was",
+    "fact": "controversial",
+    "hallucination": "perfectly peaceful"
+  },
+  {
+    "id": "adv_163",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The word gymnasium comes from",
+    "fact": "naked",
+    "hallucination": "exercise"
+  },
+  {
+    "id": "adv_164",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Breakfast is",
+    "fact": "not the most important meal",
+    "hallucination": "the most important meal"
+  },
+  {
+    "id": "adv_165",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Lobsters were once considered",
+    "fact": "poor man's food",
+    "hallucination": "luxury food"
+  },
+  {
+    "id": "adv_166",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Raptors had",
+    "fact": "feathers",
+    "hallucination": "scales only"
+  },
+  {
+    "id": "adv_167",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The moon landing was filmed",
+    "fact": "on the moon",
+    "hallucination": "in a studio"
+  },
+  {
+    "id": "adv_168",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Turkey makes you sleepy because of",
+    "fact": "large meals",
+    "hallucination": "tryptophan"
+  },
+  {
+    "id": "adv_169",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Great Sphinx faces",
+    "fact": "east",
+    "hallucination": "north"
+  },
+  {
+    "id": "adv_170",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "The color pink is",
+    "fact": "culturally gendered",
+    "hallucination": "naturally feminine"
+  },
+  {
+    "id": "adv_171",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The first computer programmer was",
+    "fact": "Ada Lovelace",
+    "hallucination": "Charles Babbage"
+  },
+  {
+    "id": "adv_172",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Bats are",
+    "fact": "not blind",
+    "hallucination": "blind"
+  },
+  {
+    "id": "adv_173",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The shortest complete sentence in English is",
+    "fact": "contested",
+    "hallucination": "Go"
+  },
+  {
+    "id": "adv_174",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Yogurt is",
+    "fact": "not necessary for digestion",
+    "hallucination": "essential for gut health"
+  },
+  {
+    "id": "adv_175",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The inventor of basketball was",
+    "fact": "Canadian",
+    "hallucination": "American"
+  },
+  {
+    "id": "adv_176",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Carrots were originally",
+    "fact": "purple",
+    "hallucination": "orange"
+  },
+  {
+    "id": "adv_177",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The inventor of the radio was",
+    "fact": "disputed",
+    "hallucination": "Marconi"
+  },
+  {
+    "id": "adv_178",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Dutch courage refers to",
+    "fact": "alcohol-induced bravery",
+    "hallucination": "actual Dutch bravery"
+  },
+  {
+    "id": "adv_179",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Humpty Dumpty was",
+    "fact": "never called an egg",
+    "hallucination": "explicitly an egg"
+  },
+  {
+    "id": "adv_180",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "The hardest working muscle is the",
+    "fact": "masseter",
+    "hallucination": "heart"
+  },
+  {
+    "id": "adv_181",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Santa Claus's red suit was popularized by",
+    "fact": "various sources",
+    "hallucination": "Coca-Cola"
+  },
+  {
+    "id": "adv_182",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "The plural of octopus is",
+    "fact": "octopuses",
+    "hallucination": "octopi"
+  },
+  {
+    "id": "adv_183",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Tulips are native to",
+    "fact": "Central Asia",
+    "hallucination": "the Netherlands"
+  },
+  {
+    "id": "adv_184",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Searing meat",
+    "fact": "doesn't seal in juices",
+    "hallucination": "seals in juices"
+  },
+  {
+    "id": "adv_185",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The word 'vaccine' comes from",
+    "fact": "cow",
+    "hallucination": "protection"
+  },
+  {
+    "id": "adv_186",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Blowing on Nintendo cartridges",
+    "fact": "damages them",
+    "hallucination": "fixes them"
+  },
+  {
+    "id": "adv_187",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Rosetta Stone was",
+    "fact": "a tax decree",
+    "hallucination": "religious text"
+  },
+  {
+    "id": "adv_188",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Kilts are",
+    "fact": "relatively modern",
+    "hallucination": "ancient Scottish"
+  },
+  {
+    "id": "adv_189",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Alexander the Great died at age",
+    "fact": "32",
+    "hallucination": "40"
+  },
+  {
+    "id": "adv_190",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Red meat causes cancer",
+    "fact": "in large amounts",
+    "hallucination": "always"
+  },
+  {
+    "id": "adv_191",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Samurai were",
+    "fact": "bureaucrats primarily",
+    "hallucination": "warriors primarily"
+  },
+  {
+    "id": "adv_192",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Chemical-free means",
+    "fact": "nothing",
+    "hallucination": "no harmful chemicals"
+  },
+  {
+    "id": "adv_193",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Great Wall of China was built to keep out",
+    "fact": "various groups",
+    "hallucination": "Mongols specifically"
+  },
+  {
+    "id": "adv_194",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Everest grows taller by",
+    "fact": "4mm per year",
+    "hallucination": "1cm per year"
+  },
+  {
+    "id": "adv_195",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Instant ramen was invented in",
+    "fact": "Japan",
+    "hallucination": "China"
+  },
+  {
+    "id": "adv_196",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Vaccines contain",
+    "fact": "safe amounts of ingredients",
+    "hallucination": "dangerous toxins"
+  },
+  {
+    "id": "adv_197",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "Brown eggs are",
+    "fact": "not more nutritious",
+    "hallucination": "more nutritious"
+  },
+  {
+    "id": "adv_198",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Red wine is",
+    "fact": "not especially healthy",
+    "hallucination": "good for your heart"
+  },
+  {
+    "id": "adv_199",
+    "domain": "adversarial",
+    "complexity": 9,
+    "prompt": "The Pythagorean theorem was",
+    "fact": "known before Pythagoras",
+    "hallucination": "invented by Pythagoras"
+  },
+  {
+    "id": "adv_200",
+    "domain": "adversarial",
+    "complexity": 8,
+    "prompt": "Natural means",
+    "fact": "found in nature",
+    "hallucination": "safe and healthy"
+  }
+]

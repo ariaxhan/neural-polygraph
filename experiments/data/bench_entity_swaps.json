@@ -1,0 +1,1842 @@
+[
+  {
+    "id": "geo_001",
+    "domain": "geography",
+    "complexity": 3,
+    "prompt": "The capital of Australia is",
+    "fact": "Canberra",
+    "hallucination": "Sydney"
+  },
+  {
+    "id": "geo_002",
+    "domain": "geography",
+    "complexity": 2,
+    "prompt": "The capital of Brazil is",
+    "fact": "Brasília",
+    "hallucination": "Rio de Janeiro"
+  },
+  {
+    "id": "geo_003",
+    "domain": "geography",
+    "complexity": 3,
+    "prompt": "The capital of Switzerland is",
+    "fact": "Bern",
+    "hallucination": "Zurich"
+  },
+  {
+    "id": "geo_004",
+    "domain": "geography",
+    "complexity": 4,
+    "prompt": "The capital of Morocco is",
+    "fact": "Rabat",
+    "hallucination": "Casablanca"
+  },
+  {
+    "id": "geo_005",
+    "domain": "geography",
+    "complexity": 3,
+    "prompt": "The capital of Turkey is",
+    "fact": "Ankara",
+    "hallucination": "Istanbul"
+  },
+  {
+    "id": "geo_006",
+    "domain": "geography",
+    "complexity": 4,
+    "prompt": "The capital of Myanmar is",
+    "fact": "Naypyidaw",
+    "hallucination": "Yangon"
+  },
+  {
+    "id": "geo_007",
+    "domain": "geography",
+    "complexity": 3,
+    "prompt": "The capital of New Zealand is",
+    "fact": "Wellington",
+    "hallucination": "Auckland"
+  },
+  {
+    "id": "geo_008",
+    "domain": "geography",
+    "complexity": 4,
+    "prompt": "The capital of Tanzania is",
+    "fact": "Dodoma",
+    "hallucination": "Dar es Salaam"
+  },
+  {
+    "id": "geo_009",
+    "domain": "geography",
+    "complexity": 3,
+    "prompt": "The capital of Pakistan is",
+    "fact": "Islamabad",
+    "hallucination": "Karachi"
+  },
+  {
+    "id": "geo_010",
+    "domain": "geography",
+    "complexity": 2,
+    "prompt": "The capital of Spain is",
+    "fact": "Madrid",
+    "hallucination": "Barcelona"
+  },
+  {
+    "id": "geo_011",
+    "domain": "geography",
+    "complexity": 3,
+    "prompt": "The capital of South Africa is",
+    "fact": "Pretoria",
+    "hallucination": "Johannesburg"
+  },
+  {
+    "id": "geo_012",
+    "domain": "geography",
+    "complexity": 4,
+    "prompt": "The capital of Côte d'Ivoire is",
+    "fact": "Yamoussoukro",
+    "hallucination": "Abidjan"
+  },
+  {
+    "id": "geo_013",
+    "domain": "geography",
+    "complexity": 2,
+    "prompt": "The capital of India is",
+    "fact": "New Delhi",
+    "hallucination": "Mumbai"
+  },
+  {
+    "id": "geo_014",
+    "domain": "geography",
+    "complexity": 3,
+    "prompt": "The capital of Vietnam is",
+    "fact": "Hanoi",
+    "hallucination": "Ho Chi Minh City"
+  },
+  {
+    "id": "geo_015",
+    "domain": "geography",
+    "complexity": 2,
+    "prompt": "The capital of Ecuador is",
+    "fact": "Quito",
+    "hallucination": "Guayaquil"
+  },
+  {
+    "id": "geo_016",
+    "domain": "geography",
+    "complexity": 3,
+    "prompt": "The largest desert in the world is the",
+    "fact": "Antarctic Desert",
+    "hallucination": "Sahara"
+  },
+  {
+    "id": "geo_017",
+    "domain": "geography",
+    "complexity": 2,
+    "prompt": "The longest river in the world is the",
+    "fact": "Nile",
+    "hallucination": "Amazon"
+  },
+  {
+    "id": "geo_018",
+    "domain": "geography",
+    "complexity": 3,
+    "prompt": "The highest mountain in North America is",
+    "fact": "Denali",
+    "hallucination": "Mount Rainier"
+  },
+  {
+    "id": "geo_019",
+    "domain": "geography",
+    "complexity": 2,
+    "prompt": "The smallest country in the world is",
+    "fact": "Vatican City",
+    "hallucination": "Monaco"
+  },
+  {
+    "id": "geo_020",
+    "domain": "geography",
+    "complexity": 3,
+    "prompt": "The deepest ocean trench is the",
+    "fact": "Mariana Trench",
+    "hallucination": "Philippine Trench"
+  },
+  {
+    "id": "lit_001",
+    "domain": "literature",
+    "complexity": 2,
+    "prompt": "1984 was written by",
+    "fact": "George Orwell",
+    "hallucination": "Aldous Huxley"
+  },
+  {
+    "id": "lit_002",
+    "domain": "literature",
+    "complexity": 2,
+    "prompt": "Romeo and Juliet was written by",
+    "fact": "William Shakespeare",
+    "hallucination": "Christopher Marlowe"
+  },
+  {
+    "id": "lit_003",
+    "domain": "literature",
+    "complexity": 3,
+    "prompt": "The Great Gatsby was written by",
+    "fact": "F. Scott Fitzgerald",
+    "hallucination": "Ernest Hemingway"
+  },
+  {
+    "id": "lit_004",
+    "domain": "literature",
+    "complexity": 2,
+    "prompt": "Pride and Prejudice was written by",
+    "fact": "Jane Austen",
+    "hallucination": "Charlotte Brontë"
+  },
+  {
+    "id": "lit_005",
+    "domain": "literature",
+    "complexity": 3,
+    "prompt": "The Lord of the Rings was written by",
+    "fact": "J.R.R. Tolkien",
+    "hallucination": "C.S. Lewis"
+  },
+  {
+    "id": "lit_006",
+    "domain": "literature",
+    "complexity": 2,
+    "prompt": "Harry Potter was created by",
+    "fact": "J.K. Rowling",
+    "hallucination": "Suzanne Collins"
+  },
+  {
+    "id": "lit_007",
+    "domain": "literature",
+    "complexity": 3,
+    "prompt": "One Hundred Years of Solitude was written by",
+    "fact": "Gabriel García Márquez",
+    "hallucination": "Isabel Allende"
+  },
+  {
+    "id": "lit_008",
+    "domain": "literature",
+    "complexity": 2,
+    "prompt": "The Catcher in the Rye was written by",
+    "fact": "J.D. Salinger",
+    "hallucination": "Jack Kerouac"
+  },
+  {
+    "id": "lit_009",
+    "domain": "literature",
+    "complexity": 3,
+    "prompt": "Moby-Dick was written by",
+    "fact": "Herman Melville",
+    "hallucination": "Nathaniel Hawthorne"
+  },
+  {
+    "id": "lit_010",
+    "domain": "literature",
+    "complexity": 2,
+    "prompt": "To Kill a Mockingbird was written by",
+    "fact": "Harper Lee",
+    "hallucination": "Truman Capote"
+  },
+  {
+    "id": "lit_011",
+    "domain": "literature",
+    "complexity": 3,
+    "prompt": "Crime and Punishment was written by",
+    "fact": "Fyodor Dostoevsky",
+    "hallucination": "Leo Tolstoy"
+  },
+  {
+    "id": "lit_012",
+    "domain": "literature",
+    "complexity": 2,
+    "prompt": "The Odyssey was written by",
+    "fact": "Homer",
+    "hallucination": "Virgil"
+  },
+  {
+    "id": "lit_013",
+    "domain": "literature",
+    "complexity": 3,
+    "prompt": "Brave New World was written by",
+    "fact": "Aldous Huxley",
+    "hallucination": "George Orwell"
+  },
+  {
+    "id": "lit_014",
+    "domain": "literature",
+    "complexity": 2,
+    "prompt": "The Hobbit was written by",
+    "fact": "J.R.R. Tolkien",
+    "hallucination": "C.S. Lewis"
+  },
+  {
+    "id": "lit_015",
+    "domain": "literature",
+    "complexity": 3,
+    "prompt": "Frankenstein was written by",
+    "fact": "Mary Shelley",
+    "hallucination": "Bram Stoker"
+  },
+  {
+    "id": "lit_016",
+    "domain": "literature",
+    "complexity": 3,
+    "prompt": "The Picture of Dorian Gray was written by",
+    "fact": "Oscar Wilde",
+    "hallucination": "Robert Louis Stevenson"
+  },
+  {
+    "id": "lit_017",
+    "domain": "literature",
+    "complexity": 2,
+    "prompt": "The Adventures of Sherlock Holmes was written by",
+    "fact": "Arthur Conan Doyle",
+    "hallucination": "Agatha Christie"
+  },
+  {
+    "id": "lit_018",
+    "domain": "literature",
+    "complexity": 3,
+    "prompt": "Wuthering Heights was written by",
+    "fact": "Emily Brontë",
+    "hallucination": "Charlotte Brontë"
+  },
+  {
+    "id": "lit_019",
+    "domain": "literature",
+    "complexity": 3,
+    "prompt": "The Metamorphosis was written by",
+    "fact": "Franz Kafka",
+    "hallucination": "Albert Camus"
+  },
+  {
+    "id": "lit_020",
+    "domain": "literature",
+    "complexity": 2,
+    "prompt": "Alice's Adventures in Wonderland was written by",
+    "fact": "Lewis Carroll",
+    "hallucination": "Roald Dahl"
+  },
+  {
+    "id": "chem_001",
+    "domain": "chemistry",
+    "complexity": 2,
+    "prompt": "Au is the chemical symbol for",
+    "fact": "Gold",
+    "hallucination": "Silver"
+  },
+  {
+    "id": "chem_002",
+    "domain": "chemistry",
+    "complexity": 2,
+    "prompt": "H₂O is the chemical formula for",
+    "fact": "Water",
+    "hallucination": "Hydrogen Peroxide"
+  },
+  {
+    "id": "chem_003",
+    "domain": "chemistry",
+    "complexity": 2,
+    "prompt": "Fe is the chemical symbol for",
+    "fact": "Iron",
+    "hallucination": "Copper"
+  },
+  {
+    "id": "chem_004",
+    "domain": "chemistry",
+    "complexity": 2,
+    "prompt": "Na is the chemical symbol for",
+    "fact": "Sodium",
+    "hallucination": "Nitrogen"
+  },
+  {
+    "id": "chem_005",
+    "domain": "chemistry",
+    "complexity": 3,
+    "prompt": "Hg is the chemical symbol for",
+    "fact": "Mercury",
+    "hallucination": "Lead"
+  },
+  {
+    "id": "chem_006",
+    "domain": "chemistry",
+    "complexity": 2,
+    "prompt": "O₂ is the chemical formula for",
+    "fact": "Oxygen",
+    "hallucination": "Ozone"
+  },
+  {
+    "id": "chem_007",
+    "domain": "chemistry",
+    "complexity": 3,
+    "prompt": "Pb is the chemical symbol for",
+    "fact": "Lead",
+    "hallucination": "Platinum"
+  },
+  {
+    "id": "chem_008",
+    "domain": "chemistry",
+    "complexity": 2,
+    "prompt": "CO₂ is the chemical formula for",
+    "fact": "Carbon Dioxide",
+    "hallucination": "Carbon Monoxide"
+  },
+  {
+    "id": "chem_009",
+    "domain": "chemistry",
+    "complexity": 2,
+    "prompt": "Ag is the chemical symbol for",
+    "fact": "Silver",
+    "hallucination": "Gold"
+  },
+  {
+    "id": "chem_010",
+    "domain": "chemistry",
+    "complexity": 3,
+    "prompt": "K is the chemical symbol for",
+    "fact": "Potassium",
+    "hallucination": "Phosphorus"
+  },
+  {
+    "id": "chem_011",
+    "domain": "chemistry",
+    "complexity": 2,
+    "prompt": "He is the chemical symbol for",
+    "fact": "Helium",
+    "hallucination": "Hydrogen"
+  },
+  {
+    "id": "chem_012",
+    "domain": "chemistry",
+    "complexity": 3,
+    "prompt": "Cu is the chemical symbol for",
+    "fact": "Copper",
+    "hallucination": "Cobalt"
+  },
+  {
+    "id": "chem_013",
+    "domain": "chemistry",
+    "complexity": 2,
+    "prompt": "N₂ is the chemical formula for",
+    "fact": "Nitrogen",
+    "hallucination": "Nitrous Oxide"
+  },
+  {
+    "id": "chem_014",
+    "domain": "chemistry",
+    "complexity": 3,
+    "prompt": "Sn is the chemical symbol for",
+    "fact": "Tin",
+    "hallucination": "Silicon"
+  },
+  {
+    "id": "chem_015",
+    "domain": "chemistry",
+    "complexity": 2,
+    "prompt": "C is the chemical symbol for",
+    "fact": "Carbon",
+    "hallucination": "Calcium"
+  },
+  {
+    "id": "chem_016",
+    "domain": "chemistry",
+    "complexity": 3,
+    "prompt": "W is the chemical symbol for",
+    "fact": "Tungsten",
+    "hallucination": "Titanium"
+  },
+  {
+    "id": "chem_017",
+    "domain": "chemistry",
+    "complexity": 2,
+    "prompt": "NaCl is the chemical formula for",
+    "fact": "Sodium Chloride",
+    "hallucination": "Sodium Carbonate"
+  },
+  {
+    "id": "chem_018",
+    "domain": "chemistry",
+    "complexity": 3,
+    "prompt": "Zn is the chemical symbol for",
+    "fact": "Zinc",
+    "hallucination": "Zirconium"
+  },
+  {
+    "id": "chem_019",
+    "domain": "chemistry",
+    "complexity": 2,
+    "prompt": "Ca is the chemical symbol for",
+    "fact": "Calcium",
+    "hallucination": "Carbon"
+  },
+  {
+    "id": "chem_020",
+    "domain": "chemistry",
+    "complexity": 3,
+    "prompt": "Pt is the chemical symbol for",
+    "fact": "Platinum",
+    "hallucination": "Palladium"
+  },
+  {
+    "id": "hist_001",
+    "domain": "history",
+    "complexity": 1,
+    "prompt": "The first president of the United States was",
+    "fact": "George Washington",
+    "hallucination": "Thomas Jefferson"
+  },
+  {
+    "id": "hist_002",
+    "domain": "history",
+    "complexity": 2,
+    "prompt": "The first person to walk on the Moon was",
+    "fact": "Neil Armstrong",
+    "hallucination": "Buzz Aldrin"
+  },
+  {
+    "id": "hist_003",
+    "domain": "history",
+    "complexity": 2,
+    "prompt": "World War II ended in",
+    "fact": "1945",
+    "hallucination": "1944"
+  },
+  {
+    "id": "hist_004",
+    "domain": "history",
+    "complexity": 2,
+    "prompt": "The American Civil War began in",
+    "fact": "1861",
+    "hallucination": "1865"
+  },
+  {
+    "id": "hist_005",
+    "domain": "history",
+    "complexity": 2,
+    "prompt": "Christopher Columbus first reached the Americas in",
+    "fact": "1492",
+    "hallucination": "1498"
+  },
+  {
+    "id": "hist_006",
+    "domain": "history",
+    "complexity": 3,
+    "prompt": "The French Revolution began in",
+    "fact": "1789",
+    "hallucination": "1793"
+  },
+  {
+    "id": "hist_007",
+    "domain": "history",
+    "complexity": 2,
+    "prompt": "The Declaration of Independence was signed in",
+    "fact": "1776",
+    "hallucination": "1783"
+  },
+  {
+    "id": "hist_008",
+    "domain": "history",
+    "complexity": 2,
+    "prompt": "Julius Caesar was assassinated in",
+    "fact": "44 BC",
+    "hallucination": "48 BC"
+  },
+  {
+    "id": "hist_009",
+    "domain": "history",
+    "complexity": 3,
+    "prompt": "The fall of Constantinople occurred in",
+    "fact": "1453",
+    "hallucination": "1492"
+  },
+  {
+    "id": "hist_010",
+    "domain": "history",
+    "complexity": 2,
+    "prompt": "The inventor of the telephone was",
+    "fact": "Alexander Graham Bell",
+    "hallucination": "Thomas Edison"
+  },
+  {
+    "id": "hist_011",
+    "domain": "history",
+    "complexity": 2,
+    "prompt": "The inventor of the light bulb was",
+    "fact": "Thomas Edison",
+    "hallucination": "Nikola Tesla"
+  },
+  {
+    "id": "hist_012",
+    "domain": "history",
+    "complexity": 3,
+    "prompt": "The Battle of Waterloo took place in",
+    "fact": "1815",
+    "hallucination": "1812"
+  },
+  {
+    "id": "hist_013",
+    "domain": "history",
+    "complexity": 2,
+    "prompt": "The Roman Empire fell in",
+    "fact": "476 AD",
+    "hallucination": "410 AD"
+  },
+  {
+    "id": "hist_014",
+    "domain": "history",
+    "complexity": 3,
+    "prompt": "The Magna Carta was signed in",
+    "fact": "1215",
+    "hallucination": "1066"
+  },
+  {
+    "id": "hist_015",
+    "domain": "history",
+    "complexity": 2,
+    "prompt": "The first atomic bomb was dropped in",
+    "fact": "1945",
+    "hallucination": "1944"
+  },
+  {
+    "id": "hist_016",
+    "domain": "history",
+    "complexity": 2,
+    "prompt": "Napoleon Bonaparte was defeated at the Battle of",
+    "fact": "Waterloo",
+    "hallucination": "Leipzig"
+  },
+  {
+    "id": "hist_017",
+    "domain": "history",
+    "complexity": 3,
+    "prompt": "The printing press was invented by",
+    "fact": "Johannes Gutenberg",
+    "hallucination": "William Caxton"
+  },
+  {
+    "id": "hist_018",
+    "domain": "history",
+    "complexity": 2,
+    "prompt": "The Berlin Wall fell in",
+    "fact": "1989",
+    "hallucination": "1991"
+  },
+  {
+    "id": "hist_019",
+    "domain": "history",
+    "complexity": 3,
+    "prompt": "The Theory of Relativity was developed by",
+    "fact": "Albert Einstein",
+    "hallucination": "Max Planck"
+  },
+  {
+    "id": "hist_020",
+    "domain": "history",
+    "complexity": 2,
+    "prompt": "The first human spaceflight was by",
+    "fact": "Yuri Gagarin",
+    "hallucination": "Alan Shepard"
+  },
+  {
+    "id": "bio_001",
+    "domain": "biology",
+    "complexity": 2,
+    "prompt": "The powerhouse of the cell is the",
+    "fact": "Mitochondria",
+    "hallucination": "Nucleus"
+  },
+  {
+    "id": "bio_002",
+    "domain": "biology",
+    "complexity": 2,
+    "prompt": "DNA stands for",
+    "fact": "Deoxyribonucleic Acid",
+    "hallucination": "Ribonucleic Acid"
+  },
+  {
+    "id": "bio_003",
+    "domain": "biology",
+    "complexity": 2,
+    "prompt": "The process by which plants make food is called",
+    "fact": "Photosynthesis",
+    "hallucination": "Respiration"
+  },
+  {
+    "id": "bio_004",
+    "domain": "biology",
+    "complexity": 2,
+    "prompt": "The largest organ in the human body is the",
+    "fact": "Skin",
+    "hallucination": "Liver"
+  },
+  {
+    "id": "bio_005",
+    "domain": "biology",
+    "complexity": 3,
+    "prompt": "The human body has",
+    "fact": "206 bones",
+    "hallucination": "212 bones"
+  },
+  {
+    "id": "bio_006",
+    "domain": "biology",
+    "complexity": 2,
+    "prompt": "The basic unit of life is the",
+    "fact": "Cell",
+    "hallucination": "Molecule"
+  },
+  {
+    "id": "bio_007",
+    "domain": "biology",
+    "complexity": 3,
+    "prompt": "The theory of evolution was proposed by",
+    "fact": "Charles Darwin",
+    "hallucination": "Alfred Wallace"
+  },
+  {
+    "id": "bio_008",
+    "domain": "biology",
+    "complexity": 2,
+    "prompt": "Red blood cells are also called",
+    "fact": "Erythrocytes",
+    "hallucination": "Leukocytes"
+  },
+  {
+    "id": "bio_009",
+    "domain": "biology",
+    "complexity": 2,
+    "prompt": "The human heart has",
+    "fact": "Four chambers",
+    "hallucination": "Three chambers"
+  },
+  {
+    "id": "bio_010",
+    "domain": "biology",
+    "complexity": 3,
+    "prompt": "The largest artery in the human body is the",
+    "fact": "Aorta",
+    "hallucination": "Pulmonary Artery"
+  },
+  {
+    "id": "bio_011",
+    "domain": "biology",
+    "complexity": 2,
+    "prompt": "The study of insects is called",
+    "fact": "Entomology",
+    "hallucination": "Herpetology"
+  },
+  {
+    "id": "bio_012",
+    "domain": "biology",
+    "complexity": 3,
+    "prompt": "The father of genetics is",
+    "fact": "Gregor Mendel",
+    "hallucination": "Thomas Hunt Morgan"
+  },
+  {
+    "id": "bio_013",
+    "domain": "biology",
+    "complexity": 2,
+    "prompt": "The control center of the cell is the",
+    "fact": "Nucleus",
+    "hallucination": "Mitochondria"
+  },
+  {
+    "id": "bio_014",
+    "domain": "biology",
+    "complexity": 3,
+    "prompt": "The longest bone in the human body is the",
+    "fact": "Femur",
+    "hallucination": "Tibia"
+  },
+  {
+    "id": "bio_015",
+    "domain": "biology",
+    "complexity": 2,
+    "prompt": "Blood type is determined by",
+    "fact": "Antigens",
+    "hallucination": "Antibodies"
+  },
+  {
+    "id": "bio_016",
+    "domain": "biology",
+    "complexity": 3,
+    "prompt": "The enzyme that breaks down starch is",
+    "fact": "Amylase",
+    "hallucination": "Lipase"
+  },
+  {
+    "id": "bio_017",
+    "domain": "biology",
+    "complexity": 2,
+    "prompt": "The human brain weighs approximately",
+    "fact": "1.4 kilograms",
+    "hallucination": "2 kilograms"
+  },
+  {
+    "id": "bio_018",
+    "domain": "biology",
+    "complexity": 3,
+    "prompt": "The smallest unit of heredity is the",
+    "fact": "Gene",
+    "hallucination": "Chromosome"
+  },
+  {
+    "id": "bio_019",
+    "domain": "biology",
+    "complexity": 2,
+    "prompt": "The process of cell division is called",
+    "fact": "Mitosis",
+    "hallucination": "Meiosis"
+  },
+  {
+    "id": "bio_020",
+    "domain": "biology",
+    "complexity": 3,
+    "prompt": "The functional unit of the kidney is the",
+    "fact": "Nephron",
+    "hallucination": "Neuron"
+  },
+  {
+    "id": "phys_001",
+    "domain": "physics",
+    "complexity": 2,
+    "prompt": "The speed of light in vacuum is approximately",
+    "fact": "300,000 km/s",
+    "hallucination": "250,000 km/s"
+  },
+  {
+    "id": "phys_002",
+    "domain": "physics",
+    "complexity": 2,
+    "prompt": "The force that keeps planets in orbit is",
+    "fact": "Gravity",
+    "hallucination": "Magnetism"
+  },
+  {
+    "id": "phys_003",
+    "domain": "physics",
+    "complexity": 2,
+    "prompt": "Newton's first law is also called the law of",
+    "fact": "Inertia",
+    "hallucination": "Momentum"
+  },
+  {
+    "id": "phys_004",
+    "domain": "physics",
+    "complexity": 3,
+    "prompt": "The SI unit of force is the",
+    "fact": "Newton",
+    "hallucination": "Joule"
+  },
+  {
+    "id": "phys_005",
+    "domain": "physics",
+    "complexity": 2,
+    "prompt": "The acceleration due to gravity on Earth is approximately",
+    "fact": "9.8 m/s²",
+    "hallucination": "10.5 m/s²"
+  },
+  {
+    "id": "phys_006",
+    "domain": "physics",
+    "complexity": 2,
+    "prompt": "The SI unit of electric current is the",
+    "fact": "Ampere",
+    "hallucination": "Volt"
+  },
+  {
+    "id": "phys_007",
+    "domain": "physics",
+    "complexity": 3,
+    "prompt": "The scientist who developed the laws of motion was",
+    "fact": "Isaac Newton",
+    "hallucination": "Galileo Galilei"
+  },
+  {
+    "id": "phys_008",
+    "domain": "physics",
+    "complexity": 2,
+    "prompt": "Sound travels fastest through",
+    "fact": "Solids",
+    "hallucination": "Liquids"
+  },
+  {
+    "id": "phys_009",
+    "domain": "physics",
+    "complexity": 3,
+    "prompt": "The SI unit of energy is the",
+    "fact": "Joule",
+    "hallucination": "Watt"
+  },
+  {
+    "id": "phys_010",
+    "domain": "physics",
+    "complexity": 2,
+    "prompt": "An object at rest will remain at rest due to",
+    "fact": "Inertia",
+    "hallucination": "Friction"
+  },
+  {
+    "id": "phys_011",
+    "domain": "physics",
+    "complexity": 3,
+    "prompt": "The theory of general relativity was developed by",
+    "fact": "Albert Einstein",
+    "hallucination": "Stephen Hawking"
+  },
+  {
+    "id": "phys_012",
+    "domain": "physics",
+    "complexity": 2,
+    "prompt": "The bending of light is called",
+    "fact": "Refraction",
+    "hallucination": "Reflection"
+  },
+  {
+    "id": "phys_013",
+    "domain": "physics",
+    "complexity": 3,
+    "prompt": "The SI unit of power is the",
+    "fact": "Watt",
+    "hallucination": "Joule"
+  },
+  {
+    "id": "phys_014",
+    "domain": "physics",
+    "complexity": 2,
+    "prompt": "The atomic number represents the number of",
+    "fact": "Protons",
+    "hallucination": "Neutrons"
+  },
+  {
+    "id": "phys_015",
+    "domain": "physics",
+    "complexity": 3,
+    "prompt": "Absolute zero is equivalent to",
+    "fact": "-273.15°C",
+    "hallucination": "-300°C"
+  },
+  {
+    "id": "phys_016",
+    "domain": "physics",
+    "complexity": 2,
+    "prompt": "Ohm's Law relates voltage, current, and",
+    "fact": "Resistance",
+    "hallucination": "Power"
+  },
+  {
+    "id": "phys_017",
+    "domain": "physics",
+    "complexity": 3,
+    "prompt": "The photoelectric effect was explained by",
+    "fact": "Albert Einstein",
+    "hallucination": "Max Planck"
+  },
+  {
+    "id": "phys_018",
+    "domain": "physics",
+    "complexity": 2,
+    "prompt": "The SI unit of frequency is the",
+    "fact": "Hertz",
+    "hallucination": "Decibel"
+  },
+  {
+    "id": "phys_019",
+    "domain": "physics",
+    "complexity": 3,
+    "prompt": "The law of conservation states that energy cannot be",
+    "fact": "Created or Destroyed",
+    "hallucination": "Transferred"
+  },
+  {
+    "id": "phys_020",
+    "domain": "physics",
+    "complexity": 2,
+    "prompt": "A complete path for electric current is called a",
+    "fact": "Circuit",
+    "hallucination": "Network"
+  },
+  {
+    "id": "arts_001",
+    "domain": "arts",
+    "complexity": 2,
+    "prompt": "The Mona Lisa was painted by",
+    "fact": "Leonardo da Vinci",
+    "hallucination": "Michelangelo"
+  },
+  {
+    "id": "arts_002",
+    "domain": "arts",
+    "complexity": 2,
+    "prompt": "The Starry Night was painted by",
+    "fact": "Vincent van Gogh",
+    "hallucination": "Claude Monet"
+  },
+  {
+    "id": "arts_003",
+    "domain": "arts",
+    "complexity": 3,
+    "prompt": "Guernica was painted by",
+    "fact": "Pablo Picasso",
+    "hallucination": "Salvador Dalí"
+  },
+  {
+    "id": "arts_004",
+    "domain": "arts",
+    "complexity": 2,
+    "prompt": "The Sistine Chapel ceiling was painted by",
+    "fact": "Michelangelo",
+    "hallucination": "Raphael"
+  },
+  {
+    "id": "arts_005",
+    "domain": "arts",
+    "complexity": 3,
+    "prompt": "The Kiss was painted by",
+    "fact": "Gustav Klimt",
+    "hallucination": "Egon Schiele"
+  },
+  {
+    "id": "arts_006",
+    "domain": "arts",
+    "complexity": 2,
+    "prompt": "The Girl with a Pearl Earring was painted by",
+    "fact": "Johannes Vermeer",
+    "hallucination": "Rembrandt"
+  },
+  {
+    "id": "arts_007",
+    "domain": "arts",
+    "complexity": 3,
+    "prompt": "The Persistence of Memory was painted by",
+    "fact": "Salvador Dalí",
+    "hallucination": "René Magritte"
+  },
+  {
+    "id": "arts_008",
+    "domain": "arts",
+    "complexity": 2,
+    "prompt": "The Last Supper was painted by",
+    "fact": "Leonardo da Vinci",
+    "hallucination": "Caravaggio"
+  },
+  {
+    "id": "arts_009",
+    "domain": "arts",
+    "complexity": 3,
+    "prompt": "Water Lilies was painted by",
+    "fact": "Claude Monet",
+    "hallucination": "Pierre-Auguste Renoir"
+  },
+  {
+    "id": "arts_010",
+    "domain": "arts",
+    "complexity": 2,
+    "prompt": "The Scream was painted by",
+    "fact": "Edvard Munch",
+    "hallucination": "Vincent van Gogh"
+  },
+  {
+    "id": "arts_011",
+    "domain": "arts",
+    "complexity": 3,
+    "prompt": "The Birth of Venus was painted by",
+    "fact": "Sandro Botticelli",
+    "hallucination": "Raphael"
+  },
+  {
+    "id": "arts_012",
+    "domain": "arts",
+    "complexity": 2,
+    "prompt": "American Gothic was painted by",
+    "fact": "Grant Wood",
+    "hallucination": "Edward Hopper"
+  },
+  {
+    "id": "arts_013",
+    "domain": "arts",
+    "complexity": 3,
+    "prompt": "The Garden of Earthly Delights was painted by",
+    "fact": "Hieronymus Bosch",
+    "hallucination": "Pieter Bruegel"
+  },
+  {
+    "id": "arts_014",
+    "domain": "arts",
+    "complexity": 2,
+    "prompt": "Beethoven composed",
+    "fact": "Nine symphonies",
+    "hallucination": "Seven symphonies"
+  },
+  {
+    "id": "arts_015",
+    "domain": "arts",
+    "complexity": 3,
+    "prompt": "The Four Seasons was composed by",
+    "fact": "Antonio Vivaldi",
+    "hallucination": "Johann Sebastian Bach"
+  },
+  {
+    "id": "arts_016",
+    "domain": "arts",
+    "complexity": 2,
+    "prompt": "The Magic Flute was composed by",
+    "fact": "Wolfgang Amadeus Mozart",
+    "hallucination": "Joseph Haydn"
+  },
+  {
+    "id": "arts_017",
+    "domain": "arts",
+    "complexity": 3,
+    "prompt": "The Thinker was sculpted by",
+    "fact": "Auguste Rodin",
+    "hallucination": "Constantin Brâncuși"
+  },
+  {
+    "id": "arts_018",
+    "domain": "arts",
+    "complexity": 2,
+    "prompt": "Swan Lake was composed by",
+    "fact": "Pyotr Tchaikovsky",
+    "hallucination": "Igor Stravinsky"
+  },
+  {
+    "id": "arts_019",
+    "domain": "arts",
+    "complexity": 3,
+    "prompt": "Nighthawks was painted by",
+    "fact": "Edward Hopper",
+    "hallucination": "Grant Wood"
+  },
+  {
+    "id": "arts_020",
+    "domain": "arts",
+    "complexity": 2,
+    "prompt": "The Ninth Symphony was composed by",
+    "fact": "Ludwig van Beethoven",
+    "hallucination": "Johannes Brahms"
+  },
+  {
+    "id": "tech_001",
+    "domain": "technology",
+    "complexity": 2,
+    "prompt": "The founder of Microsoft is",
+    "fact": "Bill Gates",
+    "hallucination": "Steve Jobs"
+  },
+  {
+    "id": "tech_002",
+    "domain": "technology",
+    "complexity": 2,
+    "prompt": "The founder of Apple is",
+    "fact": "Steve Jobs",
+    "hallucination": "Bill Gates"
+  },
+  {
+    "id": "tech_003",
+    "domain": "technology",
+    "complexity": 2,
+    "prompt": "The World Wide Web was invented by",
+    "fact": "Tim Berners-Lee",
+    "hallucination": "Steve Jobs"
+  },
+  {
+    "id": "tech_004",
+    "domain": "technology",
+    "complexity": 3,
+    "prompt": "The first iPhone was released in",
+    "fact": "2007",
+    "hallucination": "2006"
+  },
+  {
+    "id": "tech_005",
+    "domain": "technology",
+    "complexity": 2,
+    "prompt": "HTML stands for",
+    "fact": "HyperText Markup Language",
+    "hallucination": "HyperText Modeling Language"
+  },
+  {
+    "id": "tech_006",
+    "domain": "technology",
+    "complexity": 2,
+    "prompt": "The founder of Facebook is",
+    "fact": "Mark Zuckerberg",
+    "hallucination": "Jack Dorsey"
+  },
+  {
+    "id": "tech_007",
+    "domain": "technology",
+    "complexity": 3,
+    "prompt": "Linux was created by",
+    "fact": "Linus Torvalds",
+    "hallucination": "Richard Stallman"
+  },
+  {
+    "id": "tech_008",
+    "domain": "technology",
+    "complexity": 2,
+    "prompt": "CPU stands for",
+    "fact": "Central Processing Unit",
+    "hallucination": "Computer Processing Unit"
+  },
+  {
+    "id": "tech_009",
+    "domain": "technology",
+    "complexity": 3,
+    "prompt": "The inventor of the modern computer is considered to be",
+    "fact": "Alan Turing",
+    "hallucination": "Charles Babbage"
+  },
+  {
+    "id": "tech_010",
+    "domain": "technology",
+    "complexity": 2,
+    "prompt": "Tesla was founded by",
+    "fact": "Elon Musk",
+    "hallucination": "Jeff Bezos"
+  },
+  {
+    "id": "tech_011",
+    "domain": "technology",
+    "complexity": 3,
+    "prompt": "The Python programming language was created by",
+    "fact": "Guido van Rossum",
+    "hallucination": "Bjarne Stroustrup"
+  },
+  {
+    "id": "tech_012",
+    "domain": "technology",
+    "complexity": 2,
+    "prompt": "RAM stands for",
+    "fact": "Random Access Memory",
+    "hallucination": "Read Access Memory"
+  },
+  {
+    "id": "tech_013",
+    "domain": "technology",
+    "complexity": 3,
+    "prompt": "The Java programming language was developed by",
+    "fact": "James Gosling",
+    "hallucination": "Dennis Ritchie"
+  },
+  {
+    "id": "tech_014",
+    "domain": "technology",
+    "complexity": 2,
+    "prompt": "Google was founded in",
+    "fact": "1998",
+    "hallucination": "1996"
+  },
+  {
+    "id": "tech_015",
+    "domain": "technology",
+    "complexity": 3,
+    "prompt": "The C programming language was created by",
+    "fact": "Dennis Ritchie",
+    "hallucination": "Ken Thompson"
+  },
+  {
+    "id": "tech_016",
+    "domain": "technology",
+    "complexity": 2,
+    "prompt": "WiFi stands for",
+    "fact": "Wireless Fidelity",
+    "hallucination": "Wireless Frequency"
+  },
+  {
+    "id": "tech_017",
+    "domain": "technology",
+    "complexity": 3,
+    "prompt": "The first computer virus was created in",
+    "fact": "1971",
+    "hallucination": "1975"
+  },
+  {
+    "id": "tech_018",
+    "domain": "technology",
+    "complexity": 2,
+    "prompt": "Amazon was founded by",
+    "fact": "Jeff Bezos",
+    "hallucination": "Bill Gates"
+  },
+  {
+    "id": "tech_019",
+    "domain": "technology",
+    "complexity": 3,
+    "prompt": "The transistor was invented at",
+    "fact": "Bell Labs",
+    "hallucination": "IBM"
+  },
+  {
+    "id": "tech_020",
+    "domain": "technology",
+    "complexity": 2,
+    "prompt": "URL stands for",
+    "fact": "Uniform Resource Locator",
+    "hallucination": "Universal Resource Locator"
+  },
+  {
+    "id": "sport_001",
+    "domain": "sports",
+    "complexity": 2,
+    "prompt": "The FIFA World Cup is held every",
+    "fact": "Four years",
+    "hallucination": "Two years"
+  },
+  {
+    "id": "sport_002",
+    "domain": "sports",
+    "complexity": 2,
+    "prompt": "A basketball team has",
+    "fact": "Five players",
+    "hallucination": "Six players"
+  },
+  {
+    "id": "sport_003",
+    "domain": "sports",
+    "complexity": 2,
+    "prompt": "A tennis match is won by winning",
+    "fact": "Two out of three sets",
+    "hallucination": "Three out of five sets"
+  },
+  {
+    "id": "sport_004",
+    "domain": "sports",
+    "complexity": 2,
+    "prompt": "The Olympic Games are held every",
+    "fact": "Four years",
+    "hallucination": "Two years"
+  },
+  {
+    "id": "sport_005",
+    "domain": "sports",
+    "complexity": 3,
+    "prompt": "The Tour de France is a",
+    "fact": "Cycling race",
+    "hallucination": "Marathon"
+  },
+  {
+    "id": "sport_006",
+    "domain": "sports",
+    "complexity": 2,
+    "prompt": "A standard golf course has",
+    "fact": "18 holes",
+    "hallucination": "20 holes"
+  },
+  {
+    "id": "sport_007",
+    "domain": "sports",
+    "complexity": 2,
+    "prompt": "The Super Bowl is the championship game of",
+    "fact": "NFL",
+    "hallucination": "NBA"
+  },
+  {
+    "id": "sport_008",
+    "domain": "sports",
+    "complexity": 3,
+    "prompt": "The marathon distance is",
+    "fact": "42.195 kilometers",
+    "hallucination": "40 kilometers"
+  },
+  {
+    "id": "sport_009",
+    "domain": "sports",
+    "complexity": 2,
+    "prompt": "A soccer match lasts",
+    "fact": "90 minutes",
+    "hallucination": "80 minutes"
+  },
+  {
+    "id": "sport_010",
+    "domain": "sports",
+    "complexity": 2,
+    "prompt": "The fastest man in the world is",
+    "fact": "Usain Bolt",
+    "hallucination": "Carl Lewis"
+  },
+  {
+    "id": "sport_011",
+    "domain": "sports",
+    "complexity": 3,
+    "prompt": "Wimbledon is played on",
+    "fact": "Grass courts",
+    "hallucination": "Clay courts"
+  },
+  {
+    "id": "sport_012",
+    "domain": "sports",
+    "complexity": 2,
+    "prompt": "A cricket team has",
+    "fact": "11 players",
+    "hallucination": "12 players"
+  },
+  {
+    "id": "sport_013",
+    "domain": "sports",
+    "complexity": 3,
+    "prompt": "The Masters Tournament is held in",
+    "fact": "Augusta",
+    "hallucination": "St. Andrews"
+  },
+  {
+    "id": "sport_014",
+    "domain": "sports",
+    "complexity": 2,
+    "prompt": "The NBA was founded in",
+    "fact": "1946",
+    "hallucination": "1950"
+  },
+  {
+    "id": "sport_015",
+    "domain": "sports",
+    "complexity": 3,
+    "prompt": "The most decorated Olympian of all time is",
+    "fact": "Michael Phelps",
+    "hallucination": "Carl Lewis"
+  },
+  {
+    "id": "sport_016",
+    "domain": "sports",
+    "complexity": 2,
+    "prompt": "In baseball, a perfect game requires",
+    "fact": "27 outs",
+    "hallucination": "30 outs"
+  },
+  {
+    "id": "sport_017",
+    "domain": "sports",
+    "complexity": 3,
+    "prompt": "The Stanley Cup is awarded in",
+    "fact": "Ice hockey",
+    "hallucination": "Field hockey"
+  },
+  {
+    "id": "sport_018",
+    "domain": "sports",
+    "complexity": 2,
+    "prompt": "Formula One races are held on",
+    "fact": "Circuits",
+    "hallucination": "Ovals"
+  },
+  {
+    "id": "sport_019",
+    "domain": "sports",
+    "complexity": 3,
+    "prompt": "The Ashes series is contested between England and",
+    "fact": "Australia",
+    "hallucination": "India"
+  },
+  {
+    "id": "sport_020",
+    "domain": "sports",
+    "complexity": 2,
+    "prompt": "A volleyball team has",
+    "fact": "Six players",
+    "hallucination": "Seven players"
+  },
+  {
+    "id": "myth_001",
+    "domain": "mythology",
+    "complexity": 2,
+    "prompt": "The king of the Greek gods is",
+    "fact": "Zeus",
+    "hallucination": "Poseidon"
+  },
+  {
+    "id": "myth_002",
+    "domain": "mythology",
+    "complexity": 2,
+    "prompt": "The Norse god of thunder is",
+    "fact": "Thor",
+    "hallucination": "Odin"
+  },
+  {
+    "id": "myth_003",
+    "domain": "mythology",
+    "complexity": 3,
+    "prompt": "The Egyptian god of the sun is",
+    "fact": "Ra",
+    "hallucination": "Horus"
+  },
+  {
+    "id": "myth_004",
+    "domain": "mythology",
+    "complexity": 2,
+    "prompt": "The Roman god of war is",
+    "fact": "Mars",
+    "hallucination": "Jupiter"
+  },
+  {
+    "id": "myth_005",
+    "domain": "mythology",
+    "complexity": 3,
+    "prompt": "The Greek goddess of wisdom is",
+    "fact": "Athena",
+    "hallucination": "Artemis"
+  },
+  {
+    "id": "myth_006",
+    "domain": "mythology",
+    "complexity": 2,
+    "prompt": "The hero who killed Medusa was",
+    "fact": "Perseus",
+    "hallucination": "Theseus"
+  },
+  {
+    "id": "myth_007",
+    "domain": "mythology",
+    "complexity": 3,
+    "prompt": "The Norse god Odin had",
+    "fact": "One eye",
+    "hallucination": "Two eyes"
+  },
+  {
+    "id": "myth_008",
+    "domain": "mythology",
+    "complexity": 2,
+    "prompt": "The Greek god of the sea is",
+    "fact": "Poseidon",
+    "hallucination": "Hades"
+  },
+  {
+    "id": "myth_009",
+    "domain": "mythology",
+    "complexity": 3,
+    "prompt": "The Egyptian god of the dead is",
+    "fact": "Anubis",
+    "hallucination": "Osiris"
+  },
+  {
+    "id": "myth_010",
+    "domain": "mythology",
+    "complexity": 2,
+    "prompt": "The Roman name for Zeus is",
+    "fact": "Jupiter",
+    "hallucination": "Neptune"
+  },
+  {
+    "id": "myth_011",
+    "domain": "mythology",
+    "complexity": 3,
+    "prompt": "The Greek hero who completed 12 labors was",
+    "fact": "Heracles",
+    "hallucination": "Achilles"
+  },
+  {
+    "id": "myth_012",
+    "domain": "mythology",
+    "complexity": 2,
+    "prompt": "The winged horse in Greek mythology is",
+    "fact": "Pegasus",
+    "hallucination": "Phoenix"
+  },
+  {
+    "id": "myth_013",
+    "domain": "mythology",
+    "complexity": 3,
+    "prompt": "The Norse tree of life is called",
+    "fact": "Yggdrasil",
+    "hallucination": "Bifrost"
+  },
+  {
+    "id": "myth_014",
+    "domain": "mythology",
+    "complexity": 2,
+    "prompt": "The Greek goddess of love is",
+    "fact": "Aphrodite",
+    "hallucination": "Hera"
+  },
+  {
+    "id": "myth_015",
+    "domain": "mythology",
+    "complexity": 3,
+    "prompt": "The Hindu god of destruction is",
+    "fact": "Shiva",
+    "hallucination": "Brahma"
+  },
+  {
+    "id": "myth_016",
+    "domain": "mythology",
+    "complexity": 2,
+    "prompt": "The Greek god of wine is",
+    "fact": "Dionysus",
+    "hallucination": "Apollo"
+  },
+  {
+    "id": "myth_017",
+    "domain": "mythology",
+    "complexity": 3,
+    "prompt": "The Japanese sun goddess is",
+    "fact": "Amaterasu",
+    "hallucination": "Tsukuyomi"
+  },
+  {
+    "id": "myth_018",
+    "domain": "mythology",
+    "complexity": 2,
+    "prompt": "The Roman goddess of wisdom is",
+    "fact": "Minerva",
+    "hallucination": "Juno"
+  },
+  {
+    "id": "myth_019",
+    "domain": "mythology",
+    "complexity": 3,
+    "prompt": "The Greek messenger god is",
+    "fact": "Hermes",
+    "hallucination": "Apollo"
+  },
+  {
+    "id": "myth_020",
+    "domain": "mythology",
+    "complexity": 2,
+    "prompt": "The Norse realm of the gods is",
+    "fact": "Asgard",
+    "hallucination": "Valhalla"
+  },
+  {
+    "id": "astro_001",
+    "domain": "astronomy",
+    "complexity": 2,
+    "prompt": "The largest planet in our solar system is",
+    "fact": "Jupiter",
+    "hallucination": "Saturn"
+  },
+  {
+    "id": "astro_002",
+    "domain": "astronomy",
+    "complexity": 2,
+    "prompt": "The closest planet to the Sun is",
+    "fact": "Mercury",
+    "hallucination": "Venus"
+  },
+  {
+    "id": "astro_003",
+    "domain": "astronomy",
+    "complexity": 2,
+    "prompt": "The Red Planet is",
+    "fact": "Mars",
+    "hallucination": "Venus"
+  },
+  {
+    "id": "astro_004",
+    "domain": "astronomy",
+    "complexity": 3,
+    "prompt": "The number of moons Jupiter has is approximately",
+    "fact": "95",
+    "hallucination": "67"
+  },
+  {
+    "id": "astro_005",
+    "domain": "astronomy",
+    "complexity": 2,
+    "prompt": "The planet with rings is",
+    "fact": "Saturn",
+    "hallucination": "Uranus"
+  },
+  {
+    "id": "astro_006",
+    "domain": "astronomy",
+    "complexity": 3,
+    "prompt": "The closest star to Earth is",
+    "fact": "Proxima Centauri",
+    "hallucination": "Alpha Centauri"
+  },
+  {
+    "id": "astro_007",
+    "domain": "astronomy",
+    "complexity": 2,
+    "prompt": "Earth's natural satellite is the",
+    "fact": "Moon",
+    "hallucination": "Sun"
+  },
+  {
+    "id": "astro_008",
+    "domain": "astronomy",
+    "complexity": 3,
+    "prompt": "The hottest planet in the solar system is",
+    "fact": "Venus",
+    "hallucination": "Mercury"
+  },
+  {
+    "id": "astro_009",
+    "domain": "astronomy",
+    "complexity": 2,
+    "prompt": "A year on Earth is approximately",
+    "fact": "365 days",
+    "hallucination": "360 days"
+  },
+  {
+    "id": "astro_010",
+    "domain": "astronomy",
+    "complexity": 3,
+    "prompt": "The coldest planet in the solar system is",
+    "fact": "Uranus",
+    "hallucination": "Neptune"
+  },
+  {
+    "id": "astro_011",
+    "domain": "astronomy",
+    "complexity": 2,
+    "prompt": "The center of our solar system is the",
+    "fact": "Sun",
+    "hallucination": "Earth"
+  },
+  {
+    "id": "astro_012",
+    "domain": "astronomy",
+    "complexity": 3,
+    "prompt": "The dwarf planet discovered in 1930 is",
+    "fact": "Pluto",
+    "hallucination": "Ceres"
+  },
+  {
+    "id": "astro_013",
+    "domain": "astronomy",
+    "complexity": 2,
+    "prompt": "The galaxy that contains our solar system is the",
+    "fact": "Milky Way",
+    "hallucination": "Andromeda"
+  },
+  {
+    "id": "astro_014",
+    "domain": "astronomy",
+    "complexity": 3,
+    "prompt": "The planet that rotates on its side is",
+    "fact": "Uranus",
+    "hallucination": "Neptune"
+  },
+  {
+    "id": "astro_015",
+    "domain": "astronomy",
+    "complexity": 2,
+    "prompt": "The first human to walk on the Moon was",
+    "fact": "Neil Armstrong",
+    "hallucination": "Buzz Aldrin"
+  },
+  {
+    "id": "astro_016",
+    "domain": "astronomy",
+    "complexity": 3,
+    "prompt": "The largest moon in the solar system is",
+    "fact": "Ganymede",
+    "hallucination": "Titan"
+  },
+  {
+    "id": "astro_017",
+    "domain": "astronomy",
+    "complexity": 2,
+    "prompt": "The planet known for its Great Red Spot is",
+    "fact": "Jupiter",
+    "hallucination": "Saturn"
+  },
+  {
+    "id": "astro_018",
+    "domain": "astronomy",
+    "complexity": 3,
+    "prompt": "The approximate age of the universe is",
+    "fact": "13.8 billion years",
+    "hallucination": "15 billion years"
+  },
+  {
+    "id": "astro_019",
+    "domain": "astronomy",
+    "complexity": 2,
+    "prompt": "A light-year measures",
+    "fact": "Distance",
+    "hallucination": "Time"
+  },
+  {
+    "id": "astro_020",
+    "domain": "astronomy",
+    "complexity": 3,
+    "prompt": "The Hubble Space Telescope was launched in",
+    "fact": "1990",
+    "hallucination": "1985"
+  },
+  {
+    "id": "music_001",
+    "domain": "music",
+    "complexity": 2,
+    "prompt": "The Beatles were from",
+    "fact": "Liverpool",
+    "hallucination": "London"
+  },
+  {
+    "id": "music_002",
+    "domain": "music",
+    "complexity": 2,
+    "prompt": "A standard piano has",
+    "fact": "88 keys",
+    "hallucination": "76 keys"
+  },
+  {
+    "id": "music_003",
+    "domain": "music",
+    "complexity": 3,
+    "prompt": "Bohemian Rhapsody was recorded by",
+    "fact": "Queen",
+    "hallucination": "Led Zeppelin"
+  },
+  {
+    "id": "music_004",
+    "domain": "music",
+    "complexity": 2,
+    "prompt": "The King of Pop is",
+    "fact": "Michael Jackson",
+    "hallucination": "Prince"
+  },
+  {
+    "id": "music_005",
+    "domain": "music",
+    "complexity": 3,
+    "prompt": "The highest male singing voice is",
+    "fact": "Countertenor",
+    "hallucination": "Tenor"
+  },
+  {
+    "id": "music_006",
+    "domain": "music",
+    "complexity": 2,
+    "prompt": "A symphony orchestra is conducted by a",
+    "fact": "Conductor",
+    "hallucination": "Composer"
+  },
+  {
+    "id": "music_007",
+    "domain": "music",
+    "complexity": 3,
+    "prompt": "The Moonlight Sonata was composed by",
+    "fact": "Ludwig van Beethoven",
+    "hallucination": "Wolfgang Amadeus Mozart"
+  },
+  {
+    "id": "music_008",
+    "domain": "music",
+    "complexity": 2,
+    "prompt": "A guitar typically has",
+    "fact": "Six strings",
+    "hallucination": "Seven strings"
+  },
+  {
+    "id": "music_009",
+    "domain": "music",
+    "complexity": 3,
+    "prompt": "The opera Carmen was composed by",
+    "fact": "Georges Bizet",
+    "hallucination": "Giuseppe Verdi"
+  },
+  {
+    "id": "music_010",
+    "domain": "music",
+    "complexity": 2,
+    "prompt": "Thriller was released by",
+    "fact": "Michael Jackson",
+    "hallucination": "Prince"
+  }
+]

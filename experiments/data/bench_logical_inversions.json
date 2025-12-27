@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "logic_001",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Between the sun and the moon, the larger body is",
+    "fact": "the sun",
+    "hallucination": "the moon"
+  },
+  {
+    "id": "logic_002",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "If you drop a glass on concrete, it is likely to",
+    "fact": "break",
+    "hallucination": "bounce"
+  },
+  {
+    "id": "logic_003",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Water at sea level freezes at temperatures",
+    "fact": "below 0°C",
+    "hallucination": "above 0°C"
+  },
+  {
+    "id": "logic_004",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "In a race, finishing first means you are",
+    "fact": "faster",
+    "hallucination": "slower"
+  },
+  {
+    "id": "logic_005",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "The Pacific Ocean is geographically located in the",
+    "fact": "Western Hemisphere",
+    "hallucination": "Atlantic basin"
+  },
+  {
+    "id": "logic_006",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "A triangle has",
+    "fact": "three sides",
+    "hallucination": "four sides"
+  },
+  {
+    "id": "logic_007",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Plants require sunlight to",
+    "fact": "photosynthesize",
+    "hallucination": "freeze"
+  },
+  {
+    "id": "logic_008",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In the food chain, predators are typically",
+    "fact": "above prey",
+    "hallucination": "below prey"
+  },
+  {
+    "id": "logic_009",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Gravity causes objects to fall",
+    "fact": "downward",
+    "hallucination": "upward"
+  },
+  {
+    "id": "logic_010",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Hot air is",
+    "fact": "less dense",
+    "hallucination": "more dense"
+  },
+  {
+    "id": "logic_011",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "The heart pumps blood",
+    "fact": "throughout the body",
+    "hallucination": "only to the brain"
+  },
+  {
+    "id": "logic_012",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Antarctica is located at the",
+    "fact": "South Pole",
+    "hallucination": "North Pole"
+  },
+  {
+    "id": "logic_013",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Sound travels",
+    "fact": "slower than light",
+    "hallucination": "faster than light"
+  },
+  {
+    "id": "logic_014",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "In mathematics, multiplication is the",
+    "fact": "inverse of division",
+    "hallucination": "inverse of subtraction"
+  },
+  {
+    "id": "logic_015",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Mammals are characterized by",
+    "fact": "giving live birth",
+    "hallucination": "laying eggs"
+  },
+  {
+    "id": "logic_016",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Fire requires oxygen to",
+    "fact": "burn",
+    "hallucination": "extinguish"
+  },
+  {
+    "id": "logic_017",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Earth orbits around the",
+    "fact": "sun",
+    "hallucination": "moon"
+  },
+  {
+    "id": "logic_018",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In biology, children inherit genes from their",
+    "fact": "parents",
+    "hallucination": "siblings"
+  },
+  {
+    "id": "logic_019",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Adding salt to water",
+    "fact": "raises the boiling point",
+    "hallucination": "lowers the boiling point"
+  },
+  {
+    "id": "logic_020",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "North is",
+    "fact": "opposite to south",
+    "hallucination": "opposite to west"
+  },
+  {
+    "id": "logic_021",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Carnivores primarily eat",
+    "fact": "meat",
+    "hallucination": "plants"
+  },
+  {
+    "id": "logic_022",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "The human brain is located in the",
+    "fact": "skull",
+    "hallucination": "chest cavity"
+  },
+  {
+    "id": "logic_023",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Ice is water in its",
+    "fact": "solid state",
+    "hallucination": "gaseous state"
+  },
+  {
+    "id": "logic_024",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Magnets attract",
+    "fact": "ferromagnetic materials",
+    "hallucination": "wooden objects"
+  },
+  {
+    "id": "logic_025",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Photosynthesis produces",
+    "fact": "oxygen",
+    "hallucination": "carbon dioxide"
+  },
+  {
+    "id": "logic_026",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Atlantic Ocean is located between Europe and",
+    "fact": "North America",
+    "hallucination": "Asia"
+  },
+  {
+    "id": "logic_027",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "A rectangle has",
+    "fact": "four right angles",
+    "hallucination": "three right angles"
+  },
+  {
+    "id": "logic_028",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Evaporation causes water to transition from",
+    "fact": "liquid to gas",
+    "hallucination": "gas to liquid"
+  },
+  {
+    "id": "logic_029",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "In a democracy, leaders are typically",
+    "fact": "elected",
+    "hallucination": "inherited"
+  },
+  {
+    "id": "logic_030",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Earthquakes are caused by movement in the Earth's",
+    "fact": "crust",
+    "hallucination": "atmosphere"
+  },
+  {
+    "id": "logic_031",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Herbivores consume",
+    "fact": "plants",
+    "hallucination": "meat"
+  },
+  {
+    "id": "logic_032",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Electricity flows more easily through",
+    "fact": "conductors",
+    "hallucination": "insulators"
+  },
+  {
+    "id": "logic_033",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "The season after summer is",
+    "fact": "autumn",
+    "hallucination": "spring"
+  },
+  {
+    "id": "logic_034",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Fish breathe through",
+    "fact": "gills",
+    "hallucination": "lungs"
+  },
+  {
+    "id": "logic_035",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In economics, when demand increases and supply is constant, prices typically",
+    "fact": "rise",
+    "hallucination": "fall"
+  },
+  {
+    "id": "logic_036",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The brain controls",
+    "fact": "voluntary movements",
+    "hallucination": "only reflexes"
+  },
+  {
+    "id": "logic_037",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Mirrors",
+    "fact": "reflect light",
+    "hallucination": "absorb light"
+  },
+  {
+    "id": "logic_038",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Antibiotics are effective against",
+    "fact": "bacteria",
+    "hallucination": "viruses"
+  },
+  {
+    "id": "logic_039",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Sahara Desert is characterized by",
+    "fact": "low rainfall",
+    "hallucination": "high rainfall"
+  },
+  {
+    "id": "logic_040",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Sunrise occurs in the",
+    "fact": "east",
+    "hallucination": "west"
+  },
+  {
+    "id": "logic_041",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "In chemistry, acids have a pH",
+    "fact": "below 7",
+    "hallucination": "above 7"
+  },
+  {
+    "id": "logic_042",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Vaccines work by",
+    "fact": "stimulating immunity",
+    "hallucination": "suppressing immunity"
+  },
+  {
+    "id": "logic_043",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "A pentagon has",
+    "fact": "five sides",
+    "hallucination": "six sides"
+  },
+  {
+    "id": "logic_044",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The human skeleton is located",
+    "fact": "inside the body",
+    "hallucination": "outside the body"
+  },
+  {
+    "id": "logic_045",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Greenhouse gases in the atmosphere",
+    "fact": "trap heat",
+    "hallucination": "reflect heat"
+  },
+  {
+    "id": "logic_046",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Birds are distinguished by having",
+    "fact": "feathers",
+    "hallucination": "scales"
+  },
+  {
+    "id": "logic_047",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Copper is a good",
+    "fact": "conductor",
+    "hallucination": "insulator"
+  },
+  {
+    "id": "logic_048",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In physics, mass and weight are",
+    "fact": "different properties",
+    "hallucination": "identical properties"
+  },
+  {
+    "id": "logic_049",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Roots anchor plants and absorb",
+    "fact": "water and nutrients",
+    "hallucination": "sunlight"
+  },
+  {
+    "id": "logic_050",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Winter days are generally",
+    "fact": "shorter",
+    "hallucination": "longer"
+  },
+  {
+    "id": "logic_051",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The ozone layer protects Earth from",
+    "fact": "UV radiation",
+    "hallucination": "visible light"
+  },
+  {
+    "id": "logic_052",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In human development, puberty occurs",
+    "fact": "before adulthood",
+    "hallucination": "after adulthood"
+  },
+  {
+    "id": "logic_053",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Diamonds are formed under conditions of high",
+    "fact": "pressure",
+    "hallucination": "humidity"
+  },
+  {
+    "id": "logic_054",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Amazon rainforest is located in",
+    "fact": "South America",
+    "hallucination": "Africa"
+  },
+  {
+    "id": "logic_055",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Prokaryotic cells",
+    "fact": "lack a nucleus",
+    "hallucination": "have a nucleus"
+  },
+  {
+    "id": "logic_056",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Deserts receive",
+    "fact": "minimal precipitation",
+    "hallucination": "heavy precipitation"
+  },
+  {
+    "id": "logic_057",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Metal expands when",
+    "fact": "heated",
+    "hallucination": "cooled"
+  },
+  {
+    "id": "logic_058",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "The mitochondria is the",
+    "fact": "powerhouse of the cell",
+    "hallucination": "genetic center"
+  },
+  {
+    "id": "logic_059",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Salt water has a",
+    "fact": "higher density",
+    "hallucination": "lower density"
+  },
+  {
+    "id": "logic_060",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Sunset occurs in the",
+    "fact": "west",
+    "hallucination": "east"
+  },
+  {
+    "id": "logic_061",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Aerobic respiration requires",
+    "fact": "oxygen",
+    "hallucination": "carbon dioxide"
+  },
+  {
+    "id": "logic_062",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Fossils are typically found in",
+    "fact": "sedimentary rock",
+    "hallucination": "igneous rock"
+  },
+  {
+    "id": "logic_063",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "A hexagon has",
+    "fact": "six sides",
+    "hallucination": "five sides"
+  },
+  {
+    "id": "logic_064",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Omnivores eat both",
+    "fact": "plants and meat",
+    "hallucination": "only plants"
+  },
+  {
+    "id": "logic_065",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Red blood cells transport",
+    "fact": "oxygen",
+    "hallucination": "waste products"
+  },
+  {
+    "id": "logic_066",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Himalayas are an example of",
+    "fact": "fold mountains",
+    "hallucination": "volcanic mountains"
+  },
+  {
+    "id": "logic_067",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Evaporation is",
+    "fact": "an endothermic process",
+    "hallucination": "an exothermic process"
+  },
+  {
+    "id": "logic_068",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "DNA replication occurs during",
+    "fact": "interphase",
+    "hallucination": "metaphase"
+  },
+  {
+    "id": "logic_069",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Great Barrier Reef is located off the coast of",
+    "fact": "Australia",
+    "hallucination": "Brazil"
+  },
+  {
+    "id": "logic_070",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Clouds are made of",
+    "fact": "water vapor",
+    "hallucination": "solid ice"
+  },
+  {
+    "id": "logic_071",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Producers in an ecosystem are typically",
+    "fact": "plants",
+    "hallucination": "carnivores"
+  },
+  {
+    "id": "logic_072",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In the water cycle, condensation occurs when water vapor",
+    "fact": "cools",
+    "hallucination": "heats"
+  },
+  {
+    "id": "logic_073",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "An octagon has",
+    "fact": "eight sides",
+    "hallucination": "seven sides"
+  },
+  {
+    "id": "logic_074",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The nervous system is responsible for",
+    "fact": "transmitting signals",
+    "hallucination": "pumping blood"
+  },
+  {
+    "id": "logic_075",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Tectonic plate convergence typically causes",
+    "fact": "mountain formation",
+    "hallucination": "ocean formation"
+  },
+  {
+    "id": "logic_076",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Arctic is located at the",
+    "fact": "North Pole",
+    "hallucination": "South Pole"
+  },
+  {
+    "id": "logic_077",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Rubber is a good",
+    "fact": "insulator",
+    "hallucination": "conductor"
+  },
+  {
+    "id": "logic_078",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In genetics, dominant alleles",
+    "fact": "mask recessive ones",
+    "hallucination": "are masked by recessive ones"
+  },
+  {
+    "id": "logic_079",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Chlorophyll gives plants their",
+    "fact": "green color",
+    "hallucination": "red color"
+  },
+  {
+    "id": "logic_080",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "The Nile River flows",
+    "fact": "north",
+    "hallucination": "south"
+  },
+  {
+    "id": "logic_081",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Amphibians typically begin life",
+    "fact": "in water",
+    "hallucination": "on land"
+  },
+  {
+    "id": "logic_082",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In the electromagnetic spectrum, gamma rays have",
+    "fact": "shorter wavelengths than radio waves",
+    "hallucination": "longer wavelengths than radio waves"
+  },
+  {
+    "id": "logic_083",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "A circle has",
+    "fact": "no corners",
+    "hallucination": "four corners"
+  },
+  {
+    "id": "logic_084",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The liver is located in the",
+    "fact": "abdomen",
+    "hallucination": "chest"
+  },
+  {
+    "id": "logic_085",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Entropy in a closed system tends to",
+    "fact": "increase",
+    "hallucination": "decrease"
+  },
+  {
+    "id": "logic_086",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Mediterranean Sea is bordered by Europe and",
+    "fact": "Africa",
+    "hallucination": "Asia exclusively"
+  },
+  {
+    "id": "logic_087",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Coal is a",
+    "fact": "fossil fuel",
+    "hallucination": "renewable resource"
+  },
+  {
+    "id": "logic_088",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Meiosis results in cells with",
+    "fact": "half the chromosomes",
+    "hallucination": "double the chromosomes"
+  },
+  {
+    "id": "logic_089",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Nocturnal animals are active during the",
+    "fact": "night",
+    "hallucination": "day"
+  },
+  {
+    "id": "logic_090",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Lightning is a form of",
+    "fact": "electricity",
+    "hallucination": "magnetism"
+  },
+  {
+    "id": "logic_091",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Arteries carry blood",
+    "fact": "away from the heart",
+    "hallucination": "toward the heart"
+  },
+  {
+    "id": "logic_092",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In the carbon cycle, decomposers",
+    "fact": "release carbon",
+    "hallucination": "absorb carbon"
+  },
+  {
+    "id": "logic_093",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Diamond is the",
+    "fact": "hardest natural material",
+    "hallucination": "softest natural material"
+  },
+  {
+    "id": "logic_094",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Andes Mountains are located in",
+    "fact": "South America",
+    "hallucination": "North America"
+  },
+  {
+    "id": "logic_095",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Atomic number determines the number of",
+    "fact": "protons",
+    "hallucination": "neutrons"
+  },
+  {
+    "id": "logic_096",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Rainforests are characterized by",
+    "fact": "high biodiversity",
+    "hallucination": "low biodiversity"
+  },
+  {
+    "id": "logic_097",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "A square has",
+    "fact": "equal sides",
+    "hallucination": "unequal sides"
+  },
+  {
+    "id": "logic_098",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "White light is composed of",
+    "fact": "multiple wavelengths",
+    "hallucination": "a single wavelength"
+  },
+  {
+    "id": "logic_099",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The epidermis is the",
+    "fact": "outer layer of skin",
+    "hallucination": "inner layer of skin"
+  },
+  {
+    "id": "logic_100",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Venus is",
+    "fact": "closer to the sun than Earth",
+    "hallucination": "farther from the sun than Earth"
+  },
+  {
+    "id": "logic_101",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Metamorphic rocks are formed by",
+    "fact": "heat and pressure",
+    "hallucination": "volcanic eruption"
+  },
+  {
+    "id": "logic_102",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In an ecosystem, energy flows",
+    "fact": "from producers to consumers",
+    "hallucination": "from consumers to producers"
+  },
+  {
+    "id": "logic_103",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "The equator divides Earth into",
+    "fact": "Northern and Southern hemispheres",
+    "hallucination": "Eastern and Western hemispheres"
+  },
+  {
+    "id": "logic_104",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Deciduous trees",
+    "fact": "lose their leaves",
+    "hallucination": "keep their leaves year-round"
+  },
+  {
+    "id": "logic_105",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Isotopes of an element have the same number of protons but different numbers of",
+    "fact": "neutrons",
+    "hallucination": "electrons"
+  },
+  {
+    "id": "logic_106",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The dermis is located",
+    "fact": "beneath the epidermis",
+    "hallucination": "above the epidermis"
+  },
+  {
+    "id": "logic_107",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Mercury is the planet",
+    "fact": "closest to the sun",
+    "hallucination": "farthest from the sun"
+  },
+  {
+    "id": "logic_108",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Exothermic reactions",
+    "fact": "release energy",
+    "hallucination": "absorb energy"
+  },
+  {
+    "id": "logic_109",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Alps are located in",
+    "fact": "Europe",
+    "hallucination": "Asia"
+  },
+  {
+    "id": "logic_110",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "An acute angle is",
+    "fact": "less than 90 degrees",
+    "hallucination": "more than 90 degrees"
+  },
+  {
+    "id": "logic_111",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Veins carry blood that is",
+    "fact": "returning to the heart",
+    "hallucination": "leaving the heart"
+  },
+  {
+    "id": "logic_112",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In photosynthesis, carbon dioxide is",
+    "fact": "consumed",
+    "hallucination": "produced"
+  },
+  {
+    "id": "logic_113",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Nocturnal means active at",
+    "fact": "night",
+    "hallucination": "dawn"
+  },
+  {
+    "id": "logic_114",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Rocky Mountains are in",
+    "fact": "North America",
+    "hallucination": "South America"
+  },
+  {
+    "id": "logic_115",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Newton's first law states that objects at rest tend to",
+    "fact": "stay at rest",
+    "hallucination": "start moving"
+  },
+  {
+    "id": "logic_116",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Coniferous trees typically have",
+    "fact": "needles",
+    "hallucination": "broad leaves"
+  },
+  {
+    "id": "logic_117",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "An obtuse angle is",
+    "fact": "greater than 90 degrees",
+    "hallucination": "less than 90 degrees"
+  },
+  {
+    "id": "logic_118",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Catabolic reactions",
+    "fact": "break down molecules",
+    "hallucination": "build up molecules"
+  },
+  {
+    "id": "logic_119",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Ganges River flows through",
+    "fact": "India",
+    "hallucination": "China"
+  },
+  {
+    "id": "logic_120",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "A prism",
+    "fact": "refracts light",
+    "hallucination": "absorbs light"
+  },
+  {
+    "id": "logic_121",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The small intestine is primarily responsible for",
+    "fact": "nutrient absorption",
+    "hallucination": "waste storage"
+  },
+  {
+    "id": "logic_122",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In natural selection, beneficial traits become",
+    "fact": "more common",
+    "hallucination": "less common"
+  },
+  {
+    "id": "logic_123",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Stalactites grow",
+    "fact": "downward",
+    "hallucination": "upward"
+  },
+  {
+    "id": "logic_124",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Great Lakes are located in",
+    "fact": "North America",
+    "hallucination": "Europe"
+  },
+  {
+    "id": "logic_125",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Mitosis produces cells that are",
+    "fact": "genetically identical",
+    "hallucination": "genetically unique"
+  },
+  {
+    "id": "logic_126",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Bacteria reproduce through",
+    "fact": "binary fission",
+    "hallucination": "meiosis"
+  },
+  {
+    "id": "logic_127",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Stalactites hang from cave",
+    "fact": "ceilings",
+    "hallucination": "floors"
+  },
+  {
+    "id": "logic_128",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Capillaries connect",
+    "fact": "arteries to veins",
+    "hallucination": "veins to the heart"
+  },
+  {
+    "id": "logic_129",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Tigris River flows through",
+    "fact": "Iraq",
+    "hallucination": "Egypt"
+  },
+  {
+    "id": "logic_130",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Sublimation is the transition from",
+    "fact": "solid to gas",
+    "hallucination": "liquid to gas"
+  },
+  {
+    "id": "logic_131",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The tundra has",
+    "fact": "permafrost",
+    "hallucination": "tropical vegetation"
+  },
+  {
+    "id": "logic_132",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Noble gases are characterized by being",
+    "fact": "chemically inert",
+    "hallucination": "highly reactive"
+  },
+  {
+    "id": "logic_133",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Stalagmites grow",
+    "fact": "upward",
+    "hallucination": "downward"
+  },
+  {
+    "id": "logic_134",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The large intestine is primarily responsible for",
+    "fact": "water absorption",
+    "hallucination": "protein digestion"
+  },
+  {
+    "id": "logic_135",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Endothermic reactions",
+    "fact": "absorb energy",
+    "hallucination": "release energy"
+  },
+  {
+    "id": "logic_136",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Euphrates River flows through",
+    "fact": "Syria",
+    "hallucination": "India"
+  },
+  {
+    "id": "logic_137",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "A right angle measures",
+    "fact": "90 degrees",
+    "hallucination": "180 degrees"
+  },
+  {
+    "id": "logic_138",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Anabolic reactions",
+    "fact": "build up molecules",
+    "hallucination": "break down molecules"
+  },
+  {
+    "id": "logic_139",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Atacama Desert is located in",
+    "fact": "South America",
+    "hallucination": "Africa"
+  },
+  {
+    "id": "logic_140",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Condensation is the transition from",
+    "fact": "gas to liquid",
+    "hallucination": "liquid to solid"
+  },
+  {
+    "id": "logic_141",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Fungi obtain nutrients by",
+    "fact": "decomposition",
+    "hallucination": "photosynthesis"
+  },
+  {
+    "id": "logic_142",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In cells, ATP stores energy in",
+    "fact": "chemical bonds",
+    "hallucination": "magnetic fields"
+  },
+  {
+    "id": "logic_143",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "The Prime Meridian divides Earth into",
+    "fact": "Eastern and Western hemispheres",
+    "hallucination": "Northern and Southern hemispheres"
+  },
+  {
+    "id": "logic_144",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Parasites benefit",
+    "fact": "at the host's expense",
+    "hallucination": "both organisms equally"
+  },
+  {
+    "id": "logic_145",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In optics, convex lenses",
+    "fact": "converge light",
+    "hallucination": "diverge light"
+  },
+  {
+    "id": "logic_146",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Congo River is in",
+    "fact": "Africa",
+    "hallucination": "South America"
+  },
+  {
+    "id": "logic_147",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Deposition is the transition from",
+    "fact": "gas to solid",
+    "hallucination": "solid to liquid"
+  },
+  {
+    "id": "logic_148",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Eukaryotic cells",
+    "fact": "have a nucleus",
+    "hallucination": "lack a nucleus"
+  },
+  {
+    "id": "logic_149",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Gobi Desert is located in",
+    "fact": "Asia",
+    "hallucination": "Africa"
+  },
+  {
+    "id": "logic_150",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "A straight angle measures",
+    "fact": "180 degrees",
+    "hallucination": "90 degrees"
+  },
+  {
+    "id": "logic_151",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The pancreas produces",
+    "fact": "insulin",
+    "hallucination": "adrenaline"
+  },
+  {
+    "id": "logic_152",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Concave lenses",
+    "fact": "diverge light",
+    "hallucination": "converge light"
+  },
+  {
+    "id": "logic_153",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Freezing is the transition from",
+    "fact": "liquid to solid",
+    "hallucination": "gas to liquid"
+  },
+  {
+    "id": "logic_154",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Yangtze River flows through",
+    "fact": "China",
+    "hallucination": "India"
+  },
+  {
+    "id": "logic_155",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "During cellular respiration, glucose is",
+    "fact": "broken down",
+    "hallucination": "synthesized"
+  },
+  {
+    "id": "logic_156",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Symbiotic relationships can be",
+    "fact": "mutually beneficial",
+    "hallucination": "always parasitic"
+  },
+  {
+    "id": "logic_157",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Melting is the transition from",
+    "fact": "solid to liquid",
+    "hallucination": "liquid to gas"
+  },
+  {
+    "id": "logic_158",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Aerobic organisms require",
+    "fact": "oxygen",
+    "hallucination": "anaerobic conditions"
+  },
+  {
+    "id": "logic_159",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Mississippi River flows into the",
+    "fact": "Gulf of Mexico",
+    "hallucination": "Atlantic Ocean"
+  },
+  {
+    "id": "logic_160",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "A reflex angle measures",
+    "fact": "more than 180 degrees",
+    "hallucination": "less than 90 degrees"
+  },
+  {
+    "id": "logic_161",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The thyroid gland produces hormones that regulate",
+    "fact": "metabolism",
+    "hallucination": "blood sugar"
+  },
+  {
+    "id": "logic_162",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In chemistry, oxidation involves",
+    "fact": "loss of electrons",
+    "hallucination": "gain of electrons"
+  },
+  {
+    "id": "logic_163",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Vaporization is the transition from",
+    "fact": "liquid to gas",
+    "hallucination": "solid to gas"
+  },
+  {
+    "id": "logic_164",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Mekong River flows through",
+    "fact": "Southeast Asia",
+    "hallucination": "South Asia"
+  },
+  {
+    "id": "logic_165",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Reduction in chemistry involves",
+    "fact": "gain of electrons",
+    "hallucination": "loss of electrons"
+  },
+  {
+    "id": "logic_166",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The adrenal glands produce",
+    "fact": "adrenaline",
+    "hallucination": "insulin"
+  },
+  {
+    "id": "logic_167",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Precipitation in meteorology refers to water falling",
+    "fact": "from clouds",
+    "hallucination": "into clouds"
+  },
+  {
+    "id": "logic_168",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "DNA is composed of",
+    "fact": "nucleotides",
+    "hallucination": "amino acids"
+  },
+  {
+    "id": "logic_169",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Danube River flows through",
+    "fact": "Europe",
+    "hallucination": "Asia"
+  },
+  {
+    "id": "logic_170",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Transpiration in plants involves the loss of",
+    "fact": "water vapor",
+    "hallucination": "carbon dioxide"
+  },
+  {
+    "id": "logic_171",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Commensalism is a relationship where one organism benefits and the other is",
+    "fact": "unaffected",
+    "hallucination": "harmed"
+  },
+  {
+    "id": "logic_172",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Proteins are synthesized from",
+    "fact": "amino acids",
+    "hallucination": "nucleotides"
+  },
+  {
+    "id": "logic_173",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Igneous rocks are formed from",
+    "fact": "cooled magma",
+    "hallucination": "compressed sediment"
+  },
+  {
+    "id": "logic_174",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Volga River flows through",
+    "fact": "Russia",
+    "hallucination": "China"
+  },
+  {
+    "id": "logic_175",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In the nitrogen cycle, nitrogen fixation converts atmospheric nitrogen into",
+    "fact": "ammonia",
+    "hallucination": "oxygen"
+  },
+  {
+    "id": "logic_176",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The pituitary gland is located in the",
+    "fact": "brain",
+    "hallucination": "chest"
+  },
+  {
+    "id": "logic_177",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Sedimentary rocks are formed by",
+    "fact": "compaction of sediments",
+    "hallucination": "volcanic activity"
+  },
+  {
+    "id": "logic_178",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Passive transport across cell membranes",
+    "fact": "requires no energy",
+    "hallucination": "requires ATP"
+  },
+  {
+    "id": "logic_179",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Rhine River flows through",
+    "fact": "Western Europe",
+    "hallucination": "Eastern Europe"
+  },
+  {
+    "id": "logic_180",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Ionization is the process of",
+    "fact": "gaining or losing electrons",
+    "hallucination": "gaining protons"
+  },
+  {
+    "id": "logic_181",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "Mutualism is a symbiotic relationship where",
+    "fact": "both organisms benefit",
+    "hallucination": "one organism is harmed"
+  },
+  {
+    "id": "logic_182",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Active transport across cell membranes",
+    "fact": "requires energy",
+    "hallucination": "requires no energy"
+  },
+  {
+    "id": "logic_183",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Kinetic energy is the energy of",
+    "fact": "motion",
+    "hallucination": "position"
+  },
+  {
+    "id": "logic_184",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Indus River flows through",
+    "fact": "Pakistan",
+    "hallucination": "Bangladesh"
+  },
+  {
+    "id": "logic_185",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "In osmosis, water moves from areas of",
+    "fact": "low to high solute concentration",
+    "hallucination": "high to low solute concentration"
+  },
+  {
+    "id": "logic_186",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The spleen is part of the",
+    "fact": "lymphatic system",
+    "hallucination": "digestive system"
+  },
+  {
+    "id": "logic_187",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Potential energy is the energy of",
+    "fact": "position",
+    "hallucination": "motion"
+  },
+  {
+    "id": "logic_188",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Fermentation occurs in the",
+    "fact": "absence of oxygen",
+    "hallucination": "presence of oxygen"
+  },
+  {
+    "id": "logic_189",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Colorado River flows through",
+    "fact": "the southwestern United States",
+    "hallucination": "the northeastern United States"
+  },
+  {
+    "id": "logic_190",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "A catalyst",
+    "fact": "speeds up reactions",
+    "hallucination": "slows down reactions"
+  },
+  {
+    "id": "logic_191",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The gallbladder stores",
+    "fact": "bile",
+    "hallucination": "insulin"
+  },
+  {
+    "id": "logic_192",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Chromosomes are composed of",
+    "fact": "DNA and proteins",
+    "hallucination": "RNA only"
+  },
+  {
+    "id": "logic_193",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "A lever amplifies",
+    "fact": "force",
+    "hallucination": "temperature"
+  },
+  {
+    "id": "logic_194",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Brahmaputra River flows through",
+    "fact": "South Asia",
+    "hallucination": "Southeast Asia"
+  },
+  {
+    "id": "logic_195",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Haploid cells contain",
+    "fact": "one set of chromosomes",
+    "hallucination": "two sets of chromosomes"
+  },
+  {
+    "id": "logic_196",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The appendix is attached to the",
+    "fact": "large intestine",
+    "hallucination": "small intestine"
+  },
+  {
+    "id": "logic_197",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "A pulley changes the",
+    "fact": "direction of force",
+    "hallucination": "mass of objects"
+  },
+  {
+    "id": "logic_198",
+    "domain": "logical",
+    "complexity": 6,
+    "prompt": "Diploid cells contain",
+    "fact": "two sets of chromosomes",
+    "hallucination": "one set of chromosomes"
+  },
+  {
+    "id": "logic_199",
+    "domain": "logical",
+    "complexity": 5,
+    "prompt": "The Zambezi River flows through",
+    "fact": "Southern Africa",
+    "hallucination": "Northern Africa"
+  },
+  {
+    "id": "logic_200",
+    "domain": "logical",
+    "complexity": 4,
+    "prompt": "Friction",
+    "fact": "opposes motion",
+    "hallucination": "accelerates motion"
+  }
+]

@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "temp_001",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The year the Titanic sank was",
+    "fact": "1912",
+    "hallucination": "1905"
+  },
+  {
+    "id": "temp_002",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "World War II ended in",
+    "fact": "1945",
+    "hallucination": "1947"
+  },
+  {
+    "id": "temp_003",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "Water boils at",
+    "fact": "100 degrees Celsius",
+    "hallucination": "90 degrees Celsius"
+  },
+  {
+    "id": "temp_004",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A spider has",
+    "fact": "8 legs",
+    "hallucination": "6 legs"
+  },
+  {
+    "id": "temp_005",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Einstein was born in",
+    "fact": "1879",
+    "hallucination": "1905"
+  },
+  {
+    "id": "temp_006",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The American Civil War began in",
+    "fact": "1861",
+    "hallucination": "1865"
+  },
+  {
+    "id": "temp_007",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The French Revolution started in",
+    "fact": "1789",
+    "hallucination": "1793"
+  },
+  {
+    "id": "temp_008",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The speed of light is approximately",
+    "fact": "299,792 km/s",
+    "hallucination": "300,000 km/s"
+  },
+  {
+    "id": "temp_009",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "An octopus has",
+    "fact": "8 arms",
+    "hallucination": "6 arms"
+  },
+  {
+    "id": "temp_010",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Declaration of Independence was signed in",
+    "fact": "1776",
+    "hallucination": "1774"
+  },
+  {
+    "id": "temp_011",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Shakespeare died in",
+    "fact": "1616",
+    "hallucination": "1620"
+  },
+  {
+    "id": "temp_012",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "Water freezes at",
+    "fact": "0 degrees Celsius",
+    "hallucination": "5 degrees Celsius"
+  },
+  {
+    "id": "temp_013",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A typical human has",
+    "fact": "206 bones",
+    "hallucination": "208 bones"
+  },
+  {
+    "id": "temp_014",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Berlin Wall fell in",
+    "fact": "1989",
+    "hallucination": "1991"
+  },
+  {
+    "id": "temp_015",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Christopher Columbus reached the Americas in",
+    "fact": "1492",
+    "hallucination": "1490"
+  },
+  {
+    "id": "temp_016",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The human body temperature is approximately",
+    "fact": "37 degrees Celsius",
+    "hallucination": "36 degrees Celsius"
+  },
+  {
+    "id": "temp_017",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Moon landing occurred in",
+    "fact": "1969",
+    "hallucination": "1968"
+  },
+  {
+    "id": "temp_018",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard deck of cards contains",
+    "fact": "52 cards",
+    "hallucination": "54 cards"
+  },
+  {
+    "id": "temp_019",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Napoleon was defeated at Waterloo in",
+    "fact": "1815",
+    "hallucination": "1812"
+  },
+  {
+    "id": "temp_020",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "Earth's atmosphere is approximately",
+    "fact": "78% nitrogen",
+    "hallucination": "80% nitrogen"
+  },
+  {
+    "id": "temp_021",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The first iPhone was released in",
+    "fact": "2007",
+    "hallucination": "2006"
+  },
+  {
+    "id": "temp_022",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard piano has",
+    "fact": "88 keys",
+    "hallucination": "85 keys"
+  },
+  {
+    "id": "temp_023",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Roman Empire fell in",
+    "fact": "476 AD",
+    "hallucination": "480 AD"
+  },
+  {
+    "id": "temp_024",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "The Earth orbits the Sun in approximately",
+    "fact": "365 days",
+    "hallucination": "360 days"
+  },
+  {
+    "id": "temp_025",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Chernobyl disaster occurred in",
+    "fact": "1986",
+    "hallucination": "1984"
+  },
+  {
+    "id": "temp_026",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A triangle has",
+    "fact": "3 sides",
+    "hallucination": "4 sides"
+  },
+  {
+    "id": "temp_027",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Mozart was born in",
+    "fact": "1756",
+    "hallucination": "1760"
+  },
+  {
+    "id": "temp_028",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "Absolute zero is",
+    "fact": "-273.15 degrees Celsius",
+    "hallucination": "-270 degrees Celsius"
+  },
+  {
+    "id": "temp_029",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Great Depression began in",
+    "fact": "1929",
+    "hallucination": "1930"
+  },
+  {
+    "id": "temp_030",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A hexagon has",
+    "fact": "6 sides",
+    "hallucination": "5 sides"
+  },
+  {
+    "id": "temp_031",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Leonardo da Vinci died in",
+    "fact": "1519",
+    "hallucination": "1522"
+  },
+  {
+    "id": "temp_032",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of carbon is",
+    "fact": "6",
+    "hallucination": "8"
+  },
+  {
+    "id": "temp_033",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Soviet Union dissolved in",
+    "fact": "1991",
+    "hallucination": "1989"
+  },
+  {
+    "id": "temp_034",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A human pregnancy typically lasts",
+    "fact": "9 months",
+    "hallucination": "10 months"
+  },
+  {
+    "id": "temp_035",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The printing press was invented around",
+    "fact": "1440",
+    "hallucination": "1450"
+  },
+  {
+    "id": "temp_036",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "A right angle measures",
+    "fact": "90 degrees",
+    "hallucination": "85 degrees"
+  },
+  {
+    "id": "temp_037",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The attack on Pearl Harbor happened in",
+    "fact": "1941",
+    "hallucination": "1942"
+  },
+  {
+    "id": "temp_038",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A pentagon has",
+    "fact": "5 sides",
+    "hallucination": "6 sides"
+  },
+  {
+    "id": "temp_039",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Magna Carta was signed in",
+    "fact": "1215",
+    "hallucination": "1220"
+  },
+  {
+    "id": "temp_040",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The Moon is approximately",
+    "fact": "384,400 km",
+    "hallucination": "400,000 km"
+  },
+  {
+    "id": "temp_041",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Euro was introduced in",
+    "fact": "1999",
+    "hallucination": "2000"
+  },
+  {
+    "id": "temp_042",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "An adult human has",
+    "fact": "32 teeth",
+    "hallucination": "30 teeth"
+  },
+  {
+    "id": "temp_043",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Black Death peaked in Europe around",
+    "fact": "1347",
+    "hallucination": "1350"
+  },
+  {
+    "id": "temp_044",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "Pi is approximately",
+    "fact": "3.14159",
+    "hallucination": "3.15"
+  },
+  {
+    "id": "temp_045",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "Nelson Mandela was released from prison in",
+    "fact": "1990",
+    "hallucination": "1989"
+  },
+  {
+    "id": "temp_046",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A week has",
+    "fact": "7 days",
+    "hallucination": "6 days"
+  },
+  {
+    "id": "temp_047",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Ottoman Empire was founded in",
+    "fact": "1299",
+    "hallucination": "1310"
+  },
+  {
+    "id": "temp_048",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "Sound travels at approximately",
+    "fact": "343 m/s",
+    "hallucination": "350 m/s"
+  },
+  {
+    "id": "temp_049",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Wright brothers' first flight was in",
+    "fact": "1903",
+    "hallucination": "1905"
+  },
+  {
+    "id": "temp_050",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard year has",
+    "fact": "365 days",
+    "hallucination": "366 days"
+  },
+  {
+    "id": "temp_051",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Spanish Inquisition began in",
+    "fact": "1478",
+    "hallucination": "1480"
+  },
+  {
+    "id": "temp_052",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of oxygen is",
+    "fact": "8",
+    "hallucination": "6"
+  },
+  {
+    "id": "temp_053",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Cuban Missile Crisis occurred in",
+    "fact": "1962",
+    "hallucination": "1963"
+  },
+  {
+    "id": "temp_054",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A dozen equals",
+    "fact": "12",
+    "hallucination": "10"
+  },
+  {
+    "id": "temp_055",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Beethoven died in",
+    "fact": "1827",
+    "hallucination": "1830"
+  },
+  {
+    "id": "temp_056",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "Mercury orbits the Sun in approximately",
+    "fact": "88 days",
+    "hallucination": "90 days"
+  },
+  {
+    "id": "temp_057",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Korean War began in",
+    "fact": "1950",
+    "hallucination": "1951"
+  },
+  {
+    "id": "temp_058",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard baseball team has",
+    "fact": "9 players",
+    "hallucination": "10 players"
+  },
+  {
+    "id": "temp_059",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Magellan began his circumnavigation in",
+    "fact": "1519",
+    "hallucination": "1522"
+  },
+  {
+    "id": "temp_060",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The Earth's diameter is approximately",
+    "fact": "12,742 km",
+    "hallucination": "13,000 km"
+  },
+  {
+    "id": "temp_061",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Vietnam War ended in",
+    "fact": "1975",
+    "hallucination": "1973"
+  },
+  {
+    "id": "temp_062",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A soccer team has",
+    "fact": "11 players",
+    "hallucination": "10 players"
+  },
+  {
+    "id": "temp_063",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Isaac Newton was born in",
+    "fact": "1642",
+    "hallucination": "1645"
+  },
+  {
+    "id": "temp_064",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "A circle has",
+    "fact": "360 degrees",
+    "hallucination": "365 degrees"
+  },
+  {
+    "id": "temp_065",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Suez Canal opened in",
+    "fact": "1869",
+    "hallucination": "1870"
+  },
+  {
+    "id": "temp_066",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "An octagon has",
+    "fact": "8 sides",
+    "hallucination": "7 sides"
+  },
+  {
+    "id": "temp_067",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Charles Darwin published On the Origin of Species in",
+    "fact": "1859",
+    "hallucination": "1860"
+  },
+  {
+    "id": "temp_068",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of hydrogen is",
+    "fact": "1",
+    "hallucination": "2"
+  },
+  {
+    "id": "temp_069",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Panama Canal opened in",
+    "fact": "1914",
+    "hallucination": "1915"
+  },
+  {
+    "id": "temp_070",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A century has",
+    "fact": "100 years",
+    "hallucination": "99 years"
+  },
+  {
+    "id": "temp_071",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Galileo was born in",
+    "fact": "1564",
+    "hallucination": "1568"
+  },
+  {
+    "id": "temp_072",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "Mars orbits the Sun in approximately",
+    "fact": "687 days",
+    "hallucination": "700 days"
+  },
+  {
+    "id": "temp_073",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Statue of Liberty was dedicated in",
+    "fact": "1886",
+    "hallucination": "1888"
+  },
+  {
+    "id": "temp_074",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A basketball team has",
+    "fact": "5 players",
+    "hallucination": "6 players"
+  },
+  {
+    "id": "temp_075",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Battle of Hastings was fought in",
+    "fact": "1066",
+    "hallucination": "1070"
+  },
+  {
+    "id": "temp_076",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of nitrogen is",
+    "fact": "7",
+    "hallucination": "8"
+  },
+  {
+    "id": "temp_077",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The first World Cup was held in",
+    "fact": "1930",
+    "hallucination": "1932"
+  },
+  {
+    "id": "temp_078",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A millennium has",
+    "fact": "1000 years",
+    "hallucination": "999 years"
+  },
+  {
+    "id": "temp_079",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Michelangelo died in",
+    "fact": "1564",
+    "hallucination": "1567"
+  },
+  {
+    "id": "temp_080",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "Venus orbits the Sun in approximately",
+    "fact": "225 days",
+    "hallucination": "230 days"
+  },
+  {
+    "id": "temp_081",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Bolshevik Revolution occurred in",
+    "fact": "1917",
+    "hallucination": "1918"
+  },
+  {
+    "id": "temp_082",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A volleyball team has",
+    "fact": "6 players",
+    "hallucination": "7 players"
+  },
+  {
+    "id": "temp_083",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Johannes Gutenberg was born around",
+    "fact": "1400",
+    "hallucination": "1410"
+  },
+  {
+    "id": "temp_084",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The speed of sound in air at sea level is approximately",
+    "fact": "1,235 km/h",
+    "hallucination": "1,300 km/h"
+  },
+  {
+    "id": "temp_085",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The first modern Olympic Games were held in",
+    "fact": "1896",
+    "hallucination": "1900"
+  },
+  {
+    "id": "temp_086",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A leap year has",
+    "fact": "366 days",
+    "hallucination": "365 days"
+  },
+  {
+    "id": "temp_087",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Marco Polo was born in",
+    "fact": "1254",
+    "hallucination": "1260"
+  },
+  {
+    "id": "temp_088",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "The boiling point of water at sea level is",
+    "fact": "100 degrees Celsius",
+    "hallucination": "95 degrees Celsius"
+  },
+  {
+    "id": "temp_089",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The transistor was invented in",
+    "fact": "1947",
+    "hallucination": "1945"
+  },
+  {
+    "id": "temp_090",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A rugby union team has",
+    "fact": "15 players",
+    "hallucination": "13 players"
+  },
+  {
+    "id": "temp_091",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Spanish Armada sailed in",
+    "fact": "1588",
+    "hallucination": "1590"
+  },
+  {
+    "id": "temp_092",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic mass of carbon is approximately",
+    "fact": "12",
+    "hallucination": "14"
+  },
+  {
+    "id": "temp_093",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Eiffel Tower was completed in",
+    "fact": "1889",
+    "hallucination": "1890"
+  },
+  {
+    "id": "temp_094",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard bicycle has",
+    "fact": "2 wheels",
+    "hallucination": "3 wheels"
+  },
+  {
+    "id": "temp_095",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Cleopatra died in",
+    "fact": "30 BC",
+    "hallucination": "35 BC"
+  },
+  {
+    "id": "temp_096",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "The Moon orbits Earth in approximately",
+    "fact": "27.3 days",
+    "hallucination": "30 days"
+  },
+  {
+    "id": "temp_097",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Watergate scandal occurred in",
+    "fact": "1972",
+    "hallucination": "1974"
+  },
+  {
+    "id": "temp_098",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A quartet has",
+    "fact": "4 members",
+    "hallucination": "5 members"
+  },
+  {
+    "id": "temp_099",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Joan of Arc was executed in",
+    "fact": "1431",
+    "hallucination": "1435"
+  },
+  {
+    "id": "temp_100",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of iron is",
+    "fact": "26",
+    "hallucination": "28"
+  },
+  {
+    "id": "temp_101",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The stock market crash of Black Tuesday occurred in",
+    "fact": "1929",
+    "hallucination": "1930"
+  },
+  {
+    "id": "temp_102",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A tricycle has",
+    "fact": "3 wheels",
+    "hallucination": "2 wheels"
+  },
+  {
+    "id": "temp_103",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Hundred Years' War began in",
+    "fact": "1337",
+    "hallucination": "1340"
+  },
+  {
+    "id": "temp_104",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "Jupiter orbits the Sun in approximately",
+    "fact": "12 years",
+    "hallucination": "10 years"
+  },
+  {
+    "id": "temp_105",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Russian Revolution of 1905 occurred in",
+    "fact": "1905",
+    "hallucination": "1904"
+  },
+  {
+    "id": "temp_106",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A quintuplet consists of",
+    "fact": "5 siblings",
+    "hallucination": "4 siblings"
+  },
+  {
+    "id": "temp_107",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Alexander the Great died in",
+    "fact": "323 BC",
+    "hallucination": "320 BC"
+  },
+  {
+    "id": "temp_108",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of sodium is",
+    "fact": "11",
+    "hallucination": "12"
+  },
+  {
+    "id": "temp_109",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Bay of Pigs invasion occurred in",
+    "fact": "1961",
+    "hallucination": "1962"
+  },
+  {
+    "id": "temp_110",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A score equals",
+    "fact": "20",
+    "hallucination": "25"
+  },
+  {
+    "id": "temp_111",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Byzantine Empire fell in",
+    "fact": "1453",
+    "hallucination": "1450"
+  },
+  {
+    "id": "temp_112",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "Saturn orbits the Sun in approximately",
+    "fact": "29 years",
+    "hallucination": "30 years"
+  },
+  {
+    "id": "temp_113",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Russo-Japanese War began in",
+    "fact": "1904",
+    "hallucination": "1905"
+  },
+  {
+    "id": "temp_114",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A baker's dozen equals",
+    "fact": "13",
+    "hallucination": "12"
+  },
+  {
+    "id": "temp_115",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Charlemagne was crowned Holy Roman Emperor in",
+    "fact": "800 AD",
+    "hallucination": "805 AD"
+  },
+  {
+    "id": "temp_116",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of calcium is",
+    "fact": "20",
+    "hallucination": "22"
+  },
+  {
+    "id": "temp_117",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Six-Day War occurred in",
+    "fact": "1967",
+    "hallucination": "1968"
+  },
+  {
+    "id": "temp_118",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A gross equals",
+    "fact": "144",
+    "hallucination": "140"
+  },
+  {
+    "id": "temp_119",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Julius Caesar was assassinated in",
+    "fact": "44 BC",
+    "hallucination": "45 BC"
+  },
+  {
+    "id": "temp_120",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "Uranus orbits the Sun in approximately",
+    "fact": "84 years",
+    "hallucination": "80 years"
+  },
+  {
+    "id": "temp_121",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Falklands War occurred in",
+    "fact": "1982",
+    "hallucination": "1983"
+  },
+  {
+    "id": "temp_122",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A handball team has",
+    "fact": "7 players",
+    "hallucination": "8 players"
+  },
+  {
+    "id": "temp_123",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Constantine converted to Christianity around",
+    "fact": "312 AD",
+    "hallucination": "315 AD"
+  },
+  {
+    "id": "temp_124",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of gold is",
+    "fact": "79",
+    "hallucination": "80"
+  },
+  {
+    "id": "temp_125",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Iran hostage crisis began in",
+    "fact": "1979",
+    "hallucination": "1980"
+  },
+  {
+    "id": "temp_126",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A water polo team has",
+    "fact": "7 players",
+    "hallucination": "6 players"
+  },
+  {
+    "id": "temp_127",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The First Crusade began in",
+    "fact": "1096",
+    "hallucination": "1100"
+  },
+  {
+    "id": "temp_128",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "Neptune orbits the Sun in approximately",
+    "fact": "165 years",
+    "hallucination": "160 years"
+  },
+  {
+    "id": "temp_129",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Gulf War began in",
+    "fact": "1990",
+    "hallucination": "1991"
+  },
+  {
+    "id": "temp_130",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "An ice hockey team has",
+    "fact": "6 players",
+    "hallucination": "5 players"
+  },
+  {
+    "id": "temp_131",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Treaty of Versailles was signed in",
+    "fact": "1919",
+    "hallucination": "1918"
+  },
+  {
+    "id": "temp_132",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of silver is",
+    "fact": "47",
+    "hallucination": "48"
+  },
+  {
+    "id": "temp_133",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Tet Offensive occurred in",
+    "fact": "1968",
+    "hallucination": "1969"
+  },
+  {
+    "id": "temp_134",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A field hockey team has",
+    "fact": "11 players",
+    "hallucination": "10 players"
+  },
+  {
+    "id": "temp_135",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Henry VIII died in",
+    "fact": "1547",
+    "hallucination": "1550"
+  },
+  {
+    "id": "temp_136",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "Pluto orbits the Sun in approximately",
+    "fact": "248 years",
+    "hallucination": "250 years"
+  },
+  {
+    "id": "temp_137",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The fall of Saigon occurred in",
+    "fact": "1975",
+    "hallucination": "1974"
+  },
+  {
+    "id": "temp_138",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A lacrosse team has",
+    "fact": "10 players",
+    "hallucination": "11 players"
+  },
+  {
+    "id": "temp_139",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Battle of Agincourt was fought in",
+    "fact": "1415",
+    "hallucination": "1420"
+  },
+  {
+    "id": "temp_140",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of copper is",
+    "fact": "29",
+    "hallucination": "30"
+  },
+  {
+    "id": "temp_141",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Iranian Revolution occurred in",
+    "fact": "1979",
+    "hallucination": "1978"
+  },
+  {
+    "id": "temp_142",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard car has",
+    "fact": "4 wheels",
+    "hallucination": "5 wheels"
+  },
+  {
+    "id": "temp_143",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Black Death reached Europe in",
+    "fact": "1347",
+    "hallucination": "1345"
+  },
+  {
+    "id": "temp_144",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "Light takes approximately this many minutes to reach Earth from the Sun:",
+    "fact": "8 minutes",
+    "hallucination": "10 minutes"
+  },
+  {
+    "id": "temp_145",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Rwandan genocide occurred in",
+    "fact": "1994",
+    "hallucination": "1995"
+  },
+  {
+    "id": "temp_146",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard die has",
+    "fact": "6 faces",
+    "hallucination": "8 faces"
+  },
+  {
+    "id": "temp_147",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Diet of Worms occurred in",
+    "fact": "1521",
+    "hallucination": "1525"
+  },
+  {
+    "id": "temp_148",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of zinc is",
+    "fact": "30",
+    "hallucination": "32"
+  },
+  {
+    "id": "temp_149",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Yom Kippur War occurred in",
+    "fact": "1973",
+    "hallucination": "1974"
+  },
+  {
+    "id": "temp_150",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A fortnight equals",
+    "fact": "14 days",
+    "hallucination": "15 days"
+  },
+  {
+    "id": "temp_151",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Thirty Years' War began in",
+    "fact": "1618",
+    "hallucination": "1620"
+  },
+  {
+    "id": "temp_152",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "The Sun's surface temperature is approximately",
+    "fact": "5,500 degrees Celsius",
+    "hallucination": "6,000 degrees Celsius"
+  },
+  {
+    "id": "temp_153",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Tiananmen Square protests occurred in",
+    "fact": "1989",
+    "hallucination": "1988"
+  },
+  {
+    "id": "temp_154",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard compass rose has",
+    "fact": "8 main directions",
+    "hallucination": "6 main directions"
+  },
+  {
+    "id": "temp_155",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Peace of Westphalia was signed in",
+    "fact": "1648",
+    "hallucination": "1650"
+  },
+  {
+    "id": "temp_156",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of mercury is",
+    "fact": "80",
+    "hallucination": "82"
+  },
+  {
+    "id": "temp_157",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Camp David Accords were signed in",
+    "fact": "1978",
+    "hallucination": "1979"
+  },
+  {
+    "id": "temp_158",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard Rubik's cube has",
+    "fact": "6 faces",
+    "hallucination": "8 faces"
+  },
+  {
+    "id": "temp_159",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "Martin Luther posted his 95 Theses in",
+    "fact": "1517",
+    "hallucination": "1520"
+  },
+  {
+    "id": "temp_160",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "A standard atmosphere equals",
+    "fact": "101.325 kPa",
+    "hallucination": "100 kPa"
+  },
+  {
+    "id": "temp_161",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Oslo Accords were signed in",
+    "fact": "1993",
+    "hallucination": "1994"
+  },
+  {
+    "id": "temp_162",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard chess board has",
+    "fact": "64 squares",
+    "hallucination": "60 squares"
+  },
+  {
+    "id": "temp_163",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Battle of Tours was fought in",
+    "fact": "732 AD",
+    "hallucination": "735 AD"
+  },
+  {
+    "id": "temp_164",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of lead is",
+    "fact": "82",
+    "hallucination": "80"
+  },
+  {
+    "id": "temp_165",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Good Friday Agreement was signed in",
+    "fact": "1998",
+    "hallucination": "1997"
+  },
+  {
+    "id": "temp_166",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard DNA double helix has",
+    "fact": "2 strands",
+    "hallucination": "3 strands"
+  },
+  {
+    "id": "temp_167",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Battle of Salamis was fought in",
+    "fact": "480 BC",
+    "hallucination": "475 BC"
+  },
+  {
+    "id": "temp_168",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "Earth's axis is tilted at approximately",
+    "fact": "23.5 degrees",
+    "hallucination": "25 degrees"
+  },
+  {
+    "id": "temp_169",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Dayton Agreement was signed in",
+    "fact": "1995",
+    "hallucination": "1996"
+  },
+  {
+    "id": "temp_170",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard amino acid has",
+    "fact": "1 carboxyl group",
+    "hallucination": "2 carboxyl groups"
+  },
+  {
+    "id": "temp_171",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Council of Nicaea was convened in",
+    "fact": "325 AD",
+    "hallucination": "330 AD"
+  },
+  {
+    "id": "temp_172",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of uranium is",
+    "fact": "92",
+    "hallucination": "90"
+  },
+  {
+    "id": "temp_173",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Bretton Woods Conference occurred in",
+    "fact": "1944",
+    "hallucination": "1945"
+  },
+  {
+    "id": "temp_174",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A heptagon has",
+    "fact": "7 sides",
+    "hallucination": "8 sides"
+  },
+  {
+    "id": "temp_175",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Fourth Crusade began in",
+    "fact": "1202",
+    "hallucination": "1205"
+  },
+  {
+    "id": "temp_176",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "A gallon contains approximately",
+    "fact": "3.785 liters",
+    "hallucination": "4 liters"
+  },
+  {
+    "id": "temp_177",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Potsdam Conference occurred in",
+    "fact": "1945",
+    "hallucination": "1946"
+  },
+  {
+    "id": "temp_178",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A nonagon has",
+    "fact": "9 sides",
+    "hallucination": "10 sides"
+  },
+  {
+    "id": "temp_179",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Edict of Nantes was issued in",
+    "fact": "1598",
+    "hallucination": "1600"
+  },
+  {
+    "id": "temp_180",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of plutonium is",
+    "fact": "94",
+    "hallucination": "92"
+  },
+  {
+    "id": "temp_181",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Yalta Conference occurred in",
+    "fact": "1945",
+    "hallucination": "1944"
+  },
+  {
+    "id": "temp_182",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A decagon has",
+    "fact": "10 sides",
+    "hallucination": "12 sides"
+  },
+  {
+    "id": "temp_183",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Battle of Lepanto was fought in",
+    "fact": "1571",
+    "hallucination": "1575"
+  },
+  {
+    "id": "temp_184",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "A mile contains approximately",
+    "fact": "1.609 kilometers",
+    "hallucination": "1.5 kilometers"
+  },
+  {
+    "id": "temp_185",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Tehran Conference occurred in",
+    "fact": "1943",
+    "hallucination": "1944"
+  },
+  {
+    "id": "temp_186",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A dodecagon has",
+    "fact": "12 sides",
+    "hallucination": "10 sides"
+  },
+  {
+    "id": "temp_187",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Sack of Constantinople by Crusaders occurred in",
+    "fact": "1204",
+    "hallucination": "1200"
+  },
+  {
+    "id": "temp_188",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of radium is",
+    "fact": "88",
+    "hallucination": "86"
+  },
+  {
+    "id": "temp_189",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Congress of Vienna concluded in",
+    "fact": "1815",
+    "hallucination": "1816"
+  },
+  {
+    "id": "temp_190",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard human karyotype has",
+    "fact": "46 chromosomes",
+    "hallucination": "48 chromosomes"
+  },
+  {
+    "id": "temp_191",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Council of Trent began in",
+    "fact": "1545",
+    "hallucination": "1550"
+  },
+  {
+    "id": "temp_192",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "An ounce is approximately",
+    "fact": "28.35 grams",
+    "hallucination": "30 grams"
+  },
+  {
+    "id": "temp_193",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Treaty of Tordesillas was signed in",
+    "fact": "1494",
+    "hallucination": "1496"
+  },
+  {
+    "id": "temp_194",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard ribosome has",
+    "fact": "2 subunits",
+    "hallucination": "3 subunits"
+  },
+  {
+    "id": "temp_195",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Great Schism of the Catholic Church began in",
+    "fact": "1054",
+    "hallucination": "1060"
+  },
+  {
+    "id": "temp_196",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of thorium is",
+    "fact": "90",
+    "hallucination": "92"
+  },
+  {
+    "id": "temp_197",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Treaty of Ghent was signed in",
+    "fact": "1814",
+    "hallucination": "1815"
+  },
+  {
+    "id": "temp_198",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard adult human heart has",
+    "fact": "4 chambers",
+    "hallucination": "3 chambers"
+  },
+  {
+    "id": "temp_199",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Battle of Actium was fought in",
+    "fact": "31 BC",
+    "hallucination": "35 BC"
+  },
+  {
+    "id": "temp_200",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "A pound is approximately",
+    "fact": "0.454 kilograms",
+    "hallucination": "0.5 kilograms"
+  },
+  {
+    "id": "temp_201",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Louisiana Purchase occurred in",
+    "fact": "1803",
+    "hallucination": "1805"
+  },
+  {
+    "id": "temp_202",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard triplet codon consists of",
+    "fact": "3 nucleotides",
+    "hallucination": "4 nucleotides"
+  },
+  {
+    "id": "temp_203",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Battle of Marathon was fought in",
+    "fact": "490 BC",
+    "hallucination": "485 BC"
+  },
+  {
+    "id": "temp_204",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of radon is",
+    "fact": "86",
+    "hallucination": "84"
+  },
+  {
+    "id": "temp_205",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Alaska Purchase occurred in",
+    "fact": "1867",
+    "hallucination": "1869"
+  },
+  {
+    "id": "temp_206",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard ATP molecule has",
+    "fact": "3 phosphate groups",
+    "hallucination": "2 phosphate groups"
+  },
+  {
+    "id": "temp_207",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Battle of Thermopylae was fought in",
+    "fact": "480 BC",
+    "hallucination": "475 BC"
+  },
+  {
+    "id": "temp_208",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "A foot is approximately",
+    "fact": "30.48 centimeters",
+    "hallucination": "32 centimeters"
+  },
+  {
+    "id": "temp_209",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Gadsden Purchase occurred in",
+    "fact": "1854",
+    "hallucination": "1856"
+  },
+  {
+    "id": "temp_210",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard glucose molecule has",
+    "fact": "6 carbon atoms",
+    "hallucination": "5 carbon atoms"
+  },
+  {
+    "id": "temp_211",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Babylonian Captivity of the Papacy began in",
+    "fact": "1309",
+    "hallucination": "1315"
+  },
+  {
+    "id": "temp_212",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of polonium is",
+    "fact": "84",
+    "hallucination": "86"
+  },
+  {
+    "id": "temp_213",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Treaty of Portsmouth was signed in",
+    "fact": "1905",
+    "hallucination": "1906"
+  },
+  {
+    "id": "temp_214",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard benzene ring has",
+    "fact": "6 carbon atoms",
+    "hallucination": "7 carbon atoms"
+  },
+  {
+    "id": "temp_215",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Battle of Cannae was fought in",
+    "fact": "216 BC",
+    "hallucination": "220 BC"
+  },
+  {
+    "id": "temp_216",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "A yard is approximately",
+    "fact": "0.914 meters",
+    "hallucination": "1 meter"
+  },
+  {
+    "id": "temp_217",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Treaty of Brest-Litovsk was signed in",
+    "fact": "1918",
+    "hallucination": "1919"
+  },
+  {
+    "id": "temp_218",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard peptide bond connects",
+    "fact": "2 amino acids",
+    "hallucination": "3 amino acids"
+  },
+  {
+    "id": "temp_219",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Peace of Augsburg was signed in",
+    "fact": "1555",
+    "hallucination": "1560"
+  },
+  {
+    "id": "temp_220",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of astatine is",
+    "fact": "85",
+    "hallucination": "87"
+  },
+  {
+    "id": "temp_221",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Treaty of Rapallo was signed in",
+    "fact": "1922",
+    "hallucination": "1923"
+  },
+  {
+    "id": "temp_222",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard water molecule has",
+    "fact": "2 hydrogen atoms",
+    "hallucination": "3 hydrogen atoms"
+  },
+  {
+    "id": "temp_223",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Battle of Zama was fought in",
+    "fact": "202 BC",
+    "hallucination": "200 BC"
+  },
+  {
+    "id": "temp_224",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "An inch is approximately",
+    "fact": "2.54 centimeters",
+    "hallucination": "2.5 centimeters"
+  },
+  {
+    "id": "temp_225",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Treaty of Lausanne was signed in",
+    "fact": "1923",
+    "hallucination": "1924"
+  },
+  {
+    "id": "temp_226",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard carbon dioxide molecule has",
+    "fact": "2 oxygen atoms",
+    "hallucination": "3 oxygen atoms"
+  },
+  {
+    "id": "temp_227",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Battle of Gaugamela was fought in",
+    "fact": "331 BC",
+    "hallucination": "335 BC"
+  },
+  {
+    "id": "temp_228",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of francium is",
+    "fact": "87",
+    "hallucination": "85"
+  },
+  {
+    "id": "temp_229",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Treaty of Locarno was signed in",
+    "fact": "1925",
+    "hallucination": "1926"
+  },
+  {
+    "id": "temp_230",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard methane molecule has",
+    "fact": "4 hydrogen atoms",
+    "hallucination": "3 hydrogen atoms"
+  },
+  {
+    "id": "temp_231",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Edict of Milan was issued in",
+    "fact": "313 AD",
+    "hallucination": "315 AD"
+  },
+  {
+    "id": "temp_232",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "A quart is approximately",
+    "fact": "0.946 liters",
+    "hallucination": "1 liter"
+  },
+  {
+    "id": "temp_233",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Kellogg-Briand Pact was signed in",
+    "fact": "1928",
+    "hallucination": "1929"
+  },
+  {
+    "id": "temp_234",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard ammonia molecule has",
+    "fact": "3 hydrogen atoms",
+    "hallucination": "4 hydrogen atoms"
+  },
+  {
+    "id": "temp_235",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Battle of Chalons was fought in",
+    "fact": "451 AD",
+    "hallucination": "455 AD"
+  },
+  {
+    "id": "temp_236",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of actinium is",
+    "fact": "89",
+    "hallucination": "91"
+  },
+  {
+    "id": "temp_237",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Treaty of Saint-Germain-en-Laye was signed in",
+    "fact": "1919",
+    "hallucination": "1920"
+  },
+  {
+    "id": "temp_238",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard oxygen molecule has",
+    "fact": "2 oxygen atoms",
+    "hallucination": "3 oxygen atoms"
+  },
+  {
+    "id": "temp_239",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Battle of Adrianople was fought in",
+    "fact": "378 AD",
+    "hallucination": "380 AD"
+  },
+  {
+    "id": "temp_240",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "A pint is approximately",
+    "fact": "0.473 liters",
+    "hallucination": "0.5 liters"
+  },
+  {
+    "id": "temp_241",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Treaty of Trianon was signed in",
+    "fact": "1920",
+    "hallucination": "1921"
+  },
+  {
+    "id": "temp_242",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard nitrogen molecule has",
+    "fact": "2 nitrogen atoms",
+    "hallucination": "3 nitrogen atoms"
+  },
+  {
+    "id": "temp_243",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Donation of Constantine was forged around",
+    "fact": "750 AD",
+    "hallucination": "755 AD"
+  },
+  {
+    "id": "temp_244",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of protactinium is",
+    "fact": "91",
+    "hallucination": "89"
+  },
+  {
+    "id": "temp_245",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Treaty of Neuilly was signed in",
+    "fact": "1919",
+    "hallucination": "1920"
+  },
+  {
+    "id": "temp_246",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard hydrogen molecule has",
+    "fact": "2 hydrogen atoms",
+    "hallucination": "1 hydrogen atom"
+  },
+  {
+    "id": "temp_247",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Battle of Milvian Bridge was fought in",
+    "fact": "312 AD",
+    "hallucination": "315 AD"
+  },
+  {
+    "id": "temp_248",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "A cup is approximately",
+    "fact": "237 milliliters",
+    "hallucination": "250 milliliters"
+  },
+  {
+    "id": "temp_249",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Treaty of Sèvres was signed in",
+    "fact": "1920",
+    "hallucination": "1921"
+  },
+  {
+    "id": "temp_250",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard chlorine molecule has",
+    "fact": "2 chlorine atoms",
+    "hallucination": "3 chlorine atoms"
+  },
+  {
+    "id": "temp_251",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Synod of Whitby occurred in",
+    "fact": "664 AD",
+    "hallucination": "668 AD"
+  },
+  {
+    "id": "temp_252",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of neptunium is",
+    "fact": "93",
+    "hallucination": "95"
+  },
+  {
+    "id": "temp_253",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Nine Years' War ended in",
+    "fact": "1697",
+    "hallucination": "1698"
+  },
+  {
+    "id": "temp_254",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard fluorine molecule has",
+    "fact": "2 fluorine atoms",
+    "hallucination": "1 fluorine atom"
+  },
+  {
+    "id": "temp_255",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Concordat of Worms was signed in",
+    "fact": "1122",
+    "hallucination": "1125"
+  },
+  {
+    "id": "temp_256",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "A tablespoon is approximately",
+    "fact": "15 milliliters",
+    "hallucination": "20 milliliters"
+  },
+  {
+    "id": "temp_257",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The War of Spanish Succession began in",
+    "fact": "1701",
+    "hallucination": "1702"
+  },
+  {
+    "id": "temp_258",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard bromine molecule has",
+    "fact": "2 bromine atoms",
+    "hallucination": "3 bromine atoms"
+  },
+  {
+    "id": "temp_259",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Investiture Controversy began around",
+    "fact": "1075",
+    "hallucination": "1080"
+  },
+  {
+    "id": "temp_260",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of americium is",
+    "fact": "95",
+    "hallucination": "93"
+  },
+  {
+    "id": "temp_261",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The War of Austrian Succession began in",
+    "fact": "1740",
+    "hallucination": "1741"
+  },
+  {
+    "id": "temp_262",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard iodine molecule has",
+    "fact": "2 iodine atoms",
+    "hallucination": "1 iodine atom"
+  },
+  {
+    "id": "temp_263",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Golden Bull of 1356 was issued in",
+    "fact": "1356",
+    "hallucination": "1360"
+  },
+  {
+    "id": "temp_264",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "A teaspoon is approximately",
+    "fact": "5 milliliters",
+    "hallucination": "6 milliliters"
+  },
+  {
+    "id": "temp_265",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Seven Years' War began in",
+    "fact": "1756",
+    "hallucination": "1757"
+  },
+  {
+    "id": "temp_266",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard phosphate group has",
+    "fact": "4 oxygen atoms",
+    "hallucination": "3 oxygen atoms"
+  },
+  {
+    "id": "temp_267",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Fourth Lateran Council convened in",
+    "fact": "1215",
+    "hallucination": "1220"
+  },
+  {
+    "id": "temp_268",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of curium is",
+    "fact": "96",
+    "hallucination": "98"
+  },
+  {
+    "id": "temp_269",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The War of Jenkins' Ear began in",
+    "fact": "1739",
+    "hallucination": "1740"
+  },
+  {
+    "id": "temp_270",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard sulfate group has",
+    "fact": "4 oxygen atoms",
+    "hallucination": "3 oxygen atoms"
+  },
+  {
+    "id": "temp_271",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Great Interregnum of the Holy Roman Empire began in",
+    "fact": "1254",
+    "hallucination": "1258"
+  },
+  {
+    "id": "temp_272",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "An acre is approximately",
+    "fact": "4,047 square meters",
+    "hallucination": "4,000 square meters"
+  },
+  {
+    "id": "temp_273",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Partition of Poland began in",
+    "fact": "1772",
+    "hallucination": "1773"
+  },
+  {
+    "id": "temp_274",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard nitrate group has",
+    "fact": "3 oxygen atoms",
+    "hallucination": "4 oxygen atoms"
+  },
+  {
+    "id": "temp_275",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Albigensian Crusade began in",
+    "fact": "1209",
+    "hallucination": "1212"
+  },
+  {
+    "id": "temp_276",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of berkelium is",
+    "fact": "97",
+    "hallucination": "99"
+  },
+  {
+    "id": "temp_277",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Haitian Revolution began in",
+    "fact": "1791",
+    "hallucination": "1792"
+  },
+  {
+    "id": "temp_278",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard carbonate group has",
+    "fact": "3 oxygen atoms",
+    "hallucination": "2 oxygen atoms"
+  },
+  {
+    "id": "temp_279",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Children's Crusade occurred around",
+    "fact": "1212",
+    "hallucination": "1215"
+  },
+  {
+    "id": "temp_280",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "A hectare is approximately",
+    "fact": "10,000 square meters",
+    "hallucination": "9,000 square meters"
+  },
+  {
+    "id": "temp_281",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Boxer Rebellion began in",
+    "fact": "1899",
+    "hallucination": "1900"
+  },
+  {
+    "id": "temp_282",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard hydroxide group has",
+    "fact": "1 oxygen atom",
+    "hallucination": "2 oxygen atoms"
+  },
+  {
+    "id": "temp_283",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Jacquerie peasant revolt occurred in",
+    "fact": "1358",
+    "hallucination": "1360"
+  },
+  {
+    "id": "temp_284",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of californium is",
+    "fact": "98",
+    "hallucination": "96"
+  },
+  {
+    "id": "temp_285",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Sepoy Mutiny began in",
+    "fact": "1857",
+    "hallucination": "1858"
+  },
+  {
+    "id": "temp_286",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard ammonium ion has",
+    "fact": "4 hydrogen atoms",
+    "hallucination": "3 hydrogen atoms"
+  },
+  {
+    "id": "temp_287",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Peasants' Revolt in England occurred in",
+    "fact": "1381",
+    "hallucination": "1385"
+  },
+  {
+    "id": "temp_288",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "A ton is approximately",
+    "fact": "907 kilograms",
+    "hallucination": "1,000 kilograms"
+  },
+  {
+    "id": "temp_289",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Taiping Rebellion began in",
+    "fact": "1850",
+    "hallucination": "1851"
+  },
+  {
+    "id": "temp_290",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard hydronium ion has",
+    "fact": "3 hydrogen atoms",
+    "hallucination": "4 hydrogen atoms"
+  },
+  {
+    "id": "temp_291",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Defenestration of Prague occurred in",
+    "fact": "1618",
+    "hallucination": "1620"
+  },
+  {
+    "id": "temp_292",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of einsteinium is",
+    "fact": "99",
+    "hallucination": "97"
+  },
+  {
+    "id": "temp_293",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Opium Wars began in",
+    "fact": "1839",
+    "hallucination": "1840"
+  },
+  {
+    "id": "temp_294",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard acetate group has",
+    "fact": "2 oxygen atoms",
+    "hallucination": "3 oxygen atoms"
+  },
+  {
+    "id": "temp_295",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The St. Bartholomew's Day Massacre occurred in",
+    "fact": "1572",
+    "hallucination": "1575"
+  },
+  {
+    "id": "temp_296",
+    "domain": "scientific",
+    "complexity": 2,
+    "prompt": "A metric ton is approximately",
+    "fact": "1,000 kilograms",
+    "hallucination": "900 kilograms"
+  },
+  {
+    "id": "temp_297",
+    "domain": "temporal",
+    "complexity": 3,
+    "prompt": "The Indian Rebellion ended in",
+    "fact": "1858",
+    "hallucination": "1859"
+  },
+  {
+    "id": "temp_298",
+    "domain": "biological",
+    "complexity": 2,
+    "prompt": "A standard bicarbonate ion has",
+    "fact": "3 oxygen atoms",
+    "hallucination": "2 oxygen atoms"
+  },
+  {
+    "id": "temp_299",
+    "domain": "temporal",
+    "complexity": 4,
+    "prompt": "The Hussite Wars began in",
+    "fact": "1419",
+    "hallucination": "1422"
+  },
+  {
+    "id": "temp_300",
+    "domain": "scientific",
+    "complexity": 3,
+    "prompt": "The atomic number of fermium is",
+    "fact": "100",
+    "hallucination": "98"
+  }
+]

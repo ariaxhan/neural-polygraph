@@ -155,15 +155,6 @@ models/
 wandb/
 .wandb/
 
-# Data files
-*.csv
-*.json
-*.jsonl
-*.parquet
-*.hdf5
-*.h5
-data/
-datasets/
 
 # Temporary files
 tmp/
