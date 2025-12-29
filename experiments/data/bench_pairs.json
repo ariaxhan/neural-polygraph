@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "style_001",
+    "type": "style_transfer",
+    "prompt_a": "Explain quantum entanglement like a pirate.",
+    "prompt_b": "Explain quantum entanglement in academic prose.",
+    "shared_topic": "quantum entanglement"
+  },
+  {
+    "id": "style_002",
+    "type": "style_transfer",
+    "prompt_a": "Describe photosynthesis as if you're explaining to a 5-year-old.",
+    "prompt_b": "Describe photosynthesis using graduate-level biology terminology.",
+    "shared_topic": "photosynthesis"
+  },
+  {
+    "id": "style_003",
+    "type": "style_transfer",
+    "prompt_a": "Explain blockchain technology in angry, frustrated tone.",
+    "prompt_b": "Explain blockchain technology in calm, professional manner.",
+    "shared_topic": "blockchain"
+  },
+  {
+    "id": "style_004",
+    "type": "style_transfer",
+    "prompt_a": "Describe the water cycle like you're a sports commentator.",
+    "prompt_b": "Describe the water cycle in textbook language.",
+    "shared_topic": "water cycle"
+  },
+  {
+    "id": "style_005",
+    "type": "style_transfer",
+    "prompt_a": "Explain neural networks as a haiku.",
+    "prompt_b": "Explain neural networks in technical documentation style.",
+    "shared_topic": "neural networks"
+  },
+  {
+    "id": "style_006",
+    "type": "style_transfer",
+    "prompt_a": "Describe mitosis like you're narrating a nature documentary.",
+    "prompt_b": "Describe mitosis using medical textbook language.",
+    "shared_topic": "mitosis"
+  },
+  {
+    "id": "style_007",
+    "type": "style_transfer",
+    "prompt_a": "Explain gravitational waves as if you're gossiping.",
+    "prompt_b": "Explain gravitational waves in formal scientific notation.",
+    "shared_topic": "gravitational waves"
+  },
+  {
+    "id": "style_008",
+    "type": "style_transfer",
+    "prompt_a": "Describe machine learning like you're a medieval bard.",
+    "prompt_b": "Describe machine learning in modern corporate speak.",
+    "shared_topic": "machine learning"
+  },
+  {
+    "id": "style_009",
+    "type": "style_transfer",
+    "prompt_a": "Explain DNA replication as a cooking recipe.",
+    "prompt_b": "Explain DNA replication in molecular biology terms.",
+    "shared_topic": "DNA replication"
+  },
+  {
+    "id": "style_010",
+    "type": "style_transfer",
+    "prompt_a": "Describe inflation theory like you're panicking.",
+    "prompt_b": "Describe inflation theory in measured, academic tone.",
+    "shared_topic": "cosmic inflation"
+  },
+  {
+    "id": "style_011",
+    "type": "style_transfer",
+    "prompt_a": "Explain TCP/IP as street slang.",
+    "prompt_b": "Explain TCP/IP in formal networking documentation.",
+    "shared_topic": "TCP/IP protocol"
+  },
+  {
+    "id": "style_012",
+    "type": "style_transfer",
+    "prompt_a": "Describe the Krebs cycle like you're a drill sergeant.",
+    "prompt_b": "Describe the Krebs cycle in biochemistry textbook style.",
+    "shared_topic": "Krebs cycle"
+  },
+  {
+    "id": "style_013",
+    "type": "style_transfer",
+    "prompt_a": "Explain cryptography as a bedtime story.",
+    "prompt_b": "Explain cryptography in cybersecurity white paper format.",
+    "shared_topic": "cryptography"
+  },
+  {
+    "id": "style_014",
+    "type": "style_transfer",
+    "prompt_a": "Describe plate tectonics like you're a conspiracy theorist.",
+    "prompt_b": "Describe plate tectonics in geological survey language.",
+    "shared_topic": "plate tectonics"
+  },
+  {
+    "id": "style_015",
+    "type": "style_transfer",
+    "prompt_a": "Explain the stock market as if teaching a golden retriever.",
+    "prompt_b": "Explain the stock market in financial analyst terminology.",
+    "shared_topic": "stock market mechanics"
+  },
+  {
+    "id": "style_016",
+    "type": "style_transfer",
+    "prompt_a": "Describe CRISPR gene editing like a tabloid headline.",
+    "prompt_b": "Describe CRISPR gene editing in peer-reviewed journal style.",
+    "shared_topic": "CRISPR"
+  },
+  {
+    "id": "style_017",
+    "type": "style_transfer",
+    "prompt_a": "Explain thermodynamics as rap lyrics.",
+    "prompt_b": "Explain thermodynamics in physics textbook prose.",
+    "shared_topic": "thermodynamics"
+  },
+  {
+    "id": "style_018",
+    "type": "style_transfer",
+    "prompt_a": "Describe antibody production like you're overly excited.",
+    "prompt_b": "Describe antibody production in clinical immunology language.",
+    "shared_topic": "antibody production"
+  },
+  {
+    "id": "style_019",
+    "type": "style_transfer",
+    "prompt_a": "Explain supply and demand as a love story.",
+    "prompt_b": "Explain supply and demand in economic theory format.",
+    "shared_topic": "supply and demand"
+  },
+  {
+    "id": "style_020",
+    "type": "style_transfer",
+    "prompt_a": "Describe black holes like you're terrified.",
+    "prompt_b": "Describe black holes in astrophysics journal style.",
+    "shared_topic": "black holes"
+  },
+  {
+    "id": "style_021",
+    "type": "style_transfer",
+    "prompt_a": "Explain compiler design as if you're a cowboy.",
+    "prompt_b": "Explain compiler design in computer science textbook language.",
+    "shared_topic": "compiler design"
+  },
+  {
+    "id": "style_022",
+    "type": "style_transfer",
+    "prompt_a": "Describe neurotransmitters like you're narrating a heist.",
+    "prompt_b": "Describe neurotransmitters in neuroscience terminology.",
+    "shared_topic": "neurotransmitters"
+  },
+  {
+    "id": "style_023",
+    "type": "style_transfer",
+    "prompt_a": "Explain fractals as a zen koan.",
+    "prompt_b": "Explain fractals in mathematical analysis language.",
+    "shared_topic": "fractals"
+  },
+  {
+    "id": "style_024",
+    "type": "style_transfer",
+    "prompt_a": "Describe nuclear fission like you're announcing a boxing match.",
+    "prompt_b": "Describe nuclear fission in nuclear physics textbook style.",
+    "shared_topic": "nuclear fission"
+  },
+  {
+    "id": "style_025",
+    "type": "style_transfer",
+    "prompt_a": "Explain the immune system as a military briefing.",
+    "prompt_b": "Explain the immune system in medical textbook prose.",
+    "shared_topic": "immune system"
+  },
+  {
+    "id": "style_026",
+    "type": "style_transfer",
+    "prompt_a": "Describe evolution like you're a gossip columnist.",
+    "prompt_b": "Describe evolution in evolutionary biology terminology.",
+    "shared_topic": "evolution"
+  },
+  {
+    "id": "style_027",
+    "type": "style_transfer",
+    "prompt_a": "Explain quantum tunneling as a children's book.",
+    "prompt_b": "Explain quantum tunneling in quantum mechanics notation.",
+    "shared_topic": "quantum tunneling"
+  },
+  {
+    "id": "style_028",
+    "type": "style_transfer",
+    "prompt_a": "Describe the nitrogen cycle like you're sarcastic.",
+    "prompt_b": "Describe the nitrogen cycle in environmental science language.",
+    "shared_topic": "nitrogen cycle"
+  },
+  {
+    "id": "style_029",
+    "type": "style_transfer",
+    "prompt_a": "Explain dark matter as a detective novel opening.",
+    "prompt_b": "Explain dark matter in cosmology research paper style.",
+    "shared_topic": "dark matter"
+  },
+  {
+    "id": "style_030",
+    "type": "style_transfer",
+    "prompt_a": "Describe RNA transcription like you're a game show host.",
+    "prompt_b": "Describe RNA transcription in molecular biology textbook terms.",
+    "shared_topic": "RNA transcription"
+  },
+  {
+    "id": "style_031",
+    "type": "style_transfer",
+    "prompt_a": "Explain regex patterns as caveman speech.",
+    "prompt_b": "Explain regex patterns in programming documentation style.",
+    "shared_topic": "regular expressions"
+  },
+  {
+    "id": "style_032",
+    "type": "style_transfer",
+    "prompt_a": "Describe cellular respiration like you're a motivational speaker.",
+    "prompt_b": "Describe cellular respiration in biochemistry textbook language.",
+    "shared_topic": "cellular respiration"
+  },
+  {
+    "id": "style_033",
+    "type": "style_transfer",
+    "prompt_a": "Explain Fourier transforms as restaurant menu descriptions.",
+    "prompt_b": "Explain Fourier transforms in signal processing terminology.",
+    "shared_topic": "Fourier transforms"
+  },
+  {
+    "id": "style_034",
+    "type": "style_transfer",
+    "prompt_a": "Describe tectonic subduction like you're commentating soccer.",
+    "prompt_b": "Describe tectonic subduction in geophysics journal style.",
+    "shared_topic": "subduction zones"
+  },
+  {
+    "id": "style_035",
+    "type": "style_transfer",
+    "prompt_a": "Explain Bayesian inference as fortune telling.",
+    "prompt_b": "Explain Bayesian inference in statistical methodology language.",
+    "shared_topic": "Bayesian inference"
+  },
+  {
+    "id": "style_036",
+    "type": "style_transfer",
+    "prompt_a": "Describe protein folding like you're gossiping about neighbors.",
+    "prompt_b": "Describe protein folding in structural biology terminology.",
+    "shared_topic": "protein folding"
+  },
+  {
+    "id": "style_037",
+    "type": "style_transfer",
+    "prompt_a": "Explain the Doppler effect as a twitter rant.",
+    "prompt_b": "Explain the Doppler effect in physics textbook prose.",
+    "shared_topic": "Doppler effect"
+  },
+  {
+    "id": "style_038",
+    "type": "style_transfer",
+    "prompt_a": "Describe neural plasticity like you're selling used cars.",
+    "prompt_b": "Describe neural plasticity in neuroscience research language.",
+    "shared_topic": "neural plasticity"
+  },
+  {
+    "id": "style_039",
+    "type": "style_transfer",
+    "prompt_a": "Explain the CAP theorem as a soap opera plot.",
+    "prompt_b": "Explain the CAP theorem in distributed systems documentation.",
+    "shared_topic": "CAP theorem"
+  },
+  {
+    "id": "style_040",
+    "type": "style_transfer",
+    "prompt_a": "Describe osmosis like you're an old wizard.",
+    "prompt_b": "Describe osmosis in cell biology textbook language.",
+    "shared_topic": "osmosis"
+  },
+  {
+    "id": "style_041",
+    "type": "style_transfer",
+    "prompt_a": "Explain entropy as valley girl slang.",
+    "prompt_b": "Explain entropy in thermodynamics textbook style.",
+    "shared_topic": "entropy"
+  },
+  {
+    "id": "style_042",
+    "type": "style_transfer",
+    "prompt_a": "Describe the Higgs boson like you're a used car salesman.",
+    "prompt_b": "Describe the Higgs boson in particle physics terminology.",
+    "shared_topic": "Higgs boson"
+  },
+  {
+    "id": "style_043",
+    "type": "style_transfer",
+    "prompt_a": "Explain JWT authentication as a fairy tale.",
+    "prompt_b": "Explain JWT authentication in security architecture documentation.",
+    "shared_topic": "JWT authentication"
+  },
+  {
+    "id": "style_044",
+    "type": "style_transfer",
+    "prompt_a": "Describe meiosis like you're narrating a reality show.",
+    "prompt_b": "Describe meiosis in genetics textbook language.",
+    "shared_topic": "meiosis"
+  },
+  {
+    "id": "style_045",
+    "type": "style_transfer",
+    "prompt_a": "Explain special relativity as a limerick.",
+    "prompt_b": "Explain special relativity in theoretical physics notation.",
+    "shared_topic": "special relativity"
+  },
+  {
+    "id": "style_046",
+    "type": "style_transfer",
+    "prompt_a": "Describe synaptic transmission like you're extremely bored.",
+    "prompt_b": "Describe synaptic transmission in neuroscience journal style.",
+    "shared_topic": "synaptic transmission"
+  },
+  {
+    "id": "style_047",
+    "type": "style_transfer",
+    "prompt_a": "Explain gradient descent as a workout routine.",
+    "prompt_b": "Explain gradient descent in machine learning textbook terms.",
+    "shared_topic": "gradient descent"
+  },
+  {
+    "id": "style_048",
+    "type": "style_transfer",
+    "prompt_a": "Describe the carbon cycle like you're a news anchor.",
+    "prompt_b": "Describe the carbon cycle in environmental science terminology.",
+    "shared_topic": "carbon cycle"
+  },
+  {
+    "id": "style_049",
+    "type": "style_transfer",
+    "prompt_a": "Explain redox reactions as a Western shootout.",
+    "prompt_b": "Explain redox reactions in chemistry textbook language.",
+    "shared_topic": "redox reactions"
+  },
+  {
+    "id": "style_050",
+    "type": "style_transfer",
+    "prompt_a": "Describe electromagnetic induction like you're whispering secrets.",
+    "prompt_b": "Describe electromagnetic induction in physics textbook prose.",
+    "shared_topic": "electromagnetic induction"
+  },
+  {
+    "id": "style_051",
+    "type": "style_transfer",
+    "prompt_a": "Explain the halting problem as a conspiracy theory.",
+    "prompt_b": "Explain the halting problem in theoretical computer science terms.",
+    "shared_topic": "halting problem"
+  },
+  {
+    "id": "style_052",
+    "type": "style_transfer",
+    "prompt_a": "Describe antibody-antigen binding like you're commentating wrestling.",
+    "prompt_b": "Describe antibody-antigen binding in immunology textbook style.",
+    "shared_topic": "antibody-antigen binding"
+  },
+  {
+    "id": "style_053",
+    "type": "style_transfer",
+    "prompt_a": "Explain recursion as a nursery rhyme.",
+    "prompt_b": "Explain recursion in programming textbook language.",
+    "shared_topic": "recursion"
+  },
+  {
+    "id": "style_054",
+    "type": "style_transfer",
+    "prompt_a": "Describe stellar nucleosynthesis like you're a surfer bro.",
+    "prompt_b": "Describe stellar nucleosynthesis in astrophysics terminology.",
+    "shared_topic": "stellar nucleosynthesis"
+  },
+  {
+    "id": "style_055",
+    "type": "style_transfer",
+    "prompt_a": "Explain the observer effect as tabloid journalism.",
+    "prompt_b": "Explain the observer effect in quantum mechanics notation.",
+    "shared_topic": "observer effect"
+  },
+  {
+    "id": "style_056",
+    "type": "style_transfer",
+    "prompt_a": "Describe action potentials like you're a Victorian gentleman.",
+    "prompt_b": "Describe action potentials in neuroscience textbook language.",
+    "shared_topic": "action potentials"
+  },
+  {
+    "id": "style_057",
+    "type": "style_transfer",
+    "prompt_a": "Explain polymorphism as a fashion magazine article.",
+    "prompt_b": "Explain polymorphism in object-oriented programming documentation.",
+    "shared_topic": "polymorphism"
+  },
+  {
+    "id": "style_058",
+    "type": "style_transfer",
+    "prompt_a": "Describe continental drift like you're narrating a chase scene.",
+    "prompt_b": "Describe continental drift in geology textbook style.",
+    "shared_topic": "continental drift"
+  },
+  {
+    "id": "style_059",
+    "type": "style_transfer",
+    "prompt_a": "Explain Heisenberg uncertainty as a dating advice column.",
+    "prompt_b": "Explain Heisenberg uncertainty in quantum physics terminology.",
+    "shared_topic": "Heisenberg uncertainty principle"
+  },
+  {
+    "id": "style_060",
+    "type": "style_transfer",
+    "prompt_a": "Describe enzyme kinetics like you're a standup comedian.",
+    "prompt_b": "Describe enzyme kinetics in biochemistry textbook language.",
+    "shared_topic": "enzyme kinetics"
+  },
+  {
+    "id": "style_061",
+    "type": "style_transfer",
+    "prompt_a": "Explain hash tables as a cooking show segment.",
+    "prompt_b": "Explain hash tables in data structures textbook prose.",
+    "shared_topic": "hash tables"
+  },
+  {
+    "id": "style_062",
+    "type": "style_transfer",
+    "prompt_a": "Describe photon emission like you're writing beat poetry.",
+    "prompt_b": "Describe photon emission in quantum electrodynamics terms.",
+    "shared_topic": "photon emission"
+  },
+  {
+    "id": "style_063",
+    "type": "style_transfer",
+    "prompt_a": "Explain neural networks as a medieval quest.",
+    "prompt_b": "Explain neural networks in deep learning textbook language.",
+    "shared_topic": "neural networks"
+  },
+  {
+    "id": "style_064",
+    "type": "style_transfer",
+    "prompt_a": "Describe the greenhouse effect like you're pessimistic.",
+    "prompt_b": "Describe the greenhouse effect in climate science terminology.",
+    "shared_topic": "greenhouse effect"
+  },
+  {
+    "id": "style_065",
+    "type": "style_transfer",
+    "prompt_a": "Explain ionic bonds as a romance novel excerpt.",
+    "prompt_b": "Explain ionic bonds in chemistry textbook style.",
+    "shared_topic": "ionic bonds"
+  },
+  {
+    "id": "style_066",
+    "type": "style_transfer",
+    "prompt_a": "Describe wave-particle duality like you're a confused tourist.",
+    "prompt_b": "Describe wave-particle duality in quantum mechanics notation.",
+    "shared_topic": "wave-particle duality"
+  },
+  {
+    "id": "style_067",
+    "type": "style_transfer",
+    "prompt_a": "Explain memory allocation as a treasure map.",
+    "prompt_b": "Explain memory allocation in operating systems textbook language.",
+    "shared_topic": "memory allocation"
+  },
+  {
+    "id": "style_068",
+    "type": "style_transfer",
+    "prompt_a": "Describe mitochondrial function like you're a sports analyst.",
+    "prompt_b": "Describe mitochondrial function in cell biology terminology.",
+    "shared_topic": "mitochondrial function"
+  },
+  {
+    "id": "style_069",
+    "type": "style_transfer",
+    "prompt_a": "Explain proof by induction as a campfire ghost story.",
+    "prompt_b": "Explain proof by induction in mathematical logic language.",
+    "shared_topic": "proof by induction"
+  },
+  {
+    "id": "style_070",
+    "type": "style_transfer",
+    "prompt_a": "Describe ocean acidification like you're giving a TED talk.",
+    "prompt_b": "Describe ocean acidification in marine chemistry textbook style.",
+    "shared_topic": "ocean acidification"
+  },
+  {
+    "id": "style_071",
+    "type": "style_transfer",
+    "prompt_a": "Explain covalent bonds as a buddy cop movie script.",
+    "prompt_b": "Explain covalent bonds in organic chemistry terminology.",
+    "shared_topic": "covalent bonds"
+  },
+  {
+    "id": "style_072",
+    "type": "style_transfer",
+    "prompt_a": "Describe superconductivity like you're narrating a mystery.",
+    "prompt_b": "Describe superconductivity in condensed matter physics language.",
+    "shared_topic": "superconductivity"
+  },
+  {
+    "id": "style_073",
+    "type": "style_transfer",
+    "prompt_a": "Explain deadlock as a Shakespearean tragedy.",
+    "prompt_b": "Explain deadlock in concurrent programming documentation.",
+    "shared_topic": "deadlock"
+  },
+  {
+    "id": "style_074",
+    "type": "style_transfer",
+    "prompt_a": "Describe hormone signaling like you're a gossip blogger.",
+    "prompt_b": "Describe hormone signaling in endocrinology textbook prose.",
+    "shared_topic": "hormone signaling"
+  },
+  {
+    "id": "style_075",
+    "type": "style_transfer",
+    "prompt_a": "Explain Big O notation as a racing commentary.",
+    "prompt_b": "Explain Big O notation in algorithm analysis terminology.",
+    "shared_topic": "Big O notation"
+  },
+  {
+    "id": "style_076",
+    "type": "style_transfer",
+    "prompt_a": "Describe erosion processes like you're a dramatic narrator.",
+    "prompt_b": "Describe erosion processes in geology textbook language.",
+    "shared_topic": "erosion"
+  },
+  {
+    "id": "style_077",
+    "type": "style_transfer",
+    "prompt_a": "Explain equilibrium constants as a philosophical dialogue.",
+    "prompt_b": "Explain equilibrium constants in physical chemistry notation.",
+    "shared_topic": "equilibrium constants"
+  },
+  {
+    "id": "style_078",
+    "type": "style_transfer",
+    "prompt_a": "Describe dark energy like you're a conspiracy podcast host.",
+    "prompt_b": "Describe dark energy in cosmology research paper style.",
+    "shared_topic": "dark energy"
+  },
+  {
+    "id": "style_079",
+    "type": "style_transfer",
+    "prompt_a": "Explain REST APIs as a travel guide.",
+    "prompt_b": "Explain REST APIs in software architecture documentation.",
+    "shared_topic": "REST APIs"
+  },
+  {
+    "id": "style_080",
+    "type": "style_transfer",
+    "prompt_a": "Describe apoptosis like you're narrating an action movie.",
+    "prompt_b": "Describe apoptosis in cell biology textbook terminology.",
+    "shared_topic": "apoptosis"
+  },
+  {
+    "id": "style_081",
+    "type": "style_transfer",
+    "prompt_a": "Explain eigenvectors as a meditation guide.",
+    "prompt_b": "Explain eigenvectors in linear algebra textbook language.",
+    "shared_topic": "eigenvectors"
+  },
+  {
+    "id": "style_082",
+    "type": "style_transfer",
+    "prompt_a": "Describe volcanic eruptions like you're a food critic.",
+    "prompt_b": "Describe volcanic eruptions in volcanology journal style.",
+    "shared_topic": "volcanic eruptions"
+  },
+  {
+    "id": "style_083",
+    "type": "style_transfer",
+    "prompt_a": "Explain electron shells as a real estate listing.",
+    "prompt_b": "Explain electron shells in atomic physics terminology.",
+    "shared_topic": "electron shells"
+  },
+  {
+    "id": "style_084",
+    "type": "style_transfer",
+    "prompt_a": "Describe cosmic microwave background like you're telling a joke.",
+    "prompt_b": "Describe cosmic microwave background in astrophysics notation.",
+    "shared_topic": "cosmic microwave background"
+  },
+  {
+    "id": "style_085",
+    "type": "style_transfer",
+    "prompt_a": "Explain race conditions as a thriller novel opening.",
+    "prompt_b": "Explain race conditions in concurrent programming textbook prose.",
+    "shared_topic": "race conditions"
+  },
+  {
+    "id": "style_086",
+    "type": "style_transfer",
+    "prompt_a": "Describe phagocytosis like you're a sports play-by-play.",
+    "prompt_b": "Describe phagocytosis in immunology textbook language.",
+    "shared_topic": "phagocytosis"
+  },
+  {
+    "id": "style_087",
+    "type": "style_transfer",
+    "prompt_a": "Explain dynamic programming as motivational quotes.",
+    "prompt_b": "Explain dynamic programming in algorithm design terminology.",
+    "shared_topic": "dynamic programming"
+  },
+  {
+    "id": "style_088",
+    "type": "style_transfer",
+    "prompt_a": "Describe the ozone layer like you're writing song lyrics.",
+    "prompt_b": "Describe the ozone layer in atmospheric science textbook style.",
+    "shared_topic": "ozone layer"
+  },
+  {
+    "id": "style_089",
+    "type": "style_transfer",
+    "prompt_a": "Explain Le Chatelier's principle as a political speech.",
+    "prompt_b": "Explain Le Chatelier's principle in chemical thermodynamics notation.",
+    "shared_topic": "Le Chatelier's principle"
+  },
+  {
+    "id": "style_090",
+    "type": "style_transfer",
+    "prompt_a": "Describe neutron stars like you're writing a horror story.",
+    "prompt_b": "Describe neutron stars in astrophysics journal language.",
+    "shared_topic": "neutron stars"
+  },
+  {
+    "id": "style_091",
+    "type": "style_transfer",
+    "prompt_a": "Explain garbage collection as a heist movie plot.",
+    "prompt_b": "Explain garbage collection in programming language design documentation.",
+    "shared_topic": "garbage collection"
+  },
+  {
+    "id": "style_092",
+    "type": "style_transfer",
+    "prompt_a": "Describe chemotaxis like you're a travel vlogger.",
+    "prompt_b": "Describe chemotaxis in microbiology textbook terminology.",
+    "shared_topic": "chemotaxis"
+  },
+  {
+    "id": "style_093",
+    "type": "style_transfer",
+    "prompt_a": "Explain matrix multiplication as a workout routine.",
+    "prompt_b": "Explain matrix multiplication in linear algebra textbook prose.",
+    "shared_topic": "matrix multiplication"
+  },
+  {
+    "id": "style_094",
+    "type": "style_transfer",
+    "prompt_a": "Describe weathering processes like you're a stand-up comedian.",
+    "prompt_b": "Describe weathering processes in geomorphology journal style.",
+    "shared_topic": "weathering"
+  },
+  {
+    "id": "style_095",
+    "type": "style_transfer",
+    "prompt_a": "Explain acid-base titration as a detective interrogation.",
+    "prompt_b": "Explain acid-base titration in analytical chemistry language.",
+    "shared_topic": "acid-base titration"
+  },
+  {
+    "id": "style_096",
+    "type": "style_transfer",
+    "prompt_a": "Describe gamma ray bursts like you're a news reporter.",
+    "prompt_b": "Describe gamma ray bursts in high-energy astrophysics terminology.",
+    "shared_topic": "gamma ray bursts"
+  },
+  {
+    "id": "style_097",
+    "type": "style_transfer",
+    "prompt_a": "Explain binary search trees as a fantasy epic.",
+    "prompt_b": "Explain binary search trees in data structures textbook notation.",
+    "shared_topic": "binary search trees"
+  },
+  {
+    "id": "style_098",
+    "type": "style_transfer",
+    "prompt_a": "Describe the complement system like you're a military strategist.",
+    "prompt_b": "Describe the complement system in immunology textbook language.",
+    "shared_topic": "complement system"
+  },
+  {
+    "id": "style_099",
+    "type": "style_transfer",
+    "prompt_a": "Explain convolution as a recipe.",
+    "prompt_b": "Explain convolution in signal processing textbook terms.",
+    "shared_topic": "convolution"
+  },
+  {
+    "id": "style_100",
+    "type": "style_transfer",
+    "prompt_a": "Describe mantle convection like you're narrating a soap opera.",
+    "prompt_b": "Describe mantle convection in geophysics journal style.",
+    "shared_topic": "mantle convection"
+  },
+  {
+    "id": "cot_001",
+    "type": "reasoning",
+    "prompt_a": "Solve this: 24 * 12 + 5. Answer directly.",
+    "prompt_b": "Solve this: 24 * 12 + 5. Think step-by-step.",
+    "shared_topic": "arithmetic"
+  },
+  {
+    "id": "cot_002",
+    "type": "reasoning",
+    "prompt_a": "Is 127 a prime number? Yes or no.",
+    "prompt_b": "Is 127 a prime number? Show your reasoning.",
+    "shared_topic": "prime numbers"
+  },
+  {
+    "id": "cot_003",
+    "type": "reasoning",
+    "prompt_a": "What's the derivative of x^3 + 2x? Answer only.",
+    "prompt_b": "What's the derivative of x^3 + 2x? Show each step.",
+    "shared_topic": "calculus derivatives"
+  },
+  {
+    "id": "cot_004",
+    "type": "reasoning",
+    "prompt_a": "If all bloops are razzies and some razzies are lazzies, can some bloops be lazzies? Yes or no.",
+    "prompt_b": "If all bloops are razzies and some razzies are lazzies, can some bloops be lazzies? Reason through this.",
+    "shared_topic": "logical deduction"
+  },
+  {
+    "id": "cot_005",
+    "type": "reasoning",
+    "prompt_a": "Solve for x: 3x + 7 = 22. Answer only.",
+    "prompt_b": "Solve for x: 3x + 7 = 22. Show your work.",
+    "shared_topic": "algebra"
+  },
+  {
+    "id": "cot_006",
+    "type": "reasoning",
+    "prompt_a": "What is 15% of 240? Answer directly.",
+    "prompt_b": "What is 15% of 240? Calculate step-by-step.",
+    "shared_topic": "percentage calculation"
+  },
+  {
+    "id": "cot_007",
+    "type": "reasoning",
+    "prompt_a": "If a train travels 60 mph for 2.5 hours, how far does it go? Answer only.",
+    "prompt_b": "If a train travels 60 mph for 2.5 hours, how far does it go? Show your calculation.",
+    "shared_topic": "distance calculation"
+  },
+  {
+    "id": "cot_008",
+    "type": "reasoning",
+    "prompt_a": "What's the square root of 169? Answer directly.",
+    "prompt_b": "What's the square root of 169? Explain how you know.",
+    "shared_topic": "square roots"
+  },
+  {
+    "id": "cot_009",
+    "type": "reasoning",
+    "prompt_a": "Is 2048 divisible by 8? Yes or no.",
+    "prompt_b": "Is 2048 divisible by 8? Show your reasoning.",
+    "shared_topic": "divisibility"
+  },
+  {
+    "id": "cot_010",
+    "type": "reasoning",
+    "prompt_a": "Convert 75°F to Celsius. Answer only.",
+    "prompt_b": "Convert 75°F to Celsius. Show the conversion process.",
+    "shared_topic": "temperature conversion"
+  },
+  {
+    "id": "cot_011",
+    "type": "reasoning",
+    "prompt_a": "What's 7^3? Answer directly.",
+    "prompt_b": "What's 7^3? Calculate step-by-step.",
+    "shared_topic": "exponentiation"
+  },
+  {
+    "id": "cot_012",
+    "type": "reasoning",
+    "prompt_a": "If you flip a fair coin 3 times, what's the probability of getting exactly 2 heads? Answer only.",
+    "prompt_b": "If you flip a fair coin 3 times, what's the probability of getting exactly 2 heads? Show your reasoning.",
+    "shared_topic": "probability"
+  },
+  {
+    "id": "cot_013",
+    "type": "reasoning",
+    "prompt_a": "Simplify: (x^2 - 9)/(x - 3). Answer only.",
+    "prompt_b": "Simplify: (x^2 - 9)/(x - 3). Show each step.",
+    "shared_topic": "algebraic simplification"
+  },
+  {
+    "id": "cot_014",
+    "type": "reasoning",
+    "prompt_a": "What's the area of a circle with radius 5? Answer directly.",
+    "prompt_b": "What's the area of a circle with radius 5? Show the calculation.",
+    "shared_topic": "geometry"
+  },
+  {
+    "id": "cot_015",
+    "type": "reasoning",
+    "prompt_a": "Is the sum of two even numbers always even? Yes or no.",
+    "prompt_b": "Is the sum of two even numbers always even? Explain why.",
+    "shared_topic": "number theory"
+  },
+  {
+    "id": "cot_016",
+    "type": "reasoning",
+    "prompt_a": "If 5 machines can produce 5 widgets in 5 minutes, how long for 100 machines to produce 100 widgets? Answer only.",
+    "prompt_b": "If 5 machines can produce 5 widgets in 5 minutes, how long for 100 machines to produce 100 widgets? Think through this carefully.",
+    "shared_topic": "rate problems"
+  },
+  {
+    "id": "cot_017",
+    "type": "reasoning",
+    "prompt_a": "What's the next number in this sequence: 2, 6, 12, 20, 30? Answer only.",
+    "prompt_b": "What's the next number in this sequence: 2, 6, 12, 20, 30? Show your reasoning.",
+    "shared_topic": "pattern recognition"
+  },
+  {
+    "id": "cot_018",
+    "type": "reasoning",
+    "prompt_a": "Solve: log₂(32) = ? Answer directly.",
+    "prompt_b": "Solve: log₂(32) = ? Show your work.",
+    "shared_topic": "logarithms"
+  },
+  {
+    "id": "cot_019",
+    "type": "reasoning",
+    "prompt_a": "If x > 5 and y < 3, is x + y always greater than 8? Yes or no.",
+    "prompt_b": "If x > 5 and y < 3, is x + y always greater than 8? Explain your reasoning.",
+    "shared_topic": "inequalities"
+  },
+  {
+    "id": "cot_020",
+    "type": "reasoning",
+    "prompt_a": "What's the median of: 3, 7, 2, 9, 5? Answer only.",
+    "prompt_b": "What's the median of: 3, 7, 2, 9, 5? Show how you find it.",
+    "shared_topic": "statistics"
+  },
+  {
+    "id": "cot_021",
+    "type": "reasoning",
+    "prompt_a": "Factor: x^2 + 5x + 6. Answer only.",
+    "prompt_b": "Factor: x^2 + 5x + 6. Show your process.",
+    "shared_topic": "factoring"
+  },
+  {
+    "id": "cot_022",
+    "type": "reasoning",
+    "prompt_a": "How many edges does a cube have? Answer directly.",
+    "prompt_b": "How many edges does a cube have? Explain how you count them.",
+    "shared_topic": "3D geometry"
+  },
+  {
+    "id": "cot_023",
+    "type": "reasoning",
+    "prompt_a": "If f(x) = 2x + 3, what's f(5)? Answer only.",
+    "prompt_b": "If f(x) = 2x + 3, what's f(5)? Show the substitution.",
+    "shared_topic": "function evaluation"
+  },
+  {
+    "id": "cot_024",
+    "type": "reasoning",
+    "prompt_a": "Is √50 rational or irrational? Answer only.",
+    "prompt_b": "Is √50 rational or irrational? Explain why.",
+    "shared_topic": "rational vs irrational"
+  },
+  {
+    "id": "cot_025",
+    "type": "reasoning",
+    "prompt_a": "What's 3/4 + 2/5? Answer directly.",
+    "prompt_b": "What's 3/4 + 2/5? Show the steps to add these fractions.",
+    "shared_topic": "fraction addition"
+  },
+  {
+    "id": "cot_026",
+    "type": "reasoning",
+    "prompt_a": "If a rectangle has perimeter 20 and width 3, what's its length? Answer only.",
+    "prompt_b": "If a rectangle has perimeter 20 and width 3, what's its length? Show your work.",
+    "shared_topic": "perimeter problems"
+  },
+  {
+    "id": "cot_027",
+    "type": "reasoning",
+    "prompt_a": "Evaluate: 3! + 2!. Answer directly.",
+    "prompt_b": "Evaluate: 3! + 2!. Calculate step-by-step.",
+    "shared_topic": "factorials"
+  },
+  {
+    "id": "cot_028",
+    "type": "reasoning",
+    "prompt_a": "If y = x^2, what's dy/dx? Answer only.",
+    "prompt_b": "If y = x^2, what's dy/dx? Show the derivative calculation.",
+    "shared_topic": "basic derivatives"
+  },
+  {
+    "id": "cot_029",
+    "type": "reasoning",
+    "prompt_a": "How many ways can you arrange 3 books on a shelf? Answer directly.",
+    "prompt_b": "How many ways can you arrange 3 books on a shelf? Show your reasoning.",
+    "shared_topic": "permutations"
+  },
+  {
+    "id": "cot_030",
+    "type": "reasoning",
+    "prompt_a": "What's the slope of the line through (2,3) and (4,7)? Answer only.",
+    "prompt_b": "What's the slope of the line through (2,3) and (4,7)? Show the calculation.",
+    "shared_topic": "slope calculation"
+  },
+  {
+    "id": "cot_031",
+    "type": "reasoning",
+    "prompt_a": "Is the number 91 prime? Yes or no.",
+    "prompt_b": "Is the number 91 prime? Test for divisibility.",
+    "shared_topic": "prime testing"
+  },
+  {
+    "id": "cot_032",
+    "type": "reasoning",
+    "prompt_a": "What's the volume of a sphere with radius 3? Answer directly.",
+    "prompt_b": "What's the volume of a sphere with radius 3? Show the formula and calculation.",
+    "shared_topic": "volume calculation"
+  },
+  {
+    "id": "cot_033",
+    "type": "reasoning",
+    "prompt_a": "Solve: 2^x = 16. Answer only.",
+    "prompt_b": "Solve: 2^x = 16. Show your reasoning.",
+    "shared_topic": "exponential equations"
+  },
+  {
+    "id": "cot_034",
+    "type": "reasoning",
+    "prompt_a": "What's the GCD of 48 and 18? Answer directly.",
+    "prompt_b": "What's the GCD of 48 and 18? Use the Euclidean algorithm.",
+    "shared_topic": "greatest common divisor"
+  },
+  {
+    "id": "cot_035",
+    "type": "reasoning",
+    "prompt_a": "If sin(θ) = 1/2, what's θ in the first quadrant? Answer only.",
+    "prompt_b": "If sin(θ) = 1/2, what's θ in the first quadrant? Show how you find it.",
+    "shared_topic": "trigonometry"
+  },
+  {
+    "id": "cot_036",
+    "type": "reasoning",
+    "prompt_a": "What's 25% of 80% of 200? Answer directly.",
+    "prompt_b": "What's 25% of 80% of 200? Calculate step-by-step.",
+    "shared_topic": "compound percentages"
+  },
+  {
+    "id": "cot_037",
+    "type": "reasoning",
+    "prompt_a": "Integrate: ∫x dx. Answer only.",
+    "prompt_b": "Integrate: ∫x dx. Show the integration process.",
+    "shared_topic": "basic integration"
+  },
+  {
+    "id": "cot_038",
+    "type": "reasoning",
+    "prompt_a": "Is the function f(x) = x^2 even, odd, or neither? Answer only.",
+    "prompt_b": "Is the function f(x) = x^2 even, odd, or neither? Test the definition.",
+    "shared_topic": "function symmetry"
+  },
+  {
+    "id": "cot_039",
+    "type": "reasoning",
+    "prompt_a": "If a:b = 2:3 and b:c = 4:5, what's a:c? Answer directly.",
+    "prompt_b": "If a:b = 2:3 and b:c = 4:5, what's a:c? Show your work.",
+    "shared_topic": "ratio problems"
+  },
+  {
+    "id": "cot_040",
+    "type": "reasoning",
+    "prompt_a": "What's the sum of angles in a pentagon? Answer only.",
+    "prompt_b": "What's the sum of angles in a pentagon? Use the formula and show calculation.",
+    "shared_topic": "polygon angles"
+  },
+  {
+    "id": "cot_041",
+    "type": "reasoning",
+    "prompt_a": "Simplify: √(72). Answer directly.",
+    "prompt_b": "Simplify: √(72). Show the simplification process.",
+    "shared_topic": "radical simplification"
+  },
+  {
+    "id": "cot_042",
+    "type": "reasoning",
+    "prompt_a": "If f(x) = x^2 and g(x) = x+1, what's (f∘g)(2)? Answer only.",
+    "prompt_b": "If f(x) = x^2 and g(x) = x+1, what's (f∘g)(2)? Show the composition.",
+    "shared_topic": "function composition"
+  },
+  {
+    "id": "cot_043",
+    "type": "reasoning",
+    "prompt_a": "How many diagonals does a hexagon have? Answer directly.",
+    "prompt_b": "How many diagonals does a hexagon have? Show your reasoning.",
+    "shared_topic": "polygon diagonals"
+  },
+  {
+    "id": "cot_044",
+    "type": "reasoning",
+    "prompt_a": "What's the distance between (1,2) and (4,6)? Answer only.",
+    "prompt_b": "What's the distance between (1,2) and (4,6)? Use the distance formula.",
+    "shared_topic": "distance formula"
+  },
+  {
+    "id": "cot_045",
+    "type": "reasoning",
+    "prompt_a": "If log(x) = 2, what's x? Answer directly.",
+    "prompt_b": "If log(x) = 2, what's x? Show how to solve.",
+    "shared_topic": "logarithmic equations"
+  },
+  {
+    "id": "cot_046",
+    "type": "reasoning",
+    "prompt_a": "What's the LCM of 12 and 18? Answer only.",
+    "prompt_b": "What's the LCM of 12 and 18? Show the calculation method.",
+    "shared_topic": "least common multiple"
+  },
+  {
+    "id": "cot_047",
+    "type": "reasoning",
+    "prompt_a": "Is x^2 + y^2 = 25 a function? Yes or no.",
+    "prompt_b": "Is x^2 + y^2 = 25 a function? Apply the vertical line test.",
+    "shared_topic": "function definition"
+  },
+  {
+    "id": "cot_048",
+    "type": "reasoning",
+    "prompt_a": "What's 0.375 as a fraction? Answer directly.",
+    "prompt_b": "What's 0.375 as a fraction? Show the conversion process.",
+    "shared_topic": "decimal to fraction"
+  },
+  {
+    "id": "cot_049",
+    "type": "reasoning",
+    "prompt_a": "If vector u = (3,4), what's |u|? Answer only.",
+    "prompt_b": "If vector u = (3,4), what's |u|? Calculate the magnitude.",
+    "shared_topic": "vector magnitude"
+  },
+  {
+    "id": "cot_050",
+    "type": "reasoning",
+    "prompt_a": "What's the coefficient of x^2 in (x+2)^3? Answer directly.",
+    "prompt_b": "What's the coefficient of x^2 in (x+2)^3? Expand and show work.",
+    "shared_topic": "binomial expansion"
+  },
+  {
+    "id": "cot_051",
+    "type": "reasoning",
+    "prompt_a": "Is the series 1 + 1/2 + 1/4 + 1/8 + ... convergent? Yes or no.",
+    "prompt_b": "Is the series 1 + 1/2 + 1/4 + 1/8 + ... convergent? Show why.",
+    "shared_topic": "series convergence"
+  },
+  {
+    "id": "cot_052",
+    "type": "reasoning",
+    "prompt_a": "What's the determinant of [[2,1],[3,4]]? Answer only.",
+    "prompt_b": "What's the determinant of [[2,1],[3,4]]? Show the calculation.",
+    "shared_topic": "matrix determinant"
+  },
+  {
+    "id": "cot_053",
+    "type": "reasoning",
+    "prompt_a": "If tan(θ) = 1, what's θ in radians (first quadrant)? Answer directly.",
+    "prompt_b": "If tan(θ) = 1, what's θ in radians (first quadrant)? Explain.",
+    "shared_topic": "inverse trigonometry"
+  },
+  {
+    "id": "cot_054",
+    "type": "reasoning",
+    "prompt_a": "What's the midpoint of (2,5) and (8,11)? Answer only.",
+    "prompt_b": "What's the midpoint of (2,5) and (8,11)? Use the midpoint formula.",
+    "shared_topic": "midpoint formula"
+  },
+  {
+    "id": "cot_055",
+    "type": "reasoning",
+    "prompt_a": "Simplify: (x^3)^2. Answer directly.",
+    "prompt_b": "Simplify: (x^3)^2. Apply the power rule.",
+    "shared_topic": "exponent rules"
+  },
+  {
+    "id": "cot_056",
+    "type": "reasoning",
+    "prompt_a": "If a set has 4 elements, how many subsets does it have? Answer only.",
+    "prompt_b": "If a set has 4 elements, how many subsets does it have? Explain the formula.",
+    "shared_topic": "set theory"
+  },
+  {
+    "id": "cot_057",
+    "type": "reasoning",
+    "prompt_a": "What's the limit as x→0 of sin(x)/x? Answer directly.",
+    "prompt_b": "What's the limit as x→0 of sin(x)/x? Show your reasoning.",
+    "shared_topic": "limits"
+  },
+  {
+    "id": "cot_058",
+    "type": "reasoning",
+    "prompt_a": "Convert 101₂ to decimal. Answer only.",
+    "prompt_b": "Convert 101₂ to decimal. Show the conversion process.",
+    "shared_topic": "binary to decimal"
+  },
+  {
+    "id": "cot_059",
+    "type": "reasoning",
+    "prompt_a": "What's the inverse of f(x) = 2x + 3? Answer directly.",
+    "prompt_b": "What's the inverse of f(x) = 2x + 3? Show the steps to find it.",
+    "shared_topic": "inverse functions"
+  },
+  {
+    "id": "cot_060",
+    "type": "reasoning",
+    "prompt_a": "If P(A) = 0.3 and P(B) = 0.4 and A,B independent, what's P(A∩B)? Answer only.",
+    "prompt_b": "If P(A) = 0.3 and P(B) = 0.4 and A,B independent, what's P(A∩B)? Show calculation.",
+    "shared_topic": "independent probability"
+  },
+  {
+    "id": "cot_061",
+    "type": "reasoning",
+    "prompt_a": "What's the standard deviation of {2, 4, 6}? Answer directly.",
+    "prompt_b": "What's the standard deviation of {2, 4, 6}? Calculate step-by-step.",
+    "shared_topic": "standard deviation"
+  },
+  {
+    "id": "cot_062",
+    "type": "reasoning",
+    "prompt_a": "Solve the system: x+y=5, x-y=1. Answer only.",
+    "prompt_b": "Solve the system: x+y=5, x-y=1. Show your method.",
+    "shared_topic": "system of equations"
+  },
+  {
+    "id": "cot_063",
+    "type": "reasoning",
+    "prompt_a": "What's the remainder when 17 is divided by 5? Answer directly.",
+    "prompt_b": "What's the remainder when 17 is divided by 5? Show the division.",
+    "shared_topic": "modular arithmetic"
+  },
+  {
+    "id": "cot_064",
+    "type": "reasoning",
+    "prompt_a": "If f'(x) = 6x^2, what's f(x)? Answer only.",
+    "prompt_b": "If f'(x) = 6x^2, what's f(x)? Show the antiderivative.",
+    "shared_topic": "antiderivatives"
+  },
+  {
+    "id": "cot_065",
+    "type": "reasoning",
+    "prompt_a": "What's the equation of a line with slope 2 through (1,3)? Answer directly.",
+    "prompt_b": "What's the equation of a line with slope 2 through (1,3)? Use point-slope form.",
+    "shared_topic": "line equations"
+  },
+  {
+    "id": "cot_066",
+    "type": "reasoning",
+    "prompt_a": "Is matrix multiplication commutative? Yes or no.",
+    "prompt_b": "Is matrix multiplication commutative? Provide a counterexample or proof.",
+    "shared_topic": "matrix properties"
+  },
+  {
+    "id": "cot_067",
+    "type": "reasoning",
+    "prompt_a": "What's 5 choose 2? Answer only.",
+    "prompt_b": "What's 5 choose 2? Calculate using the combination formula.",
+    "shared_topic": "combinations"
+  },
+  {
+    "id": "cot_068",
+    "type": "reasoning",
+    "prompt_a": "Simplify: log₂(8) + log₂(4). Answer directly.",
+    "prompt_b": "Simplify: log₂(8) + log₂(4). Use logarithm properties.",
+    "shared_topic": "logarithm properties"
+  },
+  {
+    "id": "cot_069",
+    "type": "reasoning",
+    "prompt_a": "What's the range of f(x) = x^2? Answer only.",
+    "prompt_b": "What's the range of f(x) = x^2? Explain your reasoning.",
+    "shared_topic": "function range"
+  },
+  {
+    "id": "cot_070",
+    "type": "reasoning",
+    "prompt_a": "If cos(θ) = 0, what's sin²(θ)? Answer directly.",
+    "prompt_b": "If cos(θ) = 0, what's sin²(θ)? Use the Pythagorean identity.",
+    "shared_topic": "trigonometric identities"
+  },
+  {
+    "id": "cot_071",
+    "type": "reasoning",
+    "prompt_a": "What's the sum of the first 10 positive integers? Answer only.",
+    "prompt_b": "What's the sum of the first 10 positive integers? Use the formula or show calculation.",
+    "shared_topic": "arithmetic series"
+  },
+  {
+    "id": "cot_072",
+    "type": "reasoning",
+    "prompt_a": "Is y = |x| differentiable at x=0? Yes or no.",
+    "prompt_b": "Is y = |x| differentiable at x=0? Check left and right derivatives.",
+    "shared_topic": "differentiability"
+  },
+  {
+    "id": "cot_073",
+    "type": "reasoning",
+    "prompt_a": "What's the complex conjugate of 3 + 4i? Answer directly.",
+    "prompt_b": "What's the complex conjugate of 3 + 4i? Explain the concept.",
+    "shared_topic": "complex numbers"
+  },
+  {
+    "id": "cot_074",
+    "type": "reasoning",
+    "prompt_a": "If a polygon has 8 sides, what's each interior angle if regular? Answer only.",
+    "prompt_b": "If a polygon has 8 sides, what's each interior angle if regular? Show the calculation.",
+    "shared_topic": "regular polygons"
+  },
+  {
+    "id": "cot_075",
+    "type": "reasoning",
+    "prompt_a": "What's the axis of symmetry for y = x^2 + 4x + 3? Answer directly.",
+    "prompt_b": "What's the axis of symmetry for y = x^2 + 4x + 3? Use the formula.",
+    "shared_topic": "parabola properties"
+  },
+  {
+    "id": "cot_076",
+    "type": "reasoning",
+    "prompt_a": "Convert 3π/4 radians to degrees. Answer only.",
+    "prompt_b": "Convert 3π/4 radians to degrees. Show the conversion.",
+    "shared_topic": "angle conversion"
+  },
+  {
+    "id": "cot_077",
+    "type": "reasoning",
+    "prompt_a": "What's the dot product of (1,2) and (3,4)? Answer directly.",
+    "prompt_b": "What's the dot product of (1,2) and (3,4)? Calculate step-by-step.",
+    "shared_topic": "dot product"
+  },
+  {
+    "id": "cot_078",
+    "type": "reasoning",
+    "prompt_a": "Is the function f(x) = 1/x continuous at x=0? Yes or no.",
+    "prompt_b": "Is the function f(x) = 1/x continuous at x=0? Explain why or why not.",
+    "shared_topic": "continuity"
+  },
+  {
+    "id": "cot_079",
+    "type": "reasoning",
+    "prompt_a": "What's the probability of rolling a sum of 7 with two dice? Answer only.",
+    "prompt_b": "What's the probability of rolling a sum of 7 with two dice? Count outcomes and show work.",
+    "shared_topic": "dice probability"
+  },
+  {
+    "id": "cot_080",
+    "type": "reasoning",
+    "prompt_a": "Simplify: (2x)^3. Answer directly.",
+    "prompt_b": "Simplify: (2x)^3. Apply distribution of exponents.",
+    "shared_topic": "power distribution"
+  },
+  {
+    "id": "cot_081",
+    "type": "reasoning",
+    "prompt_a": "What's the vertex of y = (x-2)^2 + 3? Answer only.",
+    "prompt_b": "What's the vertex of y = (x-2)^2 + 3? Identify from vertex form.",
+    "shared_topic": "vertex form"
+  },
+  {
+    "id": "cot_082",
+    "type": "reasoning",
+    "prompt_a": "If ln(x) = 2, what's x? Answer directly.",
+    "prompt_b": "If ln(x) = 2, what's x? Solve using properties of natural log.",
+    "shared_topic": "natural logarithms"
+  },
+  {
+    "id": "cot_083",
+    "type": "reasoning",
+    "prompt_a": "What's the amplitude of y = 3sin(x)? Answer only.",
+    "prompt_b": "What's the amplitude of y = 3sin(x)? Explain how to find it.",
+    "shared_topic": "trigonometric amplitude"
+  },
+  {
+    "id": "cot_084",
+    "type": "reasoning",
+    "prompt_a": "Is every square a rhombus? Yes or no.",
+    "prompt_b": "Is every square a rhombus? Explain using definitions.",
+    "shared_topic": "quadrilateral properties"
+  },
+  {
+    "id": "cot_085",
+    "type": "reasoning",
+    "prompt_a": "What's ∫(1/x)dx? Answer directly.",
+    "prompt_b": "What's ∫(1/x)dx? Show the integration.",
+    "shared_topic": "logarithmic integration"
+  },
+  {
+    "id": "cot_086",
+    "type": "reasoning",
+    "prompt_a": "If matrix A is 2×3 and B is 3×4, what size is AB? Answer only.",
+    "prompt_b": "If matrix A is 2×3 and B is 3×4, what size is AB? Explain matrix multiplication dimensions.",
+    "shared_topic": "matrix dimensions"
+  },
+  {
+    "id": "cot_087",
+    "type": "reasoning",
+    "prompt_a": "What's the contrapositive of 'If P then Q'? Answer directly.",
+    "prompt_b": "What's the contrapositive of 'If P then Q'? Show the logical form.",
+    "shared_topic": "logic contrapositive"
+  },
+  {
+    "id": "cot_088",
+    "type": "reasoning",
+    "prompt_a": "What's the mode of {2, 3, 3, 4, 5}? Answer only.",
+    "prompt_b": "What's the mode of {2, 3, 3, 4, 5}? Explain what mode means.",
+    "shared_topic": "measures of center"
+  },
+  {
+    "id": "cot_089",
+    "type": "reasoning",
+    "prompt_a": "If f(x) = e^x, what's f'(x)? Answer directly.",
+    "prompt_b": "If f(x) = e^x, what's f'(x)? Show the derivative.",
+    "shared_topic": "exponential derivatives"
+  },
+  {
+    "id": "cot_090",
+    "type": "reasoning",
+    "prompt_a": "What's the horizontal asymptote of y = 3/x? Answer only.",
+    "prompt_b": "What's the horizontal asymptote of y = 3/x? Analyze the limit as x→∞.",
+    "shared_topic": "asymptotes"
+  },
+  {
+    "id": "cot_091",
+    "type": "reasoning",
+    "prompt_a": "Convert 45 degrees to radians. Answer directly.",
+    "prompt_b": "Convert 45 degrees to radians. Show the conversion factor.",
+    "shared_topic": "radian conversion"
+  },
+  {
+    "id": "cot_092",
+    "type": "reasoning",
+    "prompt_a": "What's the cross product of (1,0,0) and (0,1,0)? Answer only.",
+    "prompt_b": "What's the cross product of (1,0,0) and (0,1,0)? Calculate using the determinant method.",
+    "shared_topic": "cross product"
+  },
+  {
+    "id": "cot_093",
+    "type": "reasoning",
+    "prompt_a": "Is the sequence 1, 1/2, 1/3, 1/4,... convergent? Yes or no.",
+    "prompt_b": "Is the sequence 1, 1/2, 1/3, 1/4,... convergent? Find the limit.",
+    "shared_topic": "sequence convergence"
+  },
+  {
+    "id": "cot_094",
+    "type": "reasoning",
+    "prompt_a": "What's 2⁻³? Answer directly.",
+    "prompt_b": "What's 2⁻³? Show using negative exponent rules.",
+    "shared_topic": "negative exponents"
+  },
+  {
+    "id": "cot_095",
+    "type": "reasoning",
+    "prompt_a": "If sec(θ) = 2, what's cos(θ)? Answer only.",
+    "prompt_b": "If sec(θ) = 2, what's cos(θ)? Use the reciprocal relationship.",
+    "shared_topic": "reciprocal trig functions"
+  },
+  {
+    "id": "cot_096",
+    "type": "reasoning",
+    "prompt_a": "What's the sum of interior angles in a triangle? Answer directly.",
+    "prompt_b": "What's the sum of interior angles in a triangle? State and explain the theorem.",
+    "shared_topic": "triangle angle sum"
+  },
+  {
+    "id": "cot_097",
+    "type": "reasoning",
+    "prompt_a": "Simplify: √(-16). Answer only.",
+    "prompt_b": "Simplify: √(-16). Express using imaginary unit.",
+    "shared_topic": "imaginary numbers"
+  },
+  {
+    "id": "cot_098",
+    "type": "reasoning",
+    "prompt_a": "What's the period of y = sin(2x)? Answer directly.",
+    "prompt_b": "What's the period of y = sin(2x)? Use the period formula.",
+    "shared_topic": "trigonometric period"
+  },
+  {
+    "id": "cot_099",
+    "type": "reasoning",
+    "prompt_a": "If n! = 120, what's n? Answer only.",
+    "prompt_b": "If n! = 120, what's n? Test values systematically.",
+    "shared_topic": "factorial equations"
+  },
+  {
+    "id": "cot_100",
+    "type": "reasoning",
+    "prompt_a": "What's the discriminant of x^2 + 2x + 1? Answer directly.",
+    "prompt_b": "What's the discriminant of x^2 + 2x + 1? Calculate using b²-4ac.",
+    "shared_topic": "discriminant"
+  }
+]
