@@ -79,7 +79,20 @@ def view_results(experiment_id: str):
         return
     
     try:
-        storage = ExperimentStorage(experiment_path)
+        # Check for existing runs first to avoid creating a new run directory
+        runs_path = experiment_path / "runs"
+        latest_run = None
+        
+        if runs_path.exists():
+            runs = [
+                d.name for d in runs_path.iterdir()
+                if d.is_dir() and (d / "metrics.parquet").exists()
+            ]
+            runs = sorted(runs, reverse=True)
+            latest_run = runs[0] if runs else None
+        
+        # Initialize storage with latest run if it exists, otherwise it will create a new one
+        storage = ExperimentStorage(experiment_path, run_id=latest_run) if latest_run else ExperimentStorage(experiment_path)
         summary = storage.get_summary()
         
         print("=" * 80)
@@ -98,9 +111,10 @@ def view_results(experiment_id: str):
                 print(f"  - {run_id} ({size} rows)")
             print()
             
-            # Try to load and show summary stats
+            # Try to load and show summary stats from latest run
             try:
                 import polars as pl
+                # Use latest_run from summary (which we already set as storage.run_id)
                 df = storage.read_metrics()
                 print("Latest Run Summary:")
                 print(f"  Total samples: {len(df)}")
@@ -119,6 +133,69 @@ def view_results(experiment_id: str):
     
     except Exception as e:
         print(f"Error viewing results: {e}")
+
+
+def export_results(experiment_id: str, output_file: str, run_id: str = None, all_runs: bool = False):
+    """Export experiment results to CSV."""
+    from hallucination_detector import ExperimentStorage
+    
+    experiment_path = Path("experiments") / experiment_id
+    
+    if not experiment_path.exists():
+        print(f"Error: Experiment '{experiment_id}' not found")
+        return
+    
+    try:
+        # Check for existing runs first
+        runs_path = experiment_path / "runs"
+        latest_run = None
+        
+        if runs_path.exists():
+            runs = [
+                d.name for d in runs_path.iterdir()
+                if d.is_dir() and (d / "metrics.parquet").exists()
+            ]
+            runs = sorted(runs, reverse=True)
+            latest_run = runs[0] if runs else None
+        
+        # Use specified run_id, or latest_run, or create new
+        if run_id:
+            storage = ExperimentStorage(experiment_path, run_id=run_id)
+        elif latest_run:
+            storage = ExperimentStorage(experiment_path, run_id=latest_run)
+        else:
+            storage = ExperimentStorage(experiment_path)
+        
+        # Load data
+        if all_runs:
+            df = storage.read_all_runs()
+            print(f"Loading all runs combined...")
+        else:
+            df = storage.read_metrics()
+            print(f"Loading run: {storage.run_id}")
+        
+        # Export
+        df.write_csv(output_file)
+        print(f"\n✓ Exported {len(df)} rows to {output_file}")
+        print(f"  File: {Path(output_file).absolute()}")
+        
+    except FileNotFoundError as e:
+        print(f"\n✗ Error: {e}")
+        print(f"\nAvailable runs:")
+        try:
+            runs = storage.list_runs()
+            if runs:
+                for r in runs:
+                    print(f"  - {r}")
+            else:
+                print("  No runs found. Run the experiment first:")
+                print(f"    python run_experiment.py {experiment_id}")
+        except:
+            pass
+    except Exception as e:
+        print(f"\n✗ Error exporting: {e}")
+        import traceback
+        traceback.print_exc()
 
 
 def run_experiment(experiment_id: str):
@@ -191,9 +268,12 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python run_experiment.py 01_spectroscopy        # Run spectroscopy experiment
-  python run_experiment.py --list                  # List all experiments
-  python run_experiment.py --view 01_spectroscopy  # View results
+  python run_experiment.py 01_spectroscopy              # Run spectroscopy experiment
+  python run_experiment.py --list                       # List all experiments
+  python run_experiment.py --view 01_spectroscopy       # View results
+  python run_experiment.py --export 01_spectroscopy    # Export to results.csv
+  python run_experiment.py --export 01_spectroscopy --output my_results.csv
+  python run_experiment.py --export 01_spectroscopy --all-runs  # Export all runs
         """
     )
     
@@ -212,6 +292,27 @@ Examples:
         metavar="EXPERIMENT_ID",
         help="View results for an experiment"
     )
+    parser.add_argument(
+        "--export",
+        metavar="EXPERIMENT_ID",
+        help="Export results for an experiment"
+    )
+    parser.add_argument(
+        "--output",
+        metavar="FILENAME",
+        default="results.csv",
+        help="Output filename for export (default: results.csv)"
+    )
+    parser.add_argument(
+        "--run",
+        metavar="RUN_ID",
+        help="Specific run ID to export (default: latest)"
+    )
+    parser.add_argument(
+        "--all-runs",
+        action="store_true",
+        help="Export all runs combined"
+    )
     
     args = parser.parse_args()
     
@@ -219,6 +320,8 @@ Examples:
         list_experiments()
     elif args.view:
         view_results(args.view)
+    elif args.export:
+        export_results(args.export, args.output, args.run, args.all_runs)
     elif args.experiment:
         run_experiment(args.experiment)
     else:
@@ -229,6 +332,7 @@ Examples:
 
 if __name__ == "__main__":
     main()
+
 
 
 
