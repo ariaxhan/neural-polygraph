@@ -33,13 +33,28 @@ def create_spectroscopy_figures(run_id=None):
     
     # Load data
     experiment_path = Path(__file__).parent / "01_spectroscopy"
-    storage = ExperimentStorage(experiment_path, run_id=run_id)
     
+    # Check for existing runs first to avoid creating a new run directory
+    runs_path = experiment_path / "runs"
     if run_id is None:
-        run_id = storage.get_latest_run()
-        print(f"Using latest run: {run_id}")
+        if runs_path.exists():
+            runs = [
+                d.name for d in runs_path.iterdir()
+                if d.is_dir() and (d / "metrics.parquet").exists()
+            ]
+            runs = sorted(runs, reverse=True)
+            run_id = runs[0] if runs else None
     
-    df = storage.read_metrics(run_id)
+    if not run_id:
+        print("Error: No experiment runs found. Run the experiment first:")
+        print("  python experiments/01_spectroscopy.py")
+        return
+    
+    # Initialize storage with the run_id
+    storage = ExperimentStorage(experiment_path, run_id=run_id)
+    print(f"Using run: {run_id}")
+    
+    df = storage.read_metrics()
     
     # Convert to pandas for seaborn
     df_pd = df.to_pandas()
@@ -173,6 +188,7 @@ if __name__ == "__main__":
     import sys
     run_id = sys.argv[1] if len(sys.argv) > 1 else None
     create_spectroscopy_figures(run_id)
+
 
 
 
