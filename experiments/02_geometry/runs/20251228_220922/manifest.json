@@ -1,0 +1,29 @@
+{
+  "experiment_type": "geometry",
+  "experiment_name": "02_geometry",
+  "description": "Geometric topology analysis using inertia tensor methodology",
+  "model": "gemma-2-2b",
+  "sae_layer": 5,
+  "sae_width": "16k",
+  "total_samples": 930,
+  "domains": [
+    "entity",
+    "temporal",
+    "logical",
+    "adversarial"
+  ],
+  "metrics": [
+    "sphericity",
+    "elongation",
+    "shape_class",
+    "eigenvalue_entropy",
+    "dimensionality",
+    "misalignment_angle",
+    "lambda_1",
+    "lambda_2",
+    "lambda_3"
+  ],
+  "timestamp": "2025-12-29T00:24:43.156293",
+  "run_id": "20251228_220922",
+  "run_timestamp": "2025-12-29T00:24:43.163249"
+}
